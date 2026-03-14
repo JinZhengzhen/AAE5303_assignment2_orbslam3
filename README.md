@@ -15,6 +15,28 @@
 
 ---
 
+## 🚀 Quick Start for Students
+
+**New to this assignment? Start here!**
+
+📖 **[Student Guide (作业指南)](docs/STUDENT_GUIDE.md)** - Complete step-by-step guide on how to complete this assignment
+
+🎯 **Quick Start Script:**
+```bash
+# Run the interactive quick start script
+./scripts/quick_start.sh
+```
+
+This will guide you through:
+1. Checking your environment setup
+2. Evaluating your trajectory with evo
+3. Creating your leaderboard submission JSON
+4. Validating your submission
+
+📊 **[Leaderboard](https://qian9921.github.io/leaderboard_web/)** | 📋 **[Submission Guide](leaderboard/LEADERBOARD_SUBMISSION_GUIDE.md)**
+
+---
+
 ## 📋 Table of Contents
 
 1. [Executive Summary](#-executive-summary)
