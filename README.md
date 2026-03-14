@@ -296,8 +296,9 @@ Camera.RGB: 0  # OpenCV images are typically BGR by default
 
 **Note on ORB-SLAM3 settings format**:
 
-- In ORB-SLAM3 `File.version: "1.0"` settings files, the intrinsics are typically stored as `Camera1.fx`, `Camera1.fy`, etc. (see `Examples/Monocular/HKisland_Mono.yaml` in the main repo).
-- This demo includes `docs/camera_config.yaml` as a minimal, human-readable reference of the same calibration values.
+- In ORB-SLAM3 `File.version: "1.0"` settings files, the intrinsics are stored with the `Camera1.*` prefix (e.g. `Camera1.fx`, `Camera1.fy`).
+- `docs/HKisland_Mono.yaml` is the ready-to-use `File.version: "1.0"` config for this dataset (pass it directly to `mono_tum`).
+- `docs/camera_config.yaml` is a minimal human-readable reference of the same calibration values in the old format.
 
 ### ORB Feature Extraction Parameters
 
@@ -450,16 +451,19 @@ This assignment demonstrates monocular Visual Odometry implementation using ORB-
 
 ```
 AAE5303_assignment2_orbslam3_demo-/
-├── README.md                    # This report
-├── requirements.txt             # Python dependencies
+├── README.md                           # This report
+├── requirements.txt                    # Python dependencies
 ├── figures/
 │   └── trajectory_evaluation.png
 ├── output/
 │   └── evaluation_report.json
 ├── scripts/
-│   └── evaluate_vo_accuracy.py
+│   ├── evaluate_vo_accuracy.py         # Compute ATE/RPE/Completeness metrics
+│   ├── create_submission.py            # Generate leaderboard submission JSON
+│   └── generate_report_figures.py     # Produce trajectory evaluation figures
 ├── docs/
-│   └── camera_config.yaml
+│   ├── camera_config.yaml             # Human-readable calibration reference
+│   └── HKisland_Mono.yaml             # ORB-SLAM3 File.version 1.0 config (Camera1.*)
 └── leaderboard/
     ├── README.md
     ├── LEADERBOARD_SUBMISSION_GUIDE.md
@@ -472,10 +476,10 @@ AAE5303_assignment2_orbslam3_demo-/
 # 1. Extract images from ROS bag
 python3 extract_images_final.py HKisland_GNSS03.bag --output extracted_data
 
-# 2. Run ORB-SLAM3 VO
+# 2. Run ORB-SLAM3 VO (using the File.version 1.0 YAML config)
 ./Examples/Monocular/mono_tum \
     Vocabulary/ORBvoc.txt \
-    Examples/Monocular/DJI_Camera.yaml \
+    docs/HKisland_Mono.yaml \
     data/extracted_data
 
 # 3. Extract RTK ground truth
@@ -489,6 +493,16 @@ python3 scripts/evaluate_vo_accuracy.py \
     --delta-m 10 \
     --workdir evaluation_results \
     --json-out evaluation_results/metrics.json
+
+# 5. Generate leaderboard submission JSON
+python3 scripts/create_submission.py \
+    --metrics evaluation_results/metrics.json \
+    --group-name "YourGroupName" \
+    --repo-url "https://github.com/yourusername/project.git" \
+    --out YourGroupName_leaderboard.json
+
+# 6. (Optional) Validate submission format before submitting
+python3 scripts/create_submission.py --validate-only YourGroupName_leaderboard.json
 ```
 
 ### D. Native evo Commands (Recommended)

@@ -102,7 +102,17 @@ Option B: use native `evo` CLI commands (see the Metric Calculation section belo
 
 ### Step 3: Create `{GroupName}_leaderboard.json`
 
-Fill the four metrics in the required JSON schema (see `submission_template.json`):
+Use the provided convenience script to generate the submission file directly from the metrics JSON:
+
+```bash
+python3 scripts/create_submission.py \
+  --metrics evaluation_results/metrics.json \
+  --group-name "Team Alpha" \
+  --repo-url "https://github.com/yourusername/project.git" \
+  --out Team_Alpha_leaderboard.json
+```
+
+Or fill the template manually from `submission_template.json` using the four metric values:
 
 - `ate_rmse_m`
 - `rpe_trans_drift_m_per_m`
@@ -110,6 +120,12 @@ Fill the four metrics in the required JSON schema (see `submission_template.json
 - `completeness_pct`
 
 ### Step 4: Verify JSON format (recommended)
+
+```bash
+python3 scripts/create_submission.py --validate-only Team_Alpha_leaderboard.json
+```
+
+Or manually:
 
 ```python
 import json

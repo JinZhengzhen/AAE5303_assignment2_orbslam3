@@ -1,0 +1,81 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# ORB-SLAM3 Monocular Configuration for HKisland_GNSS03 (MARS-LVIG)
+# File.version: "1.0" format — intrinsics use the Camera1.* prefix
+#
+# Usage:
+#   ./Examples/Monocular/mono_tum \
+#       Vocabulary/ORBvoc.txt \
+#       docs/HKisland_Mono.yaml \
+#       <path/to/extracted_images>
+#
+# Camera calibration source: MARS-LVIG HKisland_GNSS03 dataset
+#--------------------------------------------------------------------------------------------
+
+File.version: "1.0"
+
+#--------------------------------------------------------------------------------------------
+# Camera model
+#--------------------------------------------------------------------------------------------
+
+Camera.type: "PinHole"
+
+# Intrinsics (fx, fy, cx, cy)
+Camera1.fx: 1444.43
+Camera1.fy: 1444.34
+Camera1.cx: 1179.50
+Camera1.cy: 1044.90
+
+# Radial-tangential distortion coefficients (k1, k2, p1, p2, k3)
+Camera1.k1: -0.0560
+Camera1.k2:  0.1180
+Camera1.p1:  0.00122
+Camera1.p2:  0.00064
+Camera1.k3: -0.0627
+
+# Image resolution
+Camera.width:  2448
+Camera.height: 2048
+
+# Frames per second
+Camera.fps: 10.0
+
+# Color order of the input images (0: BGR, 1: RGB).
+# OpenCV imread / imdecode returns BGR by default.
+Camera.RGB: 0
+
+#--------------------------------------------------------------------------------------------
+# ORB Extractor Parameters
+#--------------------------------------------------------------------------------------------
+
+# Number of features per image.
+# Increase to 2000-2500 if tracking is unstable on high-resolution aerial imagery.
+ORBextractor.nFeatures: 1500
+
+# Scale factor between pyramid levels
+ORBextractor.scaleFactor: 1.2
+
+# Number of pyramid levels
+ORBextractor.nLevels: 8
+
+# FAST corner threshold — first attempt
+ORBextractor.iniThFAST: 20
+
+# FAST corner threshold — fallback (used when iniThFAST yields too few corners)
+ORBextractor.minThFAST: 7
+
+#--------------------------------------------------------------------------------------------
+# Viewer Parameters
+#--------------------------------------------------------------------------------------------
+
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1.0
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize: 2.0
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3.0
+Viewer.ViewpointX: 0.0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -1.8
+Viewer.ViewpointF: 500.0
