@@ -1,0 +1,82 @@
+%YAML:1.0
+---
+
+#--------------------------------------------------------------------------------------------
+# Preset C – Downscaled 0.75×
+#
+# All intrinsics are pre-scaled by 0.75 from the original calibration.
+# Use this config together with images downscaled to 1836 × 1536.
+#
+# Original → 0.75× scaled intrinsics:
+#   fx: 1444.43 → 1083.32
+#   fy: 1444.34 → 1083.26
+#   cx: 1179.50 →  884.63
+#   cy: 1044.90 →  783.68
+#
+# Distortion coefficients are scale-invariant and remain unchanged.
+#
+# To downscale images, use the provided preprocessing script:
+#   python3 scripts/preprocess_images.py \
+#       --input  dataset/extracted_data \
+#       --output dataset/extracted_data_075 \
+#       --scale  0.75
+#
+# Expected effect vs. full-resolution baseline:
+#   - Reduced motion blur impact
+#   - Faster ORB extraction
+#   - May improve or slightly reduce completeness depending on sequence
+#--------------------------------------------------------------------------------------------
+
+File.version: "1.0"
+
+Camera.type: "PinHole"
+
+# Intrinsics scaled by 0.75 from original calibration
+Camera1.fx: 1083.32
+Camera1.fy: 1083.26
+Camera1.cx:  884.63
+Camera1.cy:  783.68
+
+# Distortion coefficients are unchanged (not affected by image scaling)
+Camera1.k1: -0.0560
+Camera1.k2:  0.1180
+Camera1.p1:  0.00122
+Camera1.p2:  0.00064
+Camera1.k3: -0.0627
+
+# Resolution at 0.75 scale
+Camera1.width:  1836
+Camera1.height: 1536
+
+Camera.fps:  10.0
+Camera.RGB:  0
+
+ThDepth: 45.0
+
+#--------------------------------------------------------------------------------------------
+# ORB Extractor – same feature settings as Preset A (stable)
+# nFeatures kept at 2500 since image area is 0.5625× of original
+#--------------------------------------------------------------------------------------------
+
+ORBextractor.nFeatures:   2500
+
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels:     8
+
+ORBextractor.iniThFAST:   15
+ORBextractor.minThFAST:   5
+
+#--------------------------------------------------------------------------------------------
+# Viewer
+#--------------------------------------------------------------------------------------------
+
+Viewer.KeyFrameSize:       0.05
+Viewer.KeyFrameLineWidth:  1.0
+Viewer.GraphLineWidth:     0.9
+Viewer.PointSize:          2.0
+Viewer.CameraSize:         0.08
+Viewer.CameraLineWidth:    3.0
+Viewer.ViewpointX:         0.0
+Viewer.ViewpointY:        -0.7
+Viewer.ViewpointZ:        -1.8
+Viewer.ViewpointF:         500.0

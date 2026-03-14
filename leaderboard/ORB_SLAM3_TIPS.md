@@ -2,6 +2,14 @@
 
 This document is a practical checklist for AAE5303 students to avoid common pitfalls when running ORB-SLAM3 (monocular VO) and evaluating trajectories with `evo`.
 
+For a complete **local installation and run guide**, see:
+
+- [`docs/LOCAL_SETUP.md`](../docs/LOCAL_SETUP.md)
+
+For a structured **parameter tuning workflow**, see:
+
+- [`docs/OPTIMIZATION_GUIDE.md`](../docs/OPTIMIZATION_GUIDE.md)
+
 This course repository contains a ROS monocular node example under:
 
 - `Examples_old/ROS/ORB_SLAM3/src/ros_mono_compressed.cc`
@@ -86,6 +94,25 @@ In ORB-SLAM3 settings:
 - `Camera.RGB: 1` means input images are **RGB**
 
 Using the wrong value can hurt tracking because grayscale conversion will be wrong (`RGB2GRAY` vs `BGR2GRAY`).
+
+---
+
+### 4b) ORB-SLAM3 settings file (yaml format)
+
+ORB-SLAM3 has two yaml key styles depending on version:
+
+- **Old format** (`Camera.fx`, `Camera.fy`, ...): accepted by older forks / branches
+- **New format / File.version 1.0** (`Camera1.fx`, `Camera1.fy`, ...): required by current upstream ORB-SLAM3
+
+This repository provides a ready-to-use v1.0 settings file:
+
+```bash
+# Copy into your ORB-SLAM3 build
+cp docs/HKisland_Mono_v1.yaml \
+   ~/workspace/ORB_SLAM3/Examples/Monocular/HKisland_Mono.yaml
+```
+
+If ORB-SLAM3 crashes immediately with a yaml read error, the most likely cause is using the wrong key style for your version.
 
 ---
 

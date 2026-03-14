@@ -1,0 +1,66 @@
+%YAML:1.0
+---
+
+#--------------------------------------------------------------------------------------------
+# Preset A – Stable Tracking
+#
+# Increases nFeatures to 2500 and lowers FAST thresholds to 15/5.
+# Best first-try preset for UAV aerial sequences.
+# Full resolution: 2448 × 2048
+#
+# Expected improvement over baseline: Completeness +3–8 pp, RPE Rot -10–30%
+#--------------------------------------------------------------------------------------------
+
+File.version: "1.0"
+
+Camera.type: "PinHole"
+
+Camera1.fx: 1444.43
+Camera1.fy: 1444.34
+Camera1.cx: 1179.50
+Camera1.cy: 1044.90
+
+Camera1.k1: -0.0560
+Camera1.k2:  0.1180
+Camera1.p1:  0.00122
+Camera1.p2:  0.00064
+Camera1.k3: -0.0627
+
+Camera1.width:  2448
+Camera1.height: 2048
+
+Camera.fps:  10.0
+Camera.RGB:  0
+
+ThDepth: 45.0
+
+#--------------------------------------------------------------------------------------------
+# ORB Extractor – Preset A changes
+#--------------------------------------------------------------------------------------------
+
+# Increased from 1500 → 2500 for better coverage on high-res aerial images
+ORBextractor.nFeatures:   2500
+
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels:     8
+
+# Lowered from 20 → 15: extract more features in moderate-texture regions
+ORBextractor.iniThFAST:   15
+
+# Lowered from 7 → 5: capture low-texture regions (rooftops, roads)
+ORBextractor.minThFAST:   5
+
+#--------------------------------------------------------------------------------------------
+# Viewer
+#--------------------------------------------------------------------------------------------
+
+Viewer.KeyFrameSize:       0.05
+Viewer.KeyFrameLineWidth:  1.0
+Viewer.GraphLineWidth:     0.9
+Viewer.PointSize:          2.0
+Viewer.CameraSize:         0.08
+Viewer.CameraLineWidth:    3.0
+Viewer.ViewpointX:         0.0
+Viewer.ViewpointY:        -0.7
+Viewer.ViewpointZ:        -1.8
+Viewer.ViewpointF:         500.0

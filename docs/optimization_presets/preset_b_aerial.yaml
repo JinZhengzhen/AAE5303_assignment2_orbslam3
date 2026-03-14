@@ -1,0 +1,67 @@
+%YAML:1.0
+---
+
+#--------------------------------------------------------------------------------------------
+# Preset B – Dense Aerial
+#
+# Higher nFeatures (3000) and finer pyramid scale (1.15) for large-scale aerial sequences
+# with significant altitude changes. Full resolution: 2448 × 2048.
+#
+# Trade-off: higher CPU cost; may slow down if running on a weak machine.
+# Best suited for sequences with wide altitude variation or fast UAV movement.
+#--------------------------------------------------------------------------------------------
+
+File.version: "1.0"
+
+Camera.type: "PinHole"
+
+Camera1.fx: 1444.43
+Camera1.fy: 1444.34
+Camera1.cx: 1179.50
+Camera1.cy: 1044.90
+
+Camera1.k1: -0.0560
+Camera1.k2:  0.1180
+Camera1.p1:  0.00122
+Camera1.p2:  0.00064
+Camera1.k3: -0.0627
+
+Camera1.width:  2448
+Camera1.height: 2048
+
+Camera.fps:  10.0
+Camera.RGB:  0
+
+ThDepth: 45.0
+
+#--------------------------------------------------------------------------------------------
+# ORB Extractor – Preset B changes
+#--------------------------------------------------------------------------------------------
+
+# Increased to 3000 for very dense feature coverage
+ORBextractor.nFeatures:   3000
+
+# Slightly finer pyramid scale (1.15 vs baseline 1.2) for better handling of
+# altitude-driven scale changes in aerial imagery
+ORBextractor.scaleFactor: 1.15
+
+ORBextractor.nLevels:     8
+
+# Moderate FAST thresholds
+ORBextractor.iniThFAST:   15
+ORBextractor.minThFAST:   5
+
+#--------------------------------------------------------------------------------------------
+# Viewer
+#--------------------------------------------------------------------------------------------
+
+Viewer.KeyFrameSize:       0.05
+Viewer.KeyFrameLineWidth:  1.0
+Viewer.GraphLineWidth:     0.9
+Viewer.PointSize:          2.0
+Viewer.CameraSize:         0.08
+Viewer.CameraLineWidth:    3.0
+Viewer.ViewpointX:         0.0
+Viewer.ViewpointY:        -0.7
+Viewer.ViewpointZ:        -1.8
+Viewer.ViewpointF:         500.0

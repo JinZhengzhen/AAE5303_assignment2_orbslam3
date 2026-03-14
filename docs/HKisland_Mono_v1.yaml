@@ -1,0 +1,96 @@
+%YAML:1.0
+---
+
+#--------------------------------------------------------------------------------------------
+# ORB-SLAM3 Settings – HKisland_GNSS03 (File.version 1.0 format)
+#
+# Use this file with ORB-SLAM3 mono_tum:
+#   ./Examples/Monocular/mono_tum \
+#       Vocabulary/ORBvoc.txt \
+#       Examples/Monocular/HKisland_Mono.yaml \
+#       /path/to/extracted_data
+#
+# Camera: DJI camera (MARS-LVIG HKisland calibration)
+# Image size: 2448 × 2048 px  (full resolution)
+#--------------------------------------------------------------------------------------------
+
+File.version: "1.0"
+
+#--------------------------------------------------------------------------------------------
+# Camera intrinsics (PinHole model, OpenCV convention)
+#--------------------------------------------------------------------------------------------
+
+Camera.type: "PinHole"
+
+# Note: ORB-SLAM3 File.version 1.0 uses "Camera1.fx" keys (not "Camera.fx").
+# docs/camera_config.yaml uses the older short-key style for human-readable reference.
+Camera1.fx: 1444.43
+Camera1.fy: 1444.34
+Camera1.cx: 1179.50
+Camera1.cy: 1044.90
+
+# Distortion coefficients (OpenCV: k1, k2, p1, p2, k3)
+Camera1.k1: -0.0560
+Camera1.k2:  0.1180
+Camera1.p1:  0.00122
+Camera1.p2:  0.00064
+Camera1.k3: -0.0627
+
+# Image resolution
+Camera1.width:  2448
+Camera1.height: 2048
+
+#--------------------------------------------------------------------------------------------
+# Camera / acquisition settings
+#--------------------------------------------------------------------------------------------
+
+# Frames per second (used for motion model and viewer pacing)
+Camera.fps: 10.0
+
+# Color channel order: 0 = BGR (OpenCV default), 1 = RGB
+# OpenCV imread / imdecode returns BGR by default. Keep this at 0 unless
+# your image loading pipeline explicitly converts to RGB.
+Camera.RGB: 0
+
+# Depth threshold for close/far point classification (monocular: not critical)
+ThDepth: 45.0
+
+#--------------------------------------------------------------------------------------------
+# ORB Feature Extractor – baseline parameters
+#
+# These are the baseline (current reported) parameters.
+# See docs/optimization_presets/ for tuned alternatives.
+#--------------------------------------------------------------------------------------------
+
+# Number of ORB features extracted per frame.
+# For 2448×2048 aerial imagery, 1500 is often insufficient.
+# Consider 2000–2500 for better completeness (see OPTIMIZATION_GUIDE.md).
+ORBextractor.nFeatures: 1500
+
+# Pyramid scale factor between levels.
+ORBextractor.scaleFactor: 1.2
+
+# Number of pyramid levels.
+ORBextractor.nLevels: 8
+
+# Initial FAST corner threshold (applied first; higher = only strong corners).
+ORBextractor.iniThFAST: 20
+
+# Fallback FAST threshold when iniThFAST yields too few corners.
+# Lower values help in low-texture regions (rooftops, roads, shadows).
+ORBextractor.minThFAST: 7
+
+#--------------------------------------------------------------------------------------------
+# Viewer (Pangolin)
+#--------------------------------------------------------------------------------------------
+
+Viewer.KeyFrameSize:       0.05
+Viewer.KeyFrameLineWidth:  1.0
+Viewer.GraphLineWidth:     0.9
+Viewer.PointSize:          2.0
+Viewer.CameraSize:         0.08
+Viewer.CameraLineWidth:    3.0
+Viewer.ViewpointX:         0.0
+Viewer.ViewpointY:        -0.7
+Viewer.ViewpointZ:        -1.8
+Viewer.ViewpointF:         500.0

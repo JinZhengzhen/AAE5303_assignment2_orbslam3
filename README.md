@@ -15,6 +15,18 @@
 
 ---
 
+## 🚀 Quick Links
+
+| Guide | Description |
+|-------|-------------|
+| [`docs/LOCAL_SETUP.md`](docs/LOCAL_SETUP.md) | **Start here** — step-by-step local deployment guide |
+| [`docs/OPTIMIZATION_GUIDE.md`](docs/OPTIMIZATION_GUIDE.md) | Parameter tuning and experiment workflow |
+| [`docs/HKisland_Mono_v1.yaml`](docs/HKisland_Mono_v1.yaml) | Ready-to-use ORB-SLAM3 settings (v1.0 format) |
+| [`docs/optimization_presets/`](docs/optimization_presets/) | Pre-tuned ORB parameter presets |
+| [`leaderboard/ORB_SLAM3_TIPS.md`](leaderboard/ORB_SLAM3_TIPS.md) | Common pitfalls and debug checklist |
+
+---
+
 ## 📋 Table of Contents
 
 1. [Executive Summary](#-executive-summary)
@@ -313,6 +325,12 @@ Camera.RGB: 0  # OpenCV images are typically BGR by default
 
 This report assumes you have already generated a TUM-format trajectory file (e.g., `CameraTrajectory.txt` or `KeyFrameTrajectory.txt`) from ORB-SLAM3.
 
+For a complete walkthrough including installation, see [`docs/LOCAL_SETUP.md`](docs/LOCAL_SETUP.md).
+
+The provided settings file for ORB-SLAM3 (File.version 1.0 format with `Camera1.fx` keys) is at
+[`docs/HKisland_Mono_v1.yaml`](docs/HKisland_Mono_v1.yaml). Copy it into your ORB-SLAM3 build
+before running `mono_tum`.
+
 ---
 
 ## 📈 Results and Analysis
@@ -428,6 +446,10 @@ This assignment demonstrates monocular Visual Odometry implementation using ORB-
 | Medium | Verify camera calibration | 15-25% overall improvement |
 | Low | Enable IMU fusion (VIO mode) | 50-70% accuracy improvement |
 
+See [`docs/OPTIMIZATION_GUIDE.md`](docs/OPTIMIZATION_GUIDE.md) for a structured tuning workflow
+with a 9-experiment matrix, and [`docs/optimization_presets/`](docs/optimization_presets/) for
+ready-to-use parameter presets.
+
 ---
 
 ## 📚 References
@@ -449,39 +471,59 @@ This assignment demonstrates monocular Visual Odometry implementation using ORB-
 ### A. Repository Structure
 
 ```
-AAE5303_assignment2_orbslam3_demo-/
-├── README.md                    # This report
-├── requirements.txt             # Python dependencies
+AAE5303_assignment2_orbslam3/
+├── README.md                         # This report
+├── requirements.txt                  # Python evaluation dependencies
 ├── figures/
 │   └── trajectory_evaluation.png
 ├── output/
 │   └── evaluation_report.json
 ├── scripts/
-│   └── evaluate_vo_accuracy.py
+│   ├── evaluate_vo_accuracy.py       # ATE / RPE / Completeness evaluation
+│   ├── generate_report_figures.py    # Trajectory visualization
+│   └── preprocess_images.py          # CLAHE + downscale preprocessing
 ├── docs/
-│   └── camera_config.yaml
+│   ├── camera_config.yaml            # Calibration reference (old-style keys)
+│   ├── HKisland_Mono_v1.yaml         # ORB-SLAM3 settings (File.version 1.0)
+│   ├── LOCAL_SETUP.md                # Step-by-step local deployment guide
+│   ├── OPTIMIZATION_GUIDE.md         # Parameter tuning and experiment workflow
+│   └── optimization_presets/
+│       ├── preset_a_stable.yaml      # nFeatures=2500, FAST=15/5 (recommended)
+│       ├── preset_b_aerial.yaml      # nFeatures=3000, scaleFactor=1.15
+│       └── preset_c_downscaled_075.yaml  # 0.75× resolution with scaled intrinsics
 └── leaderboard/
     ├── README.md
     ├── LEADERBOARD_SUBMISSION_GUIDE.md
+    ├── ORB_SLAM3_TIPS.md
     └── submission_template.json
 ```
 
+> **Note**: This repository is the *evaluation environment*. The ORB-SLAM3 binary and the
+> dataset are external dependencies. See [`docs/LOCAL_SETUP.md`](docs/LOCAL_SETUP.md) for the
+> full step-by-step setup guide.
+
 ### B. Running Commands
+
+> These commands assume the recommended workspace layout from [`docs/LOCAL_SETUP.md`](docs/LOCAL_SETUP.md).
 
 ```bash
 # 1. Extract images from ROS bag
 python3 extract_images_final.py HKisland_GNSS03.bag --output extracted_data
 
-# 2. Run ORB-SLAM3 VO
+# 2. Copy the provided ORB-SLAM3 settings file into the ORB-SLAM3 build
+cp docs/HKisland_Mono_v1.yaml \
+    ~/workspace/ORB_SLAM3/Examples/Monocular/HKisland_Mono.yaml
+
+# 3. Run ORB-SLAM3 VO  (run from inside the ORB_SLAM3 directory)
 ./Examples/Monocular/mono_tum \
     Vocabulary/ORBvoc.txt \
-    Examples/Monocular/DJI_Camera.yaml \
-    data/extracted_data
+    Examples/Monocular/HKisland_Mono.yaml \
+    /path/to/extracted_data
 
-# 3. Extract RTK ground truth
+# 4. Extract RTK ground truth
 python3 extract_rtk_groundtruth.py HKisland_GNSS03.bag --output ground_truth.txt
 
-# 4. Evaluate trajectory
+# 5. Evaluate trajectory  (run from inside this repository)
 python3 scripts/evaluate_vo_accuracy.py \
     --groundtruth ground_truth.txt \
     --estimated CameraTrajectory.txt \
