@@ -369,23 +369,29 @@ Rotation drift rate:        59.1839 deg/100m
 
 ## 📊 Visualizations
 
-### 1) Trajectory Comparison
+This section is updated for the AMtown02 run (CameraTrajectory.txt, 6711 poses).
 
-![Trajectory Evaluation](figures/trajectory_evaluation.png)
+### A) Leaderboard Metrics Card
 
-This trajectory figure remains the qualitative reference for aligned shape and local drift behavior.
-
-### 2) Metrics Snapshot (AMtown02)
+| ATE RMSE (m) | RPE Trans (m/m) | RPE Rot (deg/100m) | Completeness (%) |
+|---:|---:|---:|---:|
+| **6.6100** | **2.1332** | **59.1839** | **98.65** |
 
 ![AMtown02 Metrics](figures/amtown02_metrics.png)
 
-This bar chart summarizes the four leaderboard metrics used for submission.
+### B) Pose Coverage (Timestamp Domain)
 
-### 3) Pose Coverage Timeline
+- Estimated poses: **6711**
+- Ground-truth poses: **3402**
+- Matched poses (`t_max_diff=0.1s`): **3356**
 
 ![AMtown02 Pose Coverage](figures/amtown02_pose_coverage.png)
 
-This timeline visualizes timestamp coverage for estimated and ground-truth poses.
+### C) Trajectory Geometry (Qualitative)
+
+The plot below keeps the trajectory-shape view for qualitative inspection of alignment and drift behavior.
+
+![Trajectory Evaluation](figures/trajectory_evaluation.png)
 
 ---
 
