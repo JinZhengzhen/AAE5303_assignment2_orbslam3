@@ -384,6 +384,9 @@ This section is updated for the AMtown02 run (CameraTrajectory.txt, 6711 poses).
 - Estimated poses: **6711**
 - Ground-truth poses: **3402**
 - Matched poses (`t_max_diff=0.1s`): **3356**
+- Estimated path length: **2715.40 m**
+- Ground-truth path length: **4837.68 m**
+- Estimated duration: **670.98 s** (GT: **680.17 s**)
 
 ![AMtown02 Pose Coverage](figures/amtown02_pose_coverage.png)
 
