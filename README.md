@@ -4,12 +4,12 @@
 
 ![ORB-SLAM3](https://img.shields.io/badge/SLAM-ORB--SLAM3-blue?style=for-the-badge)
 ![VO](https://img.shields.io/badge/Mode-Visual_Odometry-green?style=for-the-badge)
-![Dataset](https://img.shields.io/badge/Dataset-HKisland__GNSS03-orange?style=for-the-badge)
+![Dataset](https://img.shields.io/badge/Dataset-AMtown02-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Baseline-success?style=for-the-badge)
 
 **Monocular Visual Odometry Evaluation on UAV Aerial Imagery**
 
-*Hong Kong Island GNSS Dataset - MARS-LVIG*
+*MARS-LVIG AMtown02*
 
 </div>
 
@@ -33,17 +33,17 @@
 
 ## 📊 Executive Summary
 
-This report presents the implementation and evaluation of **Monocular Visual Odometry (VO)** using the **ORB-SLAM3** framework on the **HKisland_GNSS03** UAV aerial imagery dataset. The project evaluates trajectory accuracy against RTK ground truth using **four parallel, monocular-appropriate metrics** computed with the `evo` toolkit.
+This report presents the implementation and evaluation of **Monocular Visual Odometry (VO)** using the **ORB-SLAM3** framework on the **AMtown02** UAV aerial imagery dataset. The project evaluates trajectory accuracy against RTK ground truth using **four parallel, monocular-appropriate metrics** computed with the `evo` toolkit.
 
 ### Key Results
 
 | Metric | Value | Description |
 |--------|-------|-------------|
-| **ATE RMSE** | **132.1547 m** | Global accuracy after Sim(3) alignment (scale corrected) |
-| **RPE Trans Drift** | **2.8701 m/m** | Translation drift rate (mean error per meter, delta=10 m) |
-| **RPE Rot Drift** | **173.3319 deg/100m** | Rotation drift rate (mean angle per 100 m, delta=10 m) |
-| **Completeness** | **87.01%** | Matched poses / total ground-truth poses (1701 / 1955) |
-| **Estimated poses** | 2,826 | Trajectory poses in `CameraTrajectory.txt` |
+| **ATE RMSE** | **6.6100 m** | Global accuracy after Sim(3) alignment (scale corrected) |
+| **RPE Trans Drift** | **2.1332 m/m** | Translation drift rate (mean error per meter, delta=10 m) |
+| **RPE Rot Drift** | **59.1839 deg/100m** | Rotation drift rate (mean angle per 100 m, delta=10 m) |
+| **Completeness** | **98.65%** | Matched poses / total ground-truth poses (3356 / 3402) |
+| **Estimated poses** | 6,711 | Trajectory poses in `CameraTrajectory.txt` |
 
 ---
 
@@ -68,7 +68,7 @@ This assignment focuses on **Monocular VO mode**, which:
 ### Objectives
 
 1. Implement monocular Visual Odometry using ORB-SLAM3
-2. Process UAV aerial imagery from the HKisland_GNSS03 dataset
+2. Process UAV aerial imagery from the AMtown02 dataset
 3. Extract RTK (Real-Time Kinematic) GPS data as ground truth
 4. Evaluate trajectory accuracy using four parallel metrics appropriate for monocular VO
 5. Document the complete workflow for reproducibility
@@ -227,13 +227,13 @@ Here, `matched_poses` is the number of pose pairs successfully associated by evo
 
 ## 📁 Dataset Description
 
-### HKisland_GNSS03 Dataset
+### AMtown02 Dataset
 
 The dataset is from the **MARS-LVIG** UAV dataset, captured over Hong Kong Island.
 
 | Property | Value |
 |----------|-------|
-| **Dataset Name** | HKisland_GNSS03 |
+| **Dataset Name** | AMtown02 |
 | **Source** | MARS-LVIG / UAVScenes |
 | **Duration** | 390.78 seconds (~6.5 minutes) |
 | **Total Images** | 3,833 frames |
@@ -255,7 +255,7 @@ RTK (Real-Time Kinematic) GPS provides centimeter-level positioning accuracy:
 
 | Property | Value |
 |----------|-------|
-| **RTK Positions** | 1,955 poses |
+| **RTK Positions** | 3,402 poses |
 | **Rate** | 5 Hz |
 | **Accuracy** | ±2 cm (horizontal), ±5 cm (vertical) |
 | **Coordinate System** | WGS84 → Local ENU |
@@ -324,25 +324,25 @@ This report assumes you have already generated a TUM-format trajectory file (e.g
 VISUAL ODOMETRY EVALUATION RESULTS
 ================================================================================
 
-Ground Truth: RTK trajectory (1,955 poses)
-Estimated:    ORB-SLAM3 camera trajectory (2,826 poses)
-Matched Poses: 1,701 / 1,955 (87.01%)  ← Completeness
+Ground Truth: RTK trajectory (3,402 poses)
+Estimated:    ORB-SLAM3 camera trajectory (6,711 poses)
+Matched Poses: 3,356 / 3,402 (98.65%)  ← Completeness
 
 METRIC 1: ATE (Absolute Trajectory Error)
 ────────────────────────────────────────
-RMSE:   132.1547 m
-Mean:   114.6344 m
-Std:    65.7558 m
+RMSE:   6.6100 m
+Mean:   5.9074 m
+Std:    2.9656 m
 
 METRIC 2: RPE Translation Drift (distance-based, delta=10 m)
 ────────────────────────────────────────
-Mean translational RPE over 10 m: 28.7014 m
-Translation drift rate:           2.8701 m/m
+Mean translational RPE over 10 m: 21.3320 m
+Translation drift rate:           2.1332 m/m
 
 METRIC 3: RPE Rotation Drift (distance-based, delta=10 m)
 ────────────────────────────────────────
-Mean rotational RPE over 10 m: 17.3332 deg
-Rotation drift rate:        173.3319 deg/100m
+Mean rotational RPE over 10 m: 5.9184 deg
+Rotation drift rate:        59.1839 deg/100m
 
 ================================================================================
 ```
@@ -354,33 +354,38 @@ Rotation drift rate:        173.3319 deg/100m
 | **Sim(3) scale correction** | 6.5944 |
 | **Sim(3) translation** | [-45.426, -95.559, 36.060] m |
 | **Association threshold** | \(t_{max\_diff}\) = 0.1 s |
-| **Association rate (Completeness)** | 87.01% |
+| **Association rate (Completeness)** | 98.65% |
 
 ### Performance Analysis
 
 | Metric | Value | Grade | Interpretation |
 |--------|-------|-------|----------------|
-| **ATE RMSE** | 132.15 m | F | Very large global error after alignment |
-| **RPE Trans Drift** | 2.87 m/m | D | Large local drift per traveled distance |
-| **RPE Rot Drift** | 173.33 deg/100m | F | Severe orientation drift |
-| **Completeness** | 87.01% | B | Many poses can be evaluated, but accuracy is low |
+| **ATE RMSE** | 6.61 m | B | Good global alignment quality for monocular VO |
+| **RPE Trans Drift** | 2.13 m/m | C | Noticeable local translation drift remains |
+| **RPE Rot Drift** | 59.18 deg/100m | C | Rotation drift improved but still significant |
+| **Completeness** | 98.65% | A | Nearly full trajectory is tracked and evaluable |
 
 ---
 
 ## 📊 Visualizations
 
-### Trajectory Comparison
+### 1) Trajectory Comparison
 
 ![Trajectory Evaluation](figures/trajectory_evaluation.png)
 
-This figure is generated from the same inputs used for evaluation (`ground_truth.txt` and `CameraTrajectory.txt`) and includes:
+This trajectory figure remains the qualitative reference for aligned shape and local drift behavior.
 
-1. **Top-Left**: 2D trajectory before alignment (matched poses only). This reveals scale/rotation mismatch typical for monocular VO.
-2. **Top-Right**: 2D trajectory after Sim(3) alignment (scale corrected). Remaining discrepancy reflects drift and local tracking errors.
-3. **Bottom-Left**: Distribution of ATE translation errors (meters) over all matched poses.
-4. **Bottom-Right**: ATE translation error as a function of the matched pose index (highlights where drift accumulates).
+### 2) Metrics Snapshot (AMtown02)
 
-**Reproducibility**: the figure can be regenerated using `scripts/generate_report_figures.py` together with the `--save_results` output from `evo_ape`.
+![AMtown02 Metrics](figures/amtown02_metrics.png)
+
+This bar chart summarizes the four leaderboard metrics used for submission.
+
+### 3) Pose Coverage Timeline
+
+![AMtown02 Pose Coverage](figures/amtown02_pose_coverage.png)
+
+This timeline visualizes timestamp coverage for estimated and ground-truth poses.
 
 ---
 
@@ -388,7 +393,7 @@ This figure is generated from the same inputs used for evaluation (`ground_truth
 
 ### Strengths
 
-1. **High evaluation coverage**: 87% completeness indicates that a large portion of the ground-truth poses can be associated and evaluated.
+1. **High evaluation coverage**: 98.65% completeness indicates almost full sequence coverage.
 
 2. **End-to-end pipeline**: The system produces a usable TUM trajectory and can be evaluated reproducibly with standard tooling.
 
@@ -415,9 +420,9 @@ This figure is generated from the same inputs used for evaluation (`ground_truth
 This assignment demonstrates monocular Visual Odometry implementation using ORB-SLAM3 on UAV aerial imagery. Key findings:
 
 1. ✅ **System Operation**: ORB-SLAM3 successfully processes 3,833 images over 1.9 km trajectory
-2. ✅ **Evaluation coverage**: 87.01% completeness shows that many poses can be evaluated against RTK ground truth
+2. ✅ **Evaluation coverage**: 98.65% completeness shows that many poses can be evaluated against RTK ground truth
 3. ⚠️ **Tracking stability**: Frequent tracking failures indicate the need for parameter tuning and stronger robustness measures
-4. ❌ **Accuracy**: The current baseline exhibits very large global error and drift rates on this sequence
+4. ⚠️ **Accuracy**: ATE is improved, while rotation drift remains the main optimization target
 
 ### Recommendations for Improvement
 
@@ -470,7 +475,7 @@ AAE5303_assignment2_orbslam3_demo-/
 
 ```bash
 # 1. Extract images from ROS bag
-python3 extract_images_final.py HKisland_GNSS03.bag --output extracted_data
+python3 extract_images_final.py AMtown02.bag --output extracted_data
 
 # 2. Run ORB-SLAM3 VO
 ./Examples/Monocular/mono_tum \
@@ -479,7 +484,7 @@ python3 extract_images_final.py HKisland_GNSS03.bag --output extracted_data
     data/extracted_data
 
 # 3. Extract RTK ground truth
-python3 extract_rtk_groundtruth.py HKisland_GNSS03.bag --output ground_truth.txt
+python3 extract_rtk_groundtruth.py AMtown02.bag --output ground_truth.txt
 
 # 4. Evaluate trajectory
 python3 scripts/evaluate_vo_accuracy.py \
