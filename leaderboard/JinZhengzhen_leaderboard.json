@@ -1,0 +1,10 @@
+{
+  "group_name": "JinZhengzhen",
+  "project_private_repo_url": "https://github.com/JinZhengzhen/AAE5303_assignment2_orbslam3.git",
+  "metrics": {
+    "ate_rmse_m": 6.610005,
+    "rpe_trans_drift_m_per_m": 2.133198,
+    "rpe_rot_drift_deg_per_100m": 59.18393,
+    "completeness_pct": 98.647854
+  }
+}
