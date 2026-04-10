@@ -49,6 +49,7 @@ This report presents the implementation and evaluation of **Monocular Visual Odo
 
 OpenSplat training has also been completed on AMtown02 using ORB-SLAM3 poses as camera priors.
 
+- New page (full Part 2 write-up): `PART2_OpenSplat_AMtown02.md`
 - Final model (compressed): `output/amtown02_step10_final.splat`
 - Camera metadata: `output/amtown02_step10_cameras.json`
 - Full training log: `output/amtown02_step10_train.log`
