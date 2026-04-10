@@ -1,0 +1,4452 @@
+Using CUDA
+Reading 5376 points
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132905.396159.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132947.394742.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132989.393083.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133031.392541.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133073.391194.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133115.388906.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133157.387284.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133199.386333.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133241.384023.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133325.380154.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133283.382630.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133367.381371.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133409.376977.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133451.375272.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133493.374540.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133535.372403.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132906.396755.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132948.395148.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133116.388522.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133074.390870.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133158.387376.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133032.391962.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133284.382161.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133200.385489.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132990.393304.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133452.376044.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133536.372564.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133494.373587.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133368.379518.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133326.381664.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133410.377726.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133242.383657.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132907.396066.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132949.394645.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133117.388210.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133075.390600.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133285.382217.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132991.394024.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133033.391572.jpg
+Loading Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133159.386969.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133453.375895.jpg
+/mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133201.385334.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133537.372020.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133495.374420.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133243.383447.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133411.377718.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133327.380202.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133369.379256.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132908.396561.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132950.395534.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133118.389161.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133076.390182.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133286.381809.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132992.394041.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133034.391865.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133454.375646.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133202.384905.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133160.386705.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133538.371725.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133412.377216.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133244.384159.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133496.374213.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133328.380030.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132909.395977.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133370.379197.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132951.395649.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133119.389264.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133077.389928.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133035.392679.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132993.393778.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133287.381420.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133455.375507.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133203.385830.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133413.379317.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133245.384262.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133161.387032.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133539.372716.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132910.396199.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133497.373567.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133329.380480.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133371.378939.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132952.395520.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133120.388948.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133078.389774.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133036.392053.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133288.382835.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132994.394528.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132911.396686.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133246.383824.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133456.375220.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133204.385535.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133414.376514.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133162.387496.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133540.372789.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133498.373983.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133330.380190.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133372.378749.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132953.395345.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133079.390626.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132912.397136.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133121.388738.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133037.391963.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133289.382169.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132995.393321.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133415.377423.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133457.375175.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133247.383622.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133205.385932.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133163.387125.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133541.372184.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133499.373993.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132954.395148.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133331.382458.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133373.378527.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132913.399201.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133080.390487.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133038.391966.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133122.388333.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133290.381835.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132996.393786.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133416.377456.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133206.385133.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133458.376373.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133248.383371.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133164.386970.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133542.372277.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132955.394908.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133500.373720.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133332.380920.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132914.396859.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133374.379495.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133081.390218.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133039.392047.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133291.381718.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133123.388280.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133417.377204.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132997.392931.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133207.385563.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133249.383729.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133459.375673.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133165.386294.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133543.371760.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132956.394645.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132915.395787.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133501.373276.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133333.381316.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133375.379214.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133082.389996.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133040.391642.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133292.381514.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133418.376997.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133124.389955.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132998.393836.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133208.384718.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133166.386457.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133250.383968.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133460.375553.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132957.394494.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132916.397146.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133544.372712.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133502.374313.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133334.380382.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133083.389874.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133376.379379.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133041.392118.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133419.376704.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133293.381320.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133125.390865.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132917.396290.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133209.385808.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132999.393957.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132958.395348.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133251.384143.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133167.386309.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133461.375202.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133545.372337.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133503.373950.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133335.380173.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133084.389672.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132918.396574.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133042.392320.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133420.377346.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133294.382069.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133377.378659.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132959.395213.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133210.385255.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133126.389249.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133168.387424.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133000.393481.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133252.386226.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133462.375127.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133546.372175.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132919.396408.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133504.374454.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133085.389980.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133421.376272.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133043.391690.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133336.380068.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133295.382875.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132960.394213.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133378.378790.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133211.385023.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133169.386855.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133127.388378.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133001.393325.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133253.383342.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133463.375769.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133547.371903.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132920.395751.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133422.377114.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133044.391712.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133086.392206.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133505.373692.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133296.381721.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133337.380210.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132961.395108.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133170.389821.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133002.392889.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133212.384829.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133379.378262.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133254.383290.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133128.388225.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133548.373334.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133464.376172.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132921.396599.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133423.376963.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133045.391247.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133087.390660.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133297.381552.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132962.394881.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133506.373318.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133338.380742.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133171.387335.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133003.395072.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133213.384705.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132922.396625.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133255.383446.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133129.388190.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133380.379019.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133549.371483.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133465.375371.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133424.376807.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133046.391048.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133088.390684.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132963.395163.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133298.381258.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133507.372928.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133339.382305.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132923.396354.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133004.393209.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133172.386145.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133214.384426.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133130.387765.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133256.383898.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133550.371143.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133381.378815.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133466.377871.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133047.394036.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133425.376564.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132964.394450.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133089.392094.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133299.381224.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132924.396134.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133508.374149.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133005.393604.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133340.380141.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133173.386130.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133215.385263.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133131.389004.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133551.372096.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133257.383662.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133048.392916.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133426.376383.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133382.380709.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133467.375067.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132965.395120.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133090.389742.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133300.383783.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132925.395489.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133509.373930.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133006.393368.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133552.372288.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133174.386824.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133216.384964.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133341.379867.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133132.388484.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133258.383321.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133427.376041.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133049.391875.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132966.394835.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133383.378330.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133468.374744.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133301.381693.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133091.389244.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132926.395971.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133510.373476.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133007.392864.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133553.371581.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133133.388501.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133217.384846.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133175.386658.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133259.383249.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133342.379660.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133428.376942.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133050.391217.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132967.395134.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132927.395707.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133469.376831.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133384.378215.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133302.382175.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133092.390768.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133511.372809.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133008.392899.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133554.372271.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133134.388330.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133260.385472.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133343.379600.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133429.377134.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133218.384651.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133176.387064.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133051.391173.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132968.396751.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132928.395547.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133303.381395.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133093.389938.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133470.374476.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133385.378026.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133009.392658.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133512.373100.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133135.387819.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133555.373468.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133430.376438.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132969.394698.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133261.383118.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133052.390888.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133344.380400.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133177.386262.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133219.384755.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132929.396554.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133304.384084.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133094.389782.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133471.375260.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133386.380768.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133010.393318.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133136.387506.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133556.372913.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133513.372726.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132970.393973.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133431.376811.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133262.382900.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133053.390737.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133345.380254.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132930.395551.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133178.387817.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133220.385332.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133305.380880.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133095.389672.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133472.374328.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133387.378771.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133137.388658.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132971.394875.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133011.393104.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133557.371714.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133432.376005.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133514.373778.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133263.383330.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132931.396074.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133054.391537.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133346.379915.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133221.386162.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133179.385733.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133306.380721.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133096.389350.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133473.374848.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132972.394616.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133138.388107.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133388.379174.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133012.392912.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133558.371658.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133433.375856.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132932.396313.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133515.374053.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133264.383170.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133055.391320.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133347.379755.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133222.384784.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133180.386808.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133307.381468.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133097.390774.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132973.393716.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133474.374708.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133139.390223.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133013.392676.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132933.395693.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133559.372287.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133434.376638.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133389.378062.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133056.391460.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133265.382839.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133516.375835.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133223.386136.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133348.379414.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133181.385629.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133308.381479.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133098.388922.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132974.394300.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133140.388851.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132934.396048.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133475.375890.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133014.392708.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133560.373729.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133435.376551.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133390.377889.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133266.382897.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133517.372679.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133057.390773.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133349.379210.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133309.381135.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133099.389749.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133224.386619.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133182.386203.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132975.394125.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132935.395563.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133141.387533.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133015.392341.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133476.374137.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133436.378561.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133561.370923.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133391.377436.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133267.382438.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133058.391895.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133310.380999.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133350.381084.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133518.372842.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133100.388644.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133225.384214.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132976.393991.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133183.385996.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132936.395158.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133142.387925.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133016.393085.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133477.375188.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133437.376079.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133562.371990.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133392.378621.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133268.382277.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133059.390471.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133311.383198.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133351.379870.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133101.389557.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133519.372724.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133226.385955.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132937.396340.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132977.393688.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133143.387245.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133184.385832.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133017.393703.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133438.375927.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133478.375035.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133563.370513.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133269.383013.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133060.392373.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133312.380862.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133393.379315.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133102.389747.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133352.380028.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132938.395878.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132978.394660.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133227.384888.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133144.388238.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133520.373634.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133185.386506.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133018.392767.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133439.375483.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133564.371299.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133479.374050.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133270.382234.jpg
+Loading Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133313.381345.jpg/mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133061.391170.jpg
+
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133394.378052.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133103.389107.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132939.396689.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133353.379350.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132979.394946.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133145.387663.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133228.384502.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133186.386371.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133521.376201.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133440.377307.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133019.392576.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133565.371148.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133480.374554.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133271.382874.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133314.381164.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133062.390906.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133395.379678.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132940.395666.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133104.388715.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132980.394320.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133146.387427.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133354.382424.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133229.384599.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133187.386491.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133441.376213.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133566.371134.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133020.393628.jpg
+Loading Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133272.382438.jpg/mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133481.374188.jpg
+
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133522.373758.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133315.381188.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133063.390700.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132941.398917.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133105.389487.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133396.377764.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132981.394306.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133147.387252.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133355.379102.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133230.384128.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133188.386024.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133442.376073.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133567.370553.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133021.392300.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133273.384721.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133482.374277.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133064.390532.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133316.380824.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132942.395201.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133523.373444.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133106.389454.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133397.377336.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133148.388324.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132982.393769.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133231.383858.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133356.378964.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133189.385730.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133443.375973.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133568.371499.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133274.381975.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133022.395166.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133483.375113.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133065.390388.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132943.394962.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133317.380383.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133107.389275.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133398.378144.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133524.372870.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133149.386990.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132983.393810.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133232.384712.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133190.386052.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133569.371300.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133444.375639.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133357.379675.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133275.383194.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133023.395810.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133066.390546.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132944.395837.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133484.375228.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133318.380502.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133108.389026.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133399.377061.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133150.388165.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132984.393436.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133525.372648.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133233.384631.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133570.370285.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133191.388602.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133445.375846.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133276.382706.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133024.393365.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133358.380092.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132945.394815.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133067.391459.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133109.388854.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133485.374439.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133319.381403.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133151.387527.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133400.377709.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132985.394275.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133526.373409.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133234.384247.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133571.370192.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133277.382504.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133446.376303.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133192.386073.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133025.392339.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132946.395627.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133068.390805.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133359.379356.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133110.388624.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133486.374479.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133320.381145.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133152.387370.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133401.377608.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132986.394136.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133572.370849.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133235.384075.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133278.382200.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133527.373316.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133447.376180.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133193.385802.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133026.392020.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133069.390673.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133111.389208.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133360.379815.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133487.374029.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133153.387139.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133321.380999.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132987.393785.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133402.377452.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133573.370862.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133279.384481.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133236.383860.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133448.376066.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133194.385974.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133528.374326.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133027.391896.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133070.390462.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133112.391660.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133361.378859.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133154.386948.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133488.373833.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658132988.393627.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133403.376977.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133322.380809.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133574.371777.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133280.381854.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133237.383868.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133449.376064.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133195.385816.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133028.393088.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133529.372590.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133071.390178.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133113.389462.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133155.386724.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133489.374880.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133362.379868.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133404.377957.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133323.380678.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133575.370134.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133281.382671.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133238.384537.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133450.375412.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133196.385174.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133029.394228.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133072.392217.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133114.388858.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133530.375099.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133156.387548.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133490.374415.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133405.377037.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133363.379597.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133576.370714.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133324.380360.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133282.382505.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133239.384160.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133197.386091.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133030.392370.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133531.372340.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133491.374272.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133406.378286.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133364.378858.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133240.384031.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133198.386724.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133532.373055.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133492.373999.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133407.377327.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133365.379973.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133533.373016.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133408.377093.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133366.378983.jpg
+Loading /mnt/f/Cursor/opensplat/amtown02_gs_step10/images/1658133534.372559.jpg
+Step 10: 0.338534 (0%)
+Step 20: 0.310317 (0%)
+Step 30: 0.322034 (0%)
+Step 40: 0.337697 (0%)
+Step 50: 0.287267 (0%)
+Step 60: 0.319936 (0%)
+Step 70: 0.283144 (0%)
+Step 80: 0.3082 (0%)
+Step 90: 0.320525 (0%)
+Step 100: 0.339169 (0%)
+Step 110: 0.296558 (0%)
+Step 120: 0.282264 (0%)
+Step 130: 0.32472 (0%)
+Step 140: 0.250346 (0%)
+Step 150: 0.291308 (0%)
+Step 160: 0.262372 (0%)
+Step 170: 0.265058 (0%)
+Step 180: 0.299669 (0%)
+Step 190: 0.32338 (0%)
+Step 200: 0.284043 (0%)
+Step 210: 0.287394 (0%)
+Step 220: 0.31489 (0%)
+Step 230: 0.316261 (0%)
+Step 240: 0.256348 (0%)
+Step 250: 0.309585 (0%)
+Step 260: 0.274131 (0%)
+Step 270: 0.257402 (0%)
+Step 280: 0.25454 (0%)
+Step 290: 0.293649 (0%)
+Step 300: 0.27062 (0%)
+Step 310: 0.311133 (0%)
+Step 320: 0.305926 (0%)
+Step 330: 0.301135 (0%)
+Step 340: 0.257796 (0%)
+Step 350: 0.299907 (1%)
+Step 360: 0.289459 (1%)
+Step 370: 0.275625 (1%)
+Step 380: 0.242412 (1%)
+Step 390: 0.285277 (1%)
+Step 400: 0.279 (1%)
+Step 410: 0.288019 (1%)
+Step 420: 0.232068 (1%)
+Step 430: 0.282201 (1%)
+Step 440: 0.25202 (1%)
+Step 450: 0.254129 (1%)
+Step 460: 0.279143 (1%)
+Step 470: 0.274811 (1%)
+Step 480: 0.253029 (1%)
+Step 490: 0.280432 (1%)
+Step 500: 0.271562 (1%)
+Step 510: 0.232807 (1%)
+Step 520: 0.258555 (1%)
+Step 530: 0.219042 (1%)
+Step 540: 0.21463 (1%)
+Step 550: 0.24672 (1%)
+Step 560: 0.22102 (1%)
+Step 570: 0.271099 (1%)
+Step 580: 0.280749 (1%)
+Step 590: 0.256813 (1%)
+Step 600: 0.293607 (1%)
+Step 610: 0.273464 (1%)
+Step 620: 0.24385 (1%)
+Step 630: 0.261026 (1%)
+Step 640: 0.29795 (1%)
+Step 650: 0.254487 (1%)
+Step 660: 0.253718 (1%)
+Step 670: 0.261368 (1%)
+Step 680: 0.286624 (1%)
+Step 690: 0.238796 (1%)
+Step 700: 0.198039 (2%)
+Step 710: 0.256313 (2%)
+Step 720: 0.288873 (2%)
+Step 730: 0.230243 (2%)
+Step 740: 0.267104 (2%)
+Step 750: 0.263795 (2%)
+Step 760: 0.210754 (2%)
+Step 770: 0.274167 (2%)
+Step 780: 0.250709 (2%)
+Step 790: 0.280155 (2%)
+Step 800: 0.289728 (2%)
+Added 1254 gaussians, new count 6630
+Culled 5180 gaussians, remaining 1450
+Step 810: 0.284707 (2%)
+Step 820: 0.268284 (2%)
+Step 830: 0.295541 (2%)
+Step 840: 0.223148 (2%)
+Step 850: 0.289941 (2%)
+Step 860: 0.242925 (2%)
+Step 870: 0.257554 (2%)
+Step 880: 0.22583 (2%)
+Step 890: 0.294505 (2%)
+Step 900: 0.265377 (2%)
+Added 2132 gaussians, new count 3582
+Culled 1171 gaussians, remaining 2411
+Step 910: 0.255724 (2%)
+Step 920: 0.208049 (2%)
+Step 930: 0.243784 (2%)
+Step 940: 0.289022 (2%)
+Step 950: 0.276369 (2%)
+Step 960: 0.211968 (2%)
+Step 970: 0.250859 (2%)
+Step 980: 0.288945 (2%)
+Step 990: 0.248116 (2%)
+Step 1000: 0.26199 (2%)
+Added 3804 gaussians, new count 6215
+Culled 1953 gaussians, remaining 4262
+Step 1010: 0.288847 (2%)
+Step 1020: 0.335198 (2%)
+Step 1030: 0.24081 (2%)
+Step 1040: 0.208653 (2%)
+Step 1050: 0.256816 (3%)
+Step 1060: 0.251053 (3%)
+Step 1070: 0.235452 (3%)
+Step 1080: 0.24645 (3%)
+Step 1090: 0.233066 (3%)
+Step 1100: 0.267581 (3%)
+Added 7431 gaussians, new count 11693
+Culled 3410 gaussians, remaining 8283
+Step 1110: 0.301448 (3%)
+Step 1120: 0.209162 (3%)
+Step 1130: 0.251767 (3%)
+Step 1140: 0.249717 (3%)
+Step 1150: 0.264809 (3%)
+Step 1160: 0.294161 (3%)
+Step 1170: 0.212623 (3%)
+Step 1180: 0.285171 (3%)
+Step 1190: 0.284655 (3%)
+Step 1200: 0.267352 (3%)
+Added 14899 gaussians, new count 23182
+Culled 6517 gaussians, remaining 16665
+Step 1210: 0.256686 (3%)
+Step 1220: 0.252632 (3%)
+Step 1230: 0.299695 (3%)
+Step 1240: 0.256107 (3%)
+Step 1250: 0.240809 (3%)
+Step 1260: 0.258043 (3%)
+Step 1270: 0.255196 (3%)
+Step 1280: 0.260394 (3%)
+Step 1290: 0.276117 (3%)
+Step 1300: 0.252431 (3%)
+Added 23564 gaussians, new count 40229
+Culled 9527 gaussians, remaining 30702
+Step 1310: 0.235256 (3%)
+Step 1320: 0.291756 (3%)
+Step 1330: 0.239699 (3%)
+Step 1340: 0.26166 (3%)
+Step 1350: 0.268765 (3%)
+Step 1360: 0.233027 (3%)
+Step 1370: 0.263105 (3%)
+Step 1380: 0.237033 (3%)
+Step 1390: 0.251395 (3%)
+Step 1400: 0.260872 (4%)
+Added 38943 gaussians, new count 69645
+Culled 15271 gaussians, remaining 54374
+Step 1410: 0.254308 (4%)
+Step 1420: 0.194833 (4%)
+Step 1430: 0.243632 (4%)
+Step 1440: 0.274582 (4%)
+Step 1450: 0.238379 (4%)
+Step 1460: 0.246153 (4%)
+Step 1470: 0.286985 (4%)
+Step 1480: 0.197569 (4%)
+Step 1490: 0.273745 (4%)
+Step 1500: 0.234295 (4%)
+Added 48788 gaussians, new count 103162
+Culled 18254 gaussians, remaining 84908
+Step 1510: 0.275521 (4%)
+Step 1520: 0.176037 (4%)
+Step 1530: 0.241554 (4%)
+Step 1540: 0.2349 (4%)
+Step 1550: 0.29342 (4%)
+Step 1560: 0.256507 (4%)
+Step 1570: 0.247659 (4%)
+Step 1580: 0.268105 (4%)
+Step 1590: 0.292007 (4%)
+Step 1600: 0.261949 (4%)
+Added 62352 gaussians, new count 147260
+Culled 21754 gaussians, remaining 125506
+Step 1610: 0.310431 (4%)
+Step 1620: 0.276685 (4%)
+Step 1630: 0.252076 (4%)
+Step 1640: 0.214944 (4%)
+Step 1650: 0.266686 (4%)
+Step 1660: 0.246352 (4%)
+Step 1670: 0.265785 (4%)
+Step 1680: 0.262347 (4%)
+Step 1690: 0.305066 (4%)
+Step 1700: 0.241187 (4%)
+Added 74038 gaussians, new count 199544
+Culled 24547 gaussians, remaining 174997
+Step 1710: 0.2233 (4%)
+Step 1720: 0.164199 (4%)
+Step 1730: 0.253262 (4%)
+Step 1740: 0.224473 (4%)
+Step 1750: 0.281915 (5%)
+Step 1760: 0.28126 (5%)
+Step 1770: 0.250406 (5%)
+Step 1780: 0.176844 (5%)
+Step 1790: 0.230944 (5%)
+Step 1800: 0.280805 (5%)
+Added 80998 gaussians, new count 255995
+Culled 26886 gaussians, remaining 229109
+Step 1810: 0.238592 (5%)
+Step 1820: 0.259623 (5%)
+Step 1830: 0.254194 (5%)
+Step 1840: 0.247284 (5%)
+Step 1850: 0.271251 (5%)
+Step 1860: 0.263915 (5%)
+Step 1870: 0.251235 (5%)
+Step 1880: 0.291542 (5%)
+Step 1890: 0.257529 (5%)
+Step 1900: 0.236889 (5%)
+Added 82062 gaussians, new count 311171
+Culled 26979 gaussians, remaining 284192
+Step 1910: 0.275414 (5%)
+Step 1920: 0.240146 (5%)
+Step 1930: 0.250486 (5%)
+Step 1940: 0.296043 (5%)
+Step 1950: 0.314614 (5%)
+Step 1960: 0.262367 (5%)
+Step 1970: 0.244928 (5%)
+Step 1980: 0.261484 (5%)
+Step 1990: 0.194837 (5%)
+Step 2000: 0.279865 (5%)
+Added 93444 gaussians, new count 377636
+Culled 29491 gaussians, remaining 348145
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_2000.ply
+Step 2010: 0.263828 (5%)
+Step 2020: 0.25008 (5%)
+Step 2030: 0.246789 (5%)
+Step 2040: 0.252677 (5%)
+Step 2050: 0.237835 (5%)
+Step 2060: 0.247841 (5%)
+Step 2070: 0.270445 (5%)
+Step 2080: 0.220916 (5%)
+Step 2090: 0.239569 (5%)
+Step 2100: 0.259236 (6%)
+Added 93057 gaussians, new count 441202
+Culled 29782 gaussians, remaining 411420
+Step 2110: 0.252865 (6%)
+Step 2120: 0.244714 (6%)
+Step 2130: 0.257775 (6%)
+Step 2140: 0.273357 (6%)
+Step 2150: 0.30217 (6%)
+Step 2160: 0.310915 (6%)
+Step 2170: 0.153896 (6%)
+Step 2180: 0.228041 (6%)
+Step 2190: 0.240179 (6%)
+Step 2200: 0.320002 (6%)
+Added 99055 gaussians, new count 510475
+Culled 30434 gaussians, remaining 480041
+Step 2210: 0.22306 (6%)
+Step 2220: 0.277759 (6%)
+Step 2230: 0.262542 (6%)
+Step 2240: 0.241763 (6%)
+Step 2250: 0.251929 (6%)
+Step 2260: 0.286719 (6%)
+Step 2270: 0.263248 (6%)
+Step 2280: 0.238783 (6%)
+Step 2290: 0.278265 (6%)
+Step 2300: 0.302729 (6%)
+Added 104993 gaussians, new count 585034
+Culled 31279 gaussians, remaining 553755
+Step 2310: 0.244387 (6%)
+Step 2320: 0.236027 (6%)
+Step 2330: 0.278763 (6%)
+Step 2340: 0.240415 (6%)
+Step 2350: 0.285634 (6%)
+Step 2360: 0.234301 (6%)
+Step 2370: 0.246445 (6%)
+Step 2380: 0.239159 (6%)
+Step 2390: 0.310142 (6%)
+Step 2400: 0.196032 (6%)
+Added 100940 gaussians, new count 654695
+Culled 29191 gaussians, remaining 625504
+Step 2410: 0.271451 (6%)
+Step 2420: 0.276408 (6%)
+Step 2430: 0.279144 (6%)
+Step 2440: 0.263051 (6%)
+Step 2450: 0.299354 (7%)
+Step 2460: 0.220137 (7%)
+Step 2470: 0.265651 (7%)
+Step 2480: 0.258043 (7%)
+Step 2490: 0.293792 (7%)
+Step 2500: 0.288519 (7%)
+Added 105049 gaussians, new count 730553
+Culled 31224 gaussians, remaining 699329
+Step 2510: 0.269193 (7%)
+Step 2520: 0.289455 (7%)
+Step 2530: 0.268722 (7%)
+Step 2540: 0.277149 (7%)
+Step 2550: 0.239921 (7%)
+Step 2560: 0.242612 (7%)
+Step 2570: 0.296431 (7%)
+Step 2580: 0.258628 (7%)
+Step 2590: 0.32481 (7%)
+Step 2600: 0.267516 (7%)
+Added 99566 gaussians, new count 798895
+Culled 29266 gaussians, remaining 769629
+Step 2610: 0.276266 (7%)
+Step 2620: 0.276753 (7%)
+Step 2630: 0.246626 (7%)
+Step 2640: 0.310356 (7%)
+Step 2650: 0.311805 (7%)
+Step 2660: 0.249448 (7%)
+Step 2670: 0.270912 (7%)
+Step 2680: 0.26365 (7%)
+Step 2690: 0.258871 (7%)
+Step 2700: 0.246876 (7%)
+Added 91858 gaussians, new count 861487
+Culled 26915 gaussians, remaining 834572
+Step 2710: 0.312838 (7%)
+Step 2720: 0.277306 (7%)
+Step 2730: 0.239804 (7%)
+Step 2740: 0.268175 (7%)
+Step 2750: 0.262462 (7%)
+Step 2760: 0.229993 (7%)
+Step 2770: 0.239005 (7%)
+Step 2780: 0.293062 (7%)
+Step 2790: 0.263628 (7%)
+Step 2800: 0.292517 (8%)
+Added 90251 gaussians, new count 924823
+Culled 27308 gaussians, remaining 897515
+Step 2810: 0.302415 (8%)
+Step 2820: 0.277777 (8%)
+Step 2830: 0.244994 (8%)
+Step 2840: 0.27976 (8%)
+Step 2850: 0.287637 (8%)
+Step 2860: 0.272088 (8%)
+Step 2870: 0.256936 (8%)
+Step 2880: 0.279133 (8%)
+Step 2890: 0.240344 (8%)
+Step 2900: 0.253644 (8%)
+Added 86496 gaussians, new count 984011
+Culled 24756 gaussians, remaining 959255
+Step 2910: 0.2517 (8%)
+Step 2920: 0.283793 (8%)
+Step 2930: 0.240525 (8%)
+Step 2940: 0.285795 (8%)
+Step 2950: 0.292208 (8%)
+Step 2960: 0.256135 (8%)
+Step 2970: 0.257922 (8%)
+Step 2980: 0.275377 (8%)
+Step 2990: 0.271628 (8%)
+Step 3000: 0.24892 (8%)
+Step 3010: 0.22969 (8%)
+Step 3020: 0.260848 (8%)
+Step 3030: 0.270919 (8%)
+Step 3040: 0.256 (8%)
+Step 3050: 0.294698 (8%)
+Step 3060: 0.260468 (8%)
+Step 3070: 0.273902 (8%)
+Step 3080: 0.248599 (8%)
+Step 3090: 0.313443 (8%)
+Step 3100: 0.267396 (8%)
+Alpha reset
+Step 3110: 0.214058 (8%)
+Step 3120: 0.250025 (8%)
+Step 3130: 0.266287 (8%)
+Step 3140: 0.24542 (8%)
+Step 3150: 0.221971 (9%)
+Step 3160: 0.256327 (9%)
+Step 3170: 0.271741 (9%)
+Step 3180: 0.257569 (9%)
+Step 3190: 0.244115 (9%)
+Step 3200: 0.223363 (9%)
+Step 3210: 0.223429 (9%)
+Step 3220: 0.25352 (9%)
+Step 3230: 0.2163 (9%)
+Step 3240: 0.227759 (9%)
+Step 3250: 0.242729 (9%)
+Step 3260: 0.238696 (9%)
+Step 3270: 0.212261 (9%)
+Step 3280: 0.263004 (9%)
+Step 3290: 0.247766 (9%)
+Step 3300: 0.247653 (9%)
+Step 3310: 0.229503 (9%)
+Step 3320: 0.236914 (9%)
+Step 3330: 0.234461 (9%)
+Step 3340: 0.130061 (9%)
+Step 3350: 0.255134 (9%)
+Step 3360: 0.203211 (9%)
+Step 3370: 0.227805 (9%)
+Step 3380: 0.228846 (9%)
+Step 3390: 0.225081 (9%)
+Step 3400: 0.268314 (9%)
+Step 3410: 0.22101 (9%)
+Step 3420: 0.218728 (9%)
+Step 3430: 0.227304 (9%)
+Step 3440: 0.220861 (9%)
+Step 3450: 0.195545 (9%)
+Step 3460: 0.245761 (9%)
+Step 3470: 0.24281 (9%)
+Step 3480: 0.235094 (9%)
+Step 3490: 0.231867 (9%)
+Step 3500: 0.235402 (10%)
+Step 3510: 0.235591 (10%)
+Step 3520: 0.232773 (10%)
+Step 3530: 0.231046 (10%)
+Step 3540: 0.225094 (10%)
+Step 3550: 0.222173 (10%)
+Step 3560: 0.226818 (10%)
+Step 3570: 0.213211 (10%)
+Step 3580: 0.220773 (10%)
+Step 3590: 0.275361 (10%)
+Step 3600: 0.219234 (10%)
+Step 3610: 0.250411 (10%)
+Step 3620: 0.252786 (10%)
+Step 3630: 0.214642 (10%)
+Step 3640: 0.219866 (10%)
+Step 3650: 0.232586 (10%)
+Step 3660: 0.222407 (10%)
+Step 3670: 0.215117 (10%)
+Step 3680: 0.241091 (10%)
+Step 3690: 0.294532 (10%)
+Step 3700: 0.250057 (10%)
+Step 3710: 0.265948 (10%)
+Step 3720: 0.221597 (10%)
+Step 3730: 0.243784 (10%)
+Step 3740: 0.27072 (10%)
+Step 3750: 0.217642 (10%)
+Step 3760: 0.24549 (10%)
+Step 3770: 0.236858 (10%)
+Step 3780: 0.257055 (10%)
+Step 3790: 0.192643 (10%)
+Step 3800: 0.132348 (10%)
+Added 127217 gaussians, new count 1086472
+Culled 55601 gaussians, remaining 1030871
+Step 3810: 0.228276 (10%)
+Step 3820: 0.255372 (10%)
+Step 3830: 0.24483 (10%)
+Step 3840: 0.258319 (10%)
+Step 3850: 0.278081 (11%)
+Step 3860: 0.247412 (11%)
+Step 3870: 0.232381 (11%)
+Step 3880: 0.206088 (11%)
+Step 3890: 0.27056 (11%)
+Step 3900: 0.232838 (11%)
+Added 140616 gaussians, new count 1171487
+Culled 319553 gaussians, remaining 851934
+Step 3910: 0.289722 (11%)
+Step 3920: 0.200526 (11%)
+Step 3930: 0.233113 (11%)
+Step 3940: 0.232734 (11%)
+Step 3950: 0.225156 (11%)
+Step 3960: 0.248293 (11%)
+Step 3970: 0.282473 (11%)
+Step 3980: 0.277958 (11%)
+Step 3990: 0.245217 (11%)
+Step 4000: 0.233183 (11%)
+Added 93035 gaussians, new count 944969
+Culled 152667 gaussians, remaining 792302
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_4000.ply
+Step 4010: 0.301099 (11%)
+Step 4020: 0.25047 (11%)
+Step 4030: 0.30692 (11%)
+Step 4040: 0.191858 (11%)
+Step 4050: 0.222101 (11%)
+Step 4060: 0.294614 (11%)
+Step 4070: 0.244844 (11%)
+Step 4080: 0.275578 (11%)
+Step 4090: 0.252669 (11%)
+Step 4100: 0.194509 (11%)
+Added 80536 gaussians, new count 872838
+Culled 84835 gaussians, remaining 788003
+Step 4110: 0.204162 (11%)
+Step 4120: 0.288366 (11%)
+Step 4130: 0.249931 (11%)
+Step 4140: 0.304804 (11%)
+Step 4150: 0.284092 (11%)
+Step 4160: 0.255561 (11%)
+Step 4170: 0.212062 (11%)
+Step 4180: 0.232082 (11%)
+Step 4190: 0.243499 (11%)
+Step 4200: 0.241627 (12%)
+Added 73815 gaussians, new count 861818
+Culled 59700 gaussians, remaining 802118
+Step 4210: 0.265971 (12%)
+Step 4220: 0.296535 (12%)
+Step 4230: 0.160877 (12%)
+Step 4240: 0.23932 (12%)
+Step 4250: 0.26391 (12%)
+Step 4260: 0.247594 (12%)
+Step 4270: 0.305483 (12%)
+Step 4280: 0.216944 (12%)
+Step 4290: 0.235831 (12%)
+Step 4300: 0.23914 (12%)
+Added 66212 gaussians, new count 868330
+Culled 48779 gaussians, remaining 819551
+Step 4310: 0.265786 (12%)
+Step 4320: 0.27775 (12%)
+Step 4330: 0.233271 (12%)
+Step 4340: 0.270154 (12%)
+Step 4350: 0.256334 (12%)
+Step 4360: 0.289021 (12%)
+Step 4370: 0.309354 (12%)
+Step 4380: 0.251314 (12%)
+Step 4390: 0.236649 (12%)
+Step 4400: 0.240342 (12%)
+Added 62563 gaussians, new count 882114
+Culled 40454 gaussians, remaining 841660
+Step 4410: 0.222493 (12%)
+Step 4420: 0.291357 (12%)
+Step 4430: 0.235603 (12%)
+Step 4440: 0.263911 (12%)
+Step 4450: 0.235117 (12%)
+Step 4460: 0.268216 (12%)
+Step 4470: 0.269283 (12%)
+Step 4480: 0.261535 (12%)
+Step 4490: 0.290847 (12%)
+Step 4500: 0.294914 (12%)
+Added 52003 gaussians, new count 893663
+Culled 34168 gaussians, remaining 859495
+Step 4510: 0.249872 (12%)
+Step 4520: 0.264709 (12%)
+Step 4530: 0.207814 (12%)
+Step 4540: 0.286489 (12%)
+Step 4550: 0.302074 (13%)
+Step 4560: 0.292394 (13%)
+Step 4570: 0.261089 (13%)
+Step 4580: 0.238402 (13%)
+Step 4590: 0.236534 (13%)
+Step 4600: 0.270603 (13%)
+Added 51167 gaussians, new count 910662
+Culled 30364 gaussians, remaining 880298
+Step 4610: 0.207634 (13%)
+Step 4620: 0.32159 (13%)
+Step 4630: 0.329878 (13%)
+Step 4640: 0.293122 (13%)
+Step 4650: 0.306544 (13%)
+Step 4660: 0.291073 (13%)
+Step 4670: 0.258627 (13%)
+Step 4680: 0.287478 (13%)
+Step 4690: 0.274125 (13%)
+Step 4700: 0.245319 (13%)
+Added 43668 gaussians, new count 923966
+Culled 26063 gaussians, remaining 897903
+Step 4710: 0.257973 (13%)
+Step 4720: 0.25632 (13%)
+Step 4730: 0.264204 (13%)
+Step 4740: 0.251607 (13%)
+Step 4750: 0.247353 (13%)
+Step 4760: 0.252523 (13%)
+Step 4770: 0.319323 (13%)
+Step 4780: 0.263741 (13%)
+Step 4790: 0.245435 (13%)
+Step 4800: 0.281311 (13%)
+Added 42654 gaussians, new count 940557
+Culled 24343 gaussians, remaining 916214
+Step 4810: 0.276002 (13%)
+Step 4820: 0.303398 (13%)
+Step 4830: 0.238546 (13%)
+Step 4840: 0.26296 (13%)
+Step 4850: 0.266608 (13%)
+Step 4860: 0.230621 (13%)
+Step 4870: 0.25205 (13%)
+Step 4880: 0.261127 (13%)
+Step 4890: 0.276512 (13%)
+Step 4900: 0.297914 (14%)
+Added 39612 gaussians, new count 955826
+Culled 20765 gaussians, remaining 935061
+Step 4910: 0.276381 (14%)
+Step 4920: 0.246077 (14%)
+Step 4930: 0.265372 (14%)
+Step 4940: 0.243941 (14%)
+Step 4950: 0.250757 (14%)
+Step 4960: 0.235459 (14%)
+Step 4970: 0.237713 (14%)
+Step 4980: 0.282608 (14%)
+Step 4990: 0.269799 (14%)
+Step 5000: 0.273777 (14%)
+Added 37776 gaussians, new count 972837
+Culled 20959 gaussians, remaining 951878
+Step 5010: 0.258902 (14%)
+Step 5020: 0.281897 (14%)
+Step 5030: 0.2524 (14%)
+Step 5040: 0.234053 (14%)
+Step 5050: 0.162833 (14%)
+Step 5060: 0.283428 (14%)
+Step 5070: 0.269624 (14%)
+Step 5080: 0.201367 (14%)
+Step 5090: 0.221494 (14%)
+Step 5100: 0.242949 (14%)
+Added 40463 gaussians, new count 992341
+Culled 20540 gaussians, remaining 971801
+Step 5110: 0.288721 (14%)
+Step 5120: 0.206464 (14%)
+Step 5130: 0.261055 (14%)
+Step 5140: 0.26468 (14%)
+Step 5150: 0.245339 (14%)
+Step 5160: 0.164741 (14%)
+Step 5170: 0.272454 (14%)
+Step 5180: 0.286694 (14%)
+Step 5190: 0.238974 (14%)
+Step 5200: 0.299488 (14%)
+Added 36488 gaussians, new count 1008289
+Culled 18520 gaussians, remaining 989769
+Step 5210: 0.254485 (14%)
+Step 5220: 0.213958 (14%)
+Step 5230: 0.273039 (14%)
+Step 5240: 0.273831 (14%)
+Step 5250: 0.252865 (15%)
+Step 5260: 0.320737 (15%)
+Step 5270: 0.253438 (15%)
+Step 5280: 0.26307 (15%)
+Step 5290: 0.298899 (15%)
+Step 5300: 0.233853 (15%)
+Added 28992 gaussians, new count 1018761
+Culled 14939 gaussians, remaining 1003822
+Step 5310: 0.265894 (15%)
+Step 5320: 0.278792 (15%)
+Step 5330: 0.250934 (15%)
+Step 5340: 0.307853 (15%)
+Step 5350: 0.222956 (15%)
+Step 5360: 0.258859 (15%)
+Step 5370: 0.289117 (15%)
+Step 5380: 0.293329 (15%)
+Step 5390: 0.283413 (15%)
+Step 5400: 0.241723 (15%)
+Added 28313 gaussians, new count 1032135
+Culled 14505 gaussians, remaining 1017630
+Step 5410: 0.252624 (15%)
+Step 5420: 0.235289 (15%)
+Step 5430: 0.255353 (15%)
+Step 5440: 0.271894 (15%)
+Step 5450: 0.228268 (15%)
+Step 5460: 0.266677 (15%)
+Step 5470: 0.242082 (15%)
+Step 5480: 0.255087 (15%)
+Step 5490: 0.289436 (15%)
+Step 5500: 0.189272 (15%)
+Added 27882 gaussians, new count 1045512
+Culled 13497 gaussians, remaining 1032015
+Step 5510: 0.225837 (15%)
+Step 5520: 0.268299 (15%)
+Step 5530: 0.279766 (15%)
+Step 5540: 0.2675 (15%)
+Step 5550: 0.275569 (15%)
+Step 5560: 0.257388 (15%)
+Step 5570: 0.268584 (15%)
+Step 5580: 0.305754 (15%)
+Step 5590: 0.26946 (15%)
+Step 5600: 0.238717 (16%)
+Added 27488 gaussians, new count 1059503
+Culled 14072 gaussians, remaining 1045431
+Step 5610: 0.243223 (16%)
+Step 5620: 0.254053 (16%)
+Step 5630: 0.232223 (16%)
+Step 5640: 0.237578 (16%)
+Step 5650: 0.252338 (16%)
+Step 5660: 0.246545 (16%)
+Step 5670: 0.30634 (16%)
+Step 5680: 0.237188 (16%)
+Step 5690: 0.287379 (16%)
+Step 5700: 0.284717 (16%)
+Added 25654 gaussians, new count 1071085
+Culled 13519 gaussians, remaining 1057566
+Step 5710: 0.242773 (16%)
+Step 5720: 0.231115 (16%)
+Step 5730: 0.277228 (16%)
+Step 5740: 0.281433 (16%)
+Step 5750: 0.245107 (16%)
+Step 5760: 0.234275 (16%)
+Step 5770: 0.28629 (16%)
+Step 5780: 0.28354 (16%)
+Step 5790: 0.273072 (16%)
+Step 5800: 0.308224 (16%)
+Added 25648 gaussians, new count 1083214
+Culled 13140 gaussians, remaining 1070074
+Step 5810: 0.254789 (16%)
+Step 5820: 0.268023 (16%)
+Step 5830: 0.280145 (16%)
+Step 5840: 0.313407 (16%)
+Step 5850: 0.238388 (16%)
+Step 5860: 0.259461 (16%)
+Step 5870: 0.302492 (16%)
+Step 5880: 0.259512 (16%)
+Step 5890: 0.229583 (16%)
+Step 5900: 0.299967 (16%)
+Added 27903 gaussians, new count 1097977
+Culled 13946 gaussians, remaining 1084031
+Step 5910: 0.255363 (16%)
+Step 5920: 0.249257 (16%)
+Step 5930: 0.254242 (16%)
+Step 5940: 0.253815 (16%)
+Step 5950: 0.282788 (17%)
+Step 5960: 0.306048 (17%)
+Step 5970: 0.237881 (17%)
+Step 5980: 0.218342 (17%)
+Step 5990: 0.23856 (17%)
+Step 6000: 0.288683 (17%)
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_6000.ply
+Step 6010: 0.248394 (17%)
+Step 6020: 0.271218 (17%)
+Step 6030: 0.251631 (17%)
+Step 6040: 0.233547 (17%)
+Step 6050: 0.212985 (17%)
+Step 6060: 0.245251 (17%)
+Step 6070: 0.271727 (17%)
+Step 6080: 0.196233 (17%)
+Step 6090: 0.246461 (17%)
+Step 6100: 0.27206 (17%)
+Alpha reset
+Step 6110: 0.211513 (17%)
+Step 6120: 0.236076 (17%)
+Step 6130: 0.196825 (17%)
+Step 6140: 0.23636 (17%)
+Step 6150: 0.244103 (17%)
+Step 6160: 0.226247 (17%)
+Step 6170: 0.23237 (17%)
+Step 6180: 0.193593 (17%)
+Step 6190: 0.222147 (17%)
+Step 6200: 0.146876 (17%)
+Step 6210: 0.232198 (17%)
+Step 6220: 0.25305 (17%)
+Step 6230: 0.214531 (17%)
+Step 6240: 0.293521 (17%)
+Step 6250: 0.213026 (17%)
+Step 6260: 0.203824 (17%)
+Step 6270: 0.233685 (17%)
+Step 6280: 0.125992 (17%)
+Step 6290: 0.13529 (17%)
+Step 6300: 0.222745 (18%)
+Step 6310: 0.22221 (18%)
+Step 6320: 0.226844 (18%)
+Step 6330: 0.215985 (18%)
+Step 6340: 0.221949 (18%)
+Step 6350: 0.177429 (18%)
+Step 6360: 0.270143 (18%)
+Step 6370: 0.218059 (18%)
+Step 6380: 0.256235 (18%)
+Step 6390: 0.24519 (18%)
+Step 6400: 0.197686 (18%)
+Step 6410: 0.215141 (18%)
+Step 6420: 0.220846 (18%)
+Step 6430: 0.203778 (18%)
+Step 6440: 0.251024 (18%)
+Step 6450: 0.213255 (18%)
+Step 6460: 0.230917 (18%)
+Step 6470: 0.213826 (18%)
+Step 6480: 0.245116 (18%)
+Step 6490: 0.241631 (18%)
+Step 6500: 0.250126 (18%)
+Step 6510: 0.240145 (18%)
+Step 6520: 0.209693 (18%)
+Step 6530: 0.215606 (18%)
+Step 6540: 0.230414 (18%)
+Step 6550: 0.249372 (18%)
+Step 6560: 0.263661 (18%)
+Step 6570: 0.22586 (18%)
+Step 6580: 0.266902 (18%)
+Step 6590: 0.232033 (18%)
+Step 6600: 0.263974 (18%)
+Step 6610: 0.217362 (18%)
+Step 6620: 0.214786 (18%)
+Step 6630: 0.205123 (18%)
+Step 6640: 0.24522 (18%)
+Step 6650: 0.240531 (19%)
+Step 6660: 0.271701 (19%)
+Step 6670: 0.210947 (19%)
+Step 6680: 0.220085 (19%)
+Step 6690: 0.235881 (19%)
+Step 6700: 0.198142 (19%)
+Step 6710: 0.215029 (19%)
+Step 6720: 0.205506 (19%)
+Step 6730: 0.188657 (19%)
+Step 6740: 0.185268 (19%)
+Step 6750: 0.229861 (19%)
+Step 6760: 0.212565 (19%)
+Step 6770: 0.257051 (19%)
+Step 6780: 0.21663 (19%)
+Step 6790: 0.243796 (19%)
+Step 6800: 0.1935 (19%)
+Added 31046 gaussians, new count 1115077
+Culled 21789 gaussians, remaining 1093288
+Step 6810: 0.200316 (19%)
+Step 6820: 0.194173 (19%)
+Step 6830: 0.21375 (19%)
+Step 6840: 0.157175 (19%)
+Step 6850: 0.237058 (19%)
+Step 6860: 0.188518 (19%)
+Step 6870: 0.214199 (19%)
+Step 6880: 0.260226 (19%)
+Step 6890: 0.215477 (19%)
+Step 6900: 0.216179 (19%)
+Added 36037 gaussians, new count 1129325
+Culled 139408 gaussians, remaining 989917
+Step 6910: 0.151159 (19%)
+Step 6920: 0.20204 (19%)
+Step 6930: 0.210747 (19%)
+Step 6940: 0.241157 (19%)
+Step 6950: 0.211084 (19%)
+Step 6960: 0.234368 (19%)
+Step 6970: 0.239725 (19%)
+Step 6980: 0.284526 (19%)
+Step 6990: 0.250178 (19%)
+Step 7000: 0.226207 (20%)
+Added 45346 gaussians, new count 1035263
+Culled 118219 gaussians, remaining 917044
+Step 7010: 0.221069 (20%)
+Step 7020: 0.20571 (20%)
+Step 7030: 0.25969 (20%)
+Step 7040: 0.239235 (20%)
+Step 7050: 0.256201 (20%)
+Step 7060: 0.223652 (20%)
+Step 7070: 0.202793 (20%)
+Step 7080: 0.275314 (20%)
+Step 7090: 0.226744 (20%)
+Step 7100: 0.228851 (20%)
+Added 44369 gaussians, new count 961413
+Culled 86105 gaussians, remaining 875308
+Step 7110: 0.236712 (20%)
+Step 7120: 0.272286 (20%)
+Step 7130: 0.245382 (20%)
+Step 7140: 0.255516 (20%)
+Step 7150: 0.208999 (20%)
+Step 7160: 0.24715 (20%)
+Step 7170: 0.265837 (20%)
+Step 7180: 0.234302 (20%)
+Step 7190: 0.233316 (20%)
+Step 7200: 0.225909 (20%)
+Added 45919 gaussians, new count 921227
+Culled 74654 gaussians, remaining 846573
+Step 7210: 0.230812 (20%)
+Step 7220: 0.236796 (20%)
+Step 7230: 0.22216 (20%)
+Step 7240: 0.257419 (20%)
+Step 7250: 0.221176 (20%)
+Step 7260: 0.234246 (20%)
+Step 7270: 0.255458 (20%)
+Step 7280: 0.243302 (20%)
+Step 7290: 0.268804 (20%)
+Step 7300: 0.243674 (20%)
+Added 44343 gaussians, new count 890916
+Culled 62304 gaussians, remaining 828612
+Step 7310: 0.221525 (20%)
+Step 7320: 0.273396 (20%)
+Step 7330: 0.288725 (20%)
+Step 7340: 0.297784 (20%)
+Step 7350: 0.262328 (21%)
+Step 7360: 0.242264 (21%)
+Step 7370: 0.210431 (21%)
+Step 7380: 0.240436 (21%)
+Step 7390: 0.230989 (21%)
+Step 7400: 0.288818 (21%)
+Added 41257 gaussians, new count 869869
+Culled 52502 gaussians, remaining 817367
+Step 7410: 0.230318 (21%)
+Step 7420: 0.290186 (21%)
+Step 7430: 0.258774 (21%)
+Step 7440: 0.256474 (21%)
+Step 7450: 0.162413 (21%)
+Step 7460: 0.229751 (21%)
+Step 7470: 0.274648 (21%)
+Step 7480: 0.219276 (21%)
+Step 7490: 0.269463 (21%)
+Step 7500: 0.227642 (21%)
+Added 38993 gaussians, new count 856360
+Culled 36278 gaussians, remaining 820082
+Step 7510: 0.217275 (21%)
+Step 7520: 0.212374 (21%)
+Step 7530: 0.222348 (21%)
+Step 7540: 0.21202 (21%)
+Step 7550: 0.190113 (21%)
+Step 7560: 0.256457 (21%)
+Step 7570: 0.221382 (21%)
+Step 7580: 0.251789 (21%)
+Step 7590: 0.265298 (21%)
+Step 7600: 0.217864 (21%)
+Added 41378 gaussians, new count 861460
+Culled 41030 gaussians, remaining 820430
+Step 7610: 0.235387 (21%)
+Step 7620: 0.263459 (21%)
+Step 7630: 0.208699 (21%)
+Step 7640: 0.24057 (21%)
+Step 7650: 0.235412 (21%)
+Step 7660: 0.243501 (21%)
+Step 7670: 0.287526 (21%)
+Step 7680: 0.237147 (21%)
+Step 7690: 0.227483 (21%)
+Step 7700: 0.287354 (22%)
+Added 39722 gaussians, new count 860152
+Culled 37253 gaussians, remaining 822899
+Step 7710: 0.236629 (22%)
+Step 7720: 0.348072 (22%)
+Step 7730: 0.261448 (22%)
+Step 7740: 0.244763 (22%)
+Step 7750: 0.192549 (22%)
+Step 7760: 0.249171 (22%)
+Step 7770: 0.209636 (22%)
+Step 7780: 0.280785 (22%)
+Step 7790: 0.243481 (22%)
+Step 7800: 0.203642 (22%)
+Added 38459 gaussians, new count 861358
+Culled 33907 gaussians, remaining 827451
+Step 7810: 0.233032 (22%)
+Step 7820: 0.253603 (22%)
+Step 7830: 0.231962 (22%)
+Step 7840: 0.230953 (22%)
+Step 7850: 0.242622 (22%)
+Step 7860: 0.210607 (22%)
+Step 7870: 0.222461 (22%)
+Step 7880: 0.251395 (22%)
+Step 7890: 0.219037 (22%)
+Step 7900: 0.272045 (22%)
+Added 39395 gaussians, new count 866846
+Culled 32514 gaussians, remaining 834332
+Step 7910: 0.262688 (22%)
+Step 7920: 0.219158 (22%)
+Step 7930: 0.242234 (22%)
+Step 7940: 0.206915 (22%)
+Step 7950: 0.216684 (22%)
+Step 7960: 0.22615 (22%)
+Step 7970: 0.24459 (22%)
+Step 7980: 0.258639 (22%)
+Step 7990: 0.253979 (22%)
+Step 8000: 0.285005 (22%)
+Added 34163 gaussians, new count 868495
+Culled 29161 gaussians, remaining 839334
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_8000.ply
+Step 8010: 0.254029 (22%)
+Step 8020: 0.280318 (22%)
+Step 8030: 0.233831 (22%)
+Step 8040: 0.299972 (22%)
+Step 8050: 0.225298 (23%)
+Step 8060: 0.241637 (23%)
+Step 8070: 0.215351 (23%)
+Step 8080: 0.22113 (23%)
+Step 8090: 0.255169 (23%)
+Step 8100: 0.212695 (23%)
+Added 35782 gaussians, new count 875116
+Culled 25913 gaussians, remaining 849203
+Step 8110: 0.23002 (23%)
+Step 8120: 0.231858 (23%)
+Step 8130: 0.315964 (23%)
+Step 8140: 0.223214 (23%)
+Step 8150: 0.220844 (23%)
+Step 8160: 0.240134 (23%)
+Step 8170: 0.222567 (23%)
+Step 8180: 0.238996 (23%)
+Step 8190: 0.287928 (23%)
+Step 8200: 0.241044 (23%)
+Added 35264 gaussians, new count 884467
+Culled 27520 gaussians, remaining 856947
+Step 8210: 0.158819 (23%)
+Step 8220: 0.273163 (23%)
+Step 8230: 0.375579 (23%)
+Step 8240: 0.258192 (23%)
+Step 8250: 0.21635 (23%)
+Step 8260: 0.226962 (23%)
+Step 8270: 0.214528 (23%)
+Step 8280: 0.221016 (23%)
+Step 8290: 0.298474 (23%)
+Step 8300: 0.210159 (23%)
+Added 34183 gaussians, new count 891130
+Culled 24235 gaussians, remaining 866895
+Step 8310: 0.193121 (23%)
+Step 8320: 0.227457 (23%)
+Step 8330: 0.23924 (23%)
+Step 8340: 0.257038 (23%)
+Step 8350: 0.243554 (23%)
+Step 8360: 0.227624 (23%)
+Step 8370: 0.135646 (23%)
+Step 8380: 0.248966 (23%)
+Step 8390: 0.235788 (23%)
+Step 8400: 0.225928 (24%)
+Added 41978 gaussians, new count 908873
+Culled 27149 gaussians, remaining 881724
+Step 8410: 0.219001 (24%)
+Step 8420: 0.244113 (24%)
+Step 8430: 0.247304 (24%)
+Step 8440: 0.23213 (24%)
+Step 8450: 0.252234 (24%)
+Step 8460: 0.250106 (24%)
+Step 8470: 0.225985 (24%)
+Step 8480: 0.246564 (24%)
+Step 8490: 0.257662 (24%)
+Step 8500: 0.232782 (24%)
+Added 35832 gaussians, new count 917556
+Culled 26306 gaussians, remaining 891250
+Step 8510: 0.281135 (24%)
+Step 8520: 0.225593 (24%)
+Step 8530: 0.281899 (24%)
+Step 8540: 0.217096 (24%)
+Step 8550: 0.358736 (24%)
+Step 8560: 0.159098 (24%)
+Step 8570: 0.240382 (24%)
+Step 8580: 0.245785 (24%)
+Step 8590: 0.226795 (24%)
+Step 8600: 0.223285 (24%)
+Added 33920 gaussians, new count 925170
+Culled 24958 gaussians, remaining 900212
+Step 8610: 0.224037 (24%)
+Step 8620: 0.242045 (24%)
+Step 8630: 0.273671 (24%)
+Step 8640: 0.24309 (24%)
+Step 8650: 0.227282 (24%)
+Step 8660: 0.230449 (24%)
+Step 8670: 0.222359 (24%)
+Step 8680: 0.230155 (24%)
+Step 8690: 0.325676 (24%)
+Step 8700: 0.139657 (24%)
+Added 38238 gaussians, new count 938450
+Culled 25346 gaussians, remaining 913104
+Step 8710: 0.251637 (24%)
+Step 8720: 0.273083 (24%)
+Step 8730: 0.335462 (24%)
+Step 8740: 0.254003 (24%)
+Step 8750: 0.274105 (25%)
+Step 8760: 0.271154 (25%)
+Step 8770: 0.2144 (25%)
+Step 8780: 0.201127 (25%)
+Step 8790: 0.281383 (25%)
+Step 8800: 0.154448 (25%)
+Added 40918 gaussians, new count 954022
+Culled 25925 gaussians, remaining 928097
+Step 8810: 0.231953 (25%)
+Step 8820: 0.244877 (25%)
+Step 8830: 0.232417 (25%)
+Step 8840: 0.214299 (25%)
+Step 8850: 0.274772 (25%)
+Step 8860: 0.308382 (25%)
+Step 8870: 0.24837 (25%)
+Step 8880: 0.236846 (25%)
+Step 8890: 0.326582 (25%)
+Step 8900: 0.218175 (25%)
+Added 33333 gaussians, new count 961430
+Culled 22935 gaussians, remaining 938495
+Step 8910: 0.239955 (25%)
+Step 8920: 0.28958 (25%)
+Step 8930: 0.237014 (25%)
+Step 8940: 0.229572 (25%)
+Step 8950: 0.212296 (25%)
+Step 8960: 0.226589 (25%)
+Step 8970: 0.251126 (25%)
+Step 8980: 0.268109 (25%)
+Step 8990: 0.28779 (25%)
+Step 9000: 0.248639 (25%)
+Step 9010: 0.267268 (25%)
+Step 9020: 0.255765 (25%)
+Step 9030: 0.224042 (25%)
+Step 9040: 0.273684 (25%)
+Step 9050: 0.219873 (25%)
+Step 9060: 0.222777 (25%)
+Step 9070: 0.28154 (25%)
+Step 9080: 0.259542 (25%)
+Step 9090: 0.231513 (25%)
+Step 9100: 0.271097 (26%)
+Alpha reset
+Step 9110: 0.233355 (26%)
+Step 9120: 0.247454 (26%)
+Step 9130: 0.241064 (26%)
+Step 9140: 0.183453 (26%)
+Step 9150: 0.226563 (26%)
+Step 9160: 0.244819 (26%)
+Step 9170: 0.186257 (26%)
+Step 9180: 0.203069 (26%)
+Step 9190: 0.222795 (26%)
+Step 9200: 0.212076 (26%)
+Step 9210: 0.217606 (26%)
+Step 9220: 0.256949 (26%)
+Step 9230: 0.118539 (26%)
+Step 9240: 0.206758 (26%)
+Step 9250: 0.198541 (26%)
+Step 9260: 0.22017 (26%)
+Step 9270: 0.197567 (26%)
+Step 9280: 0.215861 (26%)
+Step 9290: 0.214709 (26%)
+Step 9300: 0.203595 (26%)
+Step 9310: 0.244301 (26%)
+Step 9320: 0.211297 (26%)
+Step 9330: 0.222776 (26%)
+Step 9340: 0.203973 (26%)
+Step 9350: 0.198605 (26%)
+Step 9360: 0.246116 (26%)
+Step 9370: 0.204601 (26%)
+Step 9380: 0.23219 (26%)
+Step 9390: 0.208141 (26%)
+Step 9400: 0.182648 (26%)
+Step 9410: 0.203701 (26%)
+Step 9420: 0.22327 (26%)
+Step 9430: 0.196428 (26%)
+Step 9440: 0.185648 (26%)
+Step 9450: 0.19471 (27%)
+Step 9460: 0.187157 (27%)
+Step 9470: 0.183457 (27%)
+Step 9480: 0.261598 (27%)
+Step 9490: 0.20163 (27%)
+Step 9500: 0.201253 (27%)
+Step 9510: 0.214182 (27%)
+Step 9520: 0.183123 (27%)
+Step 9530: 0.205735 (27%)
+Step 9540: 0.225387 (27%)
+Step 9550: 0.245117 (27%)
+Step 9560: 0.198024 (27%)
+Step 9570: 0.204443 (27%)
+Step 9580: 0.203737 (27%)
+Step 9590: 0.194477 (27%)
+Step 9600: 0.190707 (27%)
+Step 9610: 0.189972 (27%)
+Step 9620: 0.207872 (27%)
+Step 9630: 0.201878 (27%)
+Step 9640: 0.20861 (27%)
+Step 9650: 0.200906 (27%)
+Step 9660: 0.201664 (27%)
+Step 9670: 0.19424 (27%)
+Step 9680: 0.190666 (27%)
+Step 9690: 0.313984 (27%)
+Step 9700: 0.161322 (27%)
+Step 9710: 0.19238 (27%)
+Step 9720: 0.275392 (27%)
+Step 9730: 0.179987 (27%)
+Step 9740: 0.192991 (27%)
+Step 9750: 0.184774 (27%)
+Step 9760: 0.208626 (27%)
+Step 9770: 0.178902 (27%)
+Step 9780: 0.210937 (27%)
+Step 9790: 0.243166 (27%)
+Step 9800: 0.213884 (28%)
+Added 47295 gaussians, new count 985790
+Culled 39475 gaussians, remaining 946315
+Step 9810: 0.20063 (28%)
+Step 9820: 0.217031 (28%)
+Step 9830: 0.238681 (28%)
+Step 9840: 0.195169 (28%)
+Step 9850: 0.215437 (28%)
+Step 9860: 0.230877 (28%)
+Step 9870: 0.214575 (28%)
+Step 9880: 0.238075 (28%)
+Step 9890: 0.210464 (28%)
+Step 9900: 0.255291 (28%)
+Added 47676 gaussians, new count 993991
+Culled 129095 gaussians, remaining 864896
+Step 9910: 0.125845 (28%)
+Step 9920: 0.208741 (28%)
+Step 9930: 0.212628 (28%)
+Step 9940: 0.216562 (28%)
+Step 9950: 0.194328 (28%)
+Step 9960: 0.19301 (28%)
+Step 9970: 0.209599 (28%)
+Step 9980: 0.193986 (28%)
+Step 9990: 0.195372 (28%)
+Step 10000: 0.205746 (28%)
+Added 59936 gaussians, new count 924832
+Culled 101689 gaussians, remaining 823143
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_10000.ply
+Step 10010: 0.220086 (28%)
+Step 10020: 0.22868 (28%)
+Step 10030: 0.213853 (28%)
+Step 10040: 0.199718 (28%)
+Step 10050: 0.226107 (28%)
+Step 10060: 0.207274 (28%)
+Step 10070: 0.31347 (28%)
+Step 10080: 0.248793 (28%)
+Step 10090: 0.236216 (28%)
+Step 10100: 0.206941 (28%)
+Added 56096 gaussians, new count 879239
+Culled 73037 gaussians, remaining 806202
+Step 10110: 0.21611 (28%)
+Step 10120: 0.212037 (28%)
+Step 10130: 0.238209 (28%)
+Step 10140: 0.138984 (28%)
+Step 10150: 0.215596 (29%)
+Step 10160: 0.252069 (29%)
+Step 10170: 0.208097 (29%)
+Step 10180: 0.240236 (29%)
+Step 10190: 0.203263 (29%)
+Step 10200: 0.213444 (29%)
+Added 58407 gaussians, new count 864609
+Culled 54883 gaussians, remaining 809726
+Step 10210: 0.190782 (29%)
+Step 10220: 0.143847 (29%)
+Step 10230: 0.181565 (29%)
+Step 10240: 0.21748 (29%)
+Step 10250: 0.205607 (29%)
+Step 10260: 0.210948 (29%)
+Step 10270: 0.222809 (29%)
+Step 10280: 0.255128 (29%)
+Step 10290: 0.218084 (29%)
+Step 10300: 0.22325 (29%)
+Added 49661 gaussians, new count 859387
+Culled 48264 gaussians, remaining 811123
+Step 10310: 0.250475 (29%)
+Step 10320: 0.194125 (29%)
+Step 10330: 0.262896 (29%)
+Step 10340: 0.201588 (29%)
+Step 10350: 0.223913 (29%)
+Step 10360: 0.237095 (29%)
+Step 10370: 0.281027 (29%)
+Step 10380: 0.237464 (29%)
+Step 10390: 0.193512 (29%)
+Step 10400: 0.227285 (29%)
+Added 55349 gaussians, new count 866472
+Culled 48368 gaussians, remaining 818104
+Step 10410: 0.220308 (29%)
+Step 10420: 0.271196 (29%)
+Step 10430: 0.209345 (29%)
+Step 10440: 0.265333 (29%)
+Step 10450: 0.228087 (29%)
+Step 10460: 0.142386 (29%)
+Step 10470: 0.208486 (29%)
+Step 10480: 0.110764 (29%)
+Step 10490: 0.234132 (29%)
+Step 10500: 0.134971 (30%)
+Added 48306 gaussians, new count 866410
+Culled 43134 gaussians, remaining 823276
+Step 10510: 0.235976 (30%)
+Step 10520: 0.224463 (30%)
+Step 10530: 0.207797 (30%)
+Step 10540: 0.259009 (30%)
+Step 10550: 0.272191 (30%)
+Step 10560: 0.223701 (30%)
+Step 10570: 0.301697 (30%)
+Step 10580: 0.208748 (30%)
+Step 10590: 0.212254 (30%)
+Step 10600: 0.22341 (30%)
+Added 56271 gaussians, new count 879547
+Culled 44338 gaussians, remaining 835209
+Step 10610: 0.222713 (30%)
+Step 10620: 0.221062 (30%)
+Step 10630: 0.251169 (30%)
+Step 10640: 0.240706 (30%)
+Step 10650: 0.226706 (30%)
+Step 10660: 0.252946 (30%)
+Step 10670: 0.210436 (30%)
+Step 10680: 0.228544 (30%)
+Step 10690: 0.241942 (30%)
+Step 10700: 0.22524 (30%)
+Added 51639 gaussians, new count 886848
+Culled 41309 gaussians, remaining 845539
+Step 10710: 0.221424 (30%)
+Step 10720: 0.246104 (30%)
+Step 10730: 0.237825 (30%)
+Step 10740: 0.212614 (30%)
+Step 10750: 0.246214 (30%)
+Step 10760: 0.225914 (30%)
+Step 10770: 0.335191 (30%)
+Step 10780: 0.272493 (30%)
+Step 10790: 0.217601 (30%)
+Step 10800: 0.231006 (30%)
+Added 53291 gaussians, new count 898830
+Culled 37712 gaussians, remaining 861118
+Step 10810: 0.216917 (30%)
+Step 10820: 0.220308 (30%)
+Step 10830: 0.227713 (30%)
+Step 10840: 0.19323 (30%)
+Step 10850: 0.279193 (31%)
+Step 10860: 0.237327 (31%)
+Step 10870: 0.245259 (31%)
+Step 10880: 0.281725 (31%)
+Step 10890: 0.332479 (31%)
+Step 10900: 0.245327 (31%)
+Added 41997 gaussians, new count 903115
+Culled 34025 gaussians, remaining 869090
+Step 10910: 0.322109 (31%)
+Step 10920: 0.232151 (31%)
+Step 10930: 0.258627 (31%)
+Step 10940: 0.271933 (31%)
+Step 10950: 0.223345 (31%)
+Step 10960: 0.199619 (31%)
+Step 10970: 0.225695 (31%)
+Step 10980: 0.122949 (31%)
+Step 10990: 0.215626 (31%)
+Step 11000: 0.197969 (31%)
+Added 54352 gaussians, new count 923442
+Culled 34282 gaussians, remaining 889160
+Step 11010: 0.243571 (31%)
+Step 11020: 0.224996 (31%)
+Step 11030: 0.244918 (31%)
+Step 11040: 0.28284 (31%)
+Step 11050: 0.24872 (31%)
+Step 11060: 0.213132 (31%)
+Step 11070: 0.116809 (31%)
+Step 11080: 0.260667 (31%)
+Step 11090: 0.227147 (31%)
+Step 11100: 0.229491 (31%)
+Added 48613 gaussians, new count 937773
+Culled 35658 gaussians, remaining 902115
+Step 11110: 0.231854 (31%)
+Step 11120: 0.28276 (31%)
+Step 11130: 0.216852 (31%)
+Step 11140: 0.289336 (31%)
+Step 11150: 0.226704 (31%)
+Step 11160: 0.233991 (31%)
+Step 11170: 0.179196 (31%)
+Step 11180: 0.191618 (31%)
+Step 11190: 0.155959 (31%)
+Step 11200: 0.208491 (32%)
+Added 49707 gaussians, new count 951822
+Culled 35633 gaussians, remaining 916189
+Step 11210: 0.249282 (32%)
+Step 11220: 0.286966 (32%)
+Step 11230: 0.151778 (32%)
+Step 11240: 0.143568 (32%)
+Step 11250: 0.210749 (32%)
+Step 11260: 0.24208 (32%)
+Step 11270: 0.475223 (32%)
+Step 11280: 0.215965 (32%)
+Step 11290: 0.3657 (32%)
+Step 11300: 0.209424 (32%)
+Added 44942 gaussians, new count 961131
+Culled 30374 gaussians, remaining 930757
+Step 11310: 0.261726 (32%)
+Step 11320: 0.257598 (32%)
+Step 11330: 0.161744 (32%)
+Step 11340: 0.237981 (32%)
+Step 11350: 0.190573 (32%)
+Step 11360: 0.116832 (32%)
+Step 11370: 0.201408 (32%)
+Step 11380: 0.222241 (32%)
+Step 11390: 0.22406 (32%)
+Step 11400: 0.205378 (32%)
+Added 45654 gaussians, new count 976411
+Culled 29435 gaussians, remaining 946976
+Step 11410: 0.219672 (32%)
+Step 11420: 0.204834 (32%)
+Step 11430: 0.226981 (32%)
+Step 11440: 0.218736 (32%)
+Step 11450: 0.229891 (32%)
+Step 11460: 0.225082 (32%)
+Step 11470: 0.291646 (32%)
+Step 11480: 0.216021 (32%)
+Step 11490: 0.284309 (32%)
+Step 11500: 0.218868 (32%)
+Added 45172 gaussians, new count 992148
+Culled 31708 gaussians, remaining 960440
+Step 11510: 0.271491 (32%)
+Step 11520: 0.201468 (32%)
+Step 11530: 0.201835 (32%)
+Step 11540: 0.227469 (32%)
+Step 11550: 0.212817 (33%)
+Step 11560: 0.227242 (33%)
+Step 11570: 0.20996 (33%)
+Step 11580: 0.260428 (33%)
+Step 11590: 0.201247 (33%)
+Step 11600: 0.187218 (33%)
+Added 47637 gaussians, new count 1008077
+Culled 29153 gaussians, remaining 978924
+Step 11610: 0.217353 (33%)
+Step 11620: 0.232147 (33%)
+Step 11630: 0.294001 (33%)
+Step 11640: 0.222845 (33%)
+Step 11650: 0.256365 (33%)
+Step 11660: 0.195214 (33%)
+Step 11670: 0.208978 (33%)
+Step 11680: 0.240063 (33%)
+Step 11690: 0.209746 (33%)
+Step 11700: 0.253005 (33%)
+Added 53123 gaussians, new count 1032047
+Culled 33039 gaussians, remaining 999008
+Step 11710: 0.331479 (33%)
+Step 11720: 0.299174 (33%)
+Step 11730: 0.210569 (33%)
+Step 11740: 0.211674 (33%)
+Step 11750: 0.208062 (33%)
+Step 11760: 0.198185 (33%)
+Step 11770: 0.214476 (33%)
+Step 11780: 0.207865 (33%)
+Step 11790: 0.188993 (33%)
+Step 11800: 0.194839 (33%)
+Added 47248 gaussians, new count 1046256
+Culled 27708 gaussians, remaining 1018548
+Step 11810: 0.197135 (33%)
+Step 11820: 0.246599 (33%)
+Step 11830: 0.214033 (33%)
+Step 11840: 0.268041 (33%)
+Step 11850: 0.189729 (33%)
+Step 11860: 0.223094 (33%)
+Step 11870: 0.194663 (33%)
+Step 11880: 0.278624 (33%)
+Step 11890: 0.241337 (33%)
+Step 11900: 0.197561 (34%)
+Added 47311 gaussians, new count 1065859
+Culled 29028 gaussians, remaining 1036831
+Step 11910: 0.143259 (34%)
+Step 11920: 0.299313 (34%)
+Step 11930: 0.245681 (34%)
+Step 11940: 0.2194 (34%)
+Step 11950: 0.213705 (34%)
+Step 11960: 0.221729 (34%)
+Step 11970: 0.259643 (34%)
+Step 11980: 0.29318 (34%)
+Step 11990: 0.210496 (34%)
+Step 12000: 0.182051 (34%)
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_12000.ply
+Step 12010: 0.1739 (34%)
+Step 12020: 0.230826 (34%)
+Step 12030: 0.278435 (34%)
+Step 12040: 0.117438 (34%)
+Step 12050: 0.229829 (34%)
+Step 12060: 0.228365 (34%)
+Step 12070: 0.288172 (34%)
+Step 12080: 0.220577 (34%)
+Step 12090: 0.239206 (34%)
+Step 12100: 0.234188 (34%)
+Alpha reset
+Step 12110: 0.214411 (34%)
+Step 12120: 0.196067 (34%)
+Step 12130: 0.203986 (34%)
+Step 12140: 0.175327 (34%)
+Step 12150: 0.174169 (34%)
+Step 12160: 0.241 (34%)
+Step 12170: 0.200684 (34%)
+Step 12180: 0.197322 (34%)
+Step 12190: 0.174471 (34%)
+Step 12200: 0.205289 (34%)
+Step 12210: 0.235052 (34%)
+Step 12220: 0.201567 (34%)
+Step 12230: 0.229266 (34%)
+Step 12240: 0.186996 (34%)
+Step 12250: 0.196856 (35%)
+Step 12260: 0.205229 (35%)
+Step 12270: 0.190356 (35%)
+Step 12280: 0.204147 (35%)
+Step 12290: 0.2004 (35%)
+Step 12300: 0.225432 (35%)
+Step 12310: 0.189176 (35%)
+Step 12320: 0.179609 (35%)
+Step 12330: 0.289495 (35%)
+Step 12340: 0.198239 (35%)
+Step 12350: 0.172128 (35%)
+Step 12360: 0.158039 (35%)
+Step 12370: 0.227919 (35%)
+Step 12380: 0.190253 (35%)
+Step 12390: 0.213058 (35%)
+Step 12400: 0.17292 (35%)
+Step 12410: 0.17757 (35%)
+Step 12420: 0.282726 (35%)
+Step 12430: 0.217272 (35%)
+Step 12440: 0.196589 (35%)
+Step 12450: 0.203727 (35%)
+Step 12460: 0.212665 (35%)
+Step 12470: 0.188414 (35%)
+Step 12480: 0.160666 (35%)
+Step 12490: 0.187231 (35%)
+Step 12500: 0.206533 (35%)
+Step 12510: 0.160738 (35%)
+Step 12520: 0.194516 (35%)
+Step 12530: 0.212139 (35%)
+Step 12540: 0.178565 (35%)
+Step 12550: 0.167554 (35%)
+Step 12560: 0.191704 (35%)
+Step 12570: 0.221531 (35%)
+Step 12580: 0.192727 (35%)
+Step 12590: 0.09722 (35%)
+Step 12600: 0.210139 (36%)
+Step 12610: 0.188073 (36%)
+Step 12620: 0.169602 (36%)
+Step 12630: 0.201444 (36%)
+Step 12640: 0.191343 (36%)
+Step 12650: 0.183439 (36%)
+Step 12660: 0.164567 (36%)
+Step 12670: 0.196305 (36%)
+Step 12680: 0.179486 (36%)
+Step 12690: 0.187941 (36%)
+Step 12700: 0.181896 (36%)
+Step 12710: 0.188047 (36%)
+Step 12720: 0.172045 (36%)
+Step 12730: 0.236102 (36%)
+Step 12740: 0.251035 (36%)
+Step 12750: 0.180394 (36%)
+Step 12760: 0.21853 (36%)
+Step 12770: 0.170843 (36%)
+Step 12780: 0.194816 (36%)
+Step 12790: 0.168222 (36%)
+Step 12800: 0.237078 (36%)
+Added 57007 gaussians, new count 1093838
+Culled 52377 gaussians, remaining 1041461
+Step 12810: 0.178281 (36%)
+Step 12820: 0.180462 (36%)
+Step 12830: 0.209378 (36%)
+Step 12840: 0.181395 (36%)
+Step 12850: 0.191722 (36%)
+Step 12860: 0.224924 (36%)
+Step 12870: 0.198465 (36%)
+Step 12880: 0.189574 (36%)
+Step 12890: 0.112275 (36%)
+Step 12900: 0.151432 (36%)
+Added 57460 gaussians, new count 1098921
+Culled 125026 gaussians, remaining 973895
+Step 12910: 0.203625 (36%)
+Step 12920: 0.173002 (36%)
+Step 12930: 0.197325 (36%)
+Step 12940: 0.181372 (36%)
+Step 12950: 0.184416 (37%)
+Step 12960: 0.197102 (37%)
+Step 12970: 0.171493 (37%)
+Step 12980: 0.218651 (37%)
+Step 12990: 0.207949 (37%)
+Step 13000: 0.2186 (37%)
+Added 70440 gaussians, new count 1044335
+Culled 96141 gaussians, remaining 948194
+Step 13010: 0.184683 (37%)
+Step 13020: 0.11798 (37%)
+Step 13030: 0.261973 (37%)
+Step 13040: 0.180173 (37%)
+Step 13050: 0.204648 (37%)
+Step 13060: 0.193182 (37%)
+Step 13070: 0.228841 (37%)
+Step 13080: 0.221863 (37%)
+Step 13090: 0.114757 (37%)
+Step 13100: 0.368235 (37%)
+Added 69771 gaussians, new count 1017965
+Culled 80615 gaussians, remaining 937350
+Step 13110: 0.203352 (37%)
+Step 13120: 0.193985 (37%)
+Step 13130: 0.201726 (37%)
+Step 13140: 0.244545 (37%)
+Step 13150: 0.16504 (37%)
+Step 13160: 0.245942 (37%)
+Step 13170: 0.207892 (37%)
+Step 13180: 0.159236 (37%)
+Step 13190: 0.197977 (37%)
+Step 13200: 0.20221 (37%)
+Added 66736 gaussians, new count 1004086
+Culled 69878 gaussians, remaining 934208
+Step 13210: 0.260866 (37%)
+Step 13220: 0.248096 (37%)
+Step 13230: 0.213874 (37%)
+Step 13240: 0.175673 (37%)
+Step 13250: 0.235474 (37%)
+Step 13260: 0.229996 (37%)
+Step 13270: 0.18702 (37%)
+Step 13280: 0.21936 (37%)
+Step 13290: 0.197721 (37%)
+Step 13300: 0.225289 (38%)
+Added 67568 gaussians, new count 1001776
+Culled 59344 gaussians, remaining 942432
+Step 13310: 0.234955 (38%)
+Step 13320: 0.20207 (38%)
+Step 13330: 0.184994 (38%)
+Step 13340: 0.214332 (38%)
+Step 13350: 0.113048 (38%)
+Step 13360: 0.191575 (38%)
+Step 13370: 0.202354 (38%)
+Step 13380: 0.212829 (38%)
+Step 13390: 0.187814 (38%)
+Step 13400: 0.219363 (38%)
+Added 68752 gaussians, new count 1011184
+Culled 53743 gaussians, remaining 957441
+Step 13410: 0.235728 (38%)
+Step 13420: 0.208283 (38%)
+Step 13430: 0.209405 (38%)
+Step 13440: 0.18083 (38%)
+Step 13450: 0.207312 (38%)
+Step 13460: 0.188792 (38%)
+Step 13470: 0.23035 (38%)
+Step 13480: 0.330478 (38%)
+Step 13490: 0.201911 (38%)
+Step 13500: 0.188384 (38%)
+Added 64563 gaussians, new count 1022004
+Culled 48029 gaussians, remaining 973975
+Step 13510: 0.205716 (38%)
+Step 13520: 0.206294 (38%)
+Step 13530: 0.224364 (38%)
+Step 13540: 0.278762 (38%)
+Step 13550: 0.207364 (38%)
+Step 13560: 0.194082 (38%)
+Step 13570: 0.245699 (38%)
+Step 13580: 0.255967 (38%)
+Step 13590: 0.200592 (38%)
+Step 13600: 0.0885479 (38%)
+Added 69569 gaussians, new count 1043544
+Culled 48632 gaussians, remaining 994912
+Step 13610: 0.233676 (38%)
+Step 13620: 0.190439 (38%)
+Step 13630: 0.227413 (38%)
+Step 13640: 0.209419 (38%)
+Step 13650: 0.188223 (39%)
+Step 13660: 0.204009 (39%)
+Step 13670: 0.209852 (39%)
+Step 13680: 0.228423 (39%)
+Step 13690: 0.211423 (39%)
+Step 13700: 0.231432 (39%)
+Added 60574 gaussians, new count 1055486
+Culled 46621 gaussians, remaining 1008865
+Step 13710: 0.18653 (39%)
+Step 13720: 0.284957 (39%)
+Step 13730: 0.115148 (39%)
+Step 13740: 0.211332 (39%)
+Step 13750: 0.199726 (39%)
+Step 13760: 0.256676 (39%)
+Step 13770: 0.273286 (39%)
+Step 13780: 0.22973 (39%)
+Step 13790: 0.158763 (39%)
+Step 13800: 0.231066 (39%)
+Added 64761 gaussians, new count 1073626
+Culled 46259 gaussians, remaining 1027367
+Step 13810: 0.209972 (39%)
+Step 13820: 0.268848 (39%)
+Step 13830: 0.238482 (39%)
+Step 13840: 0.212965 (39%)
+Step 13850: 0.181268 (39%)
+Step 13860: 0.277834 (39%)
+Step 13870: 0.194287 (39%)
+Step 13880: 0.26633 (39%)
+Step 13890: 0.168221 (39%)
+Step 13900: 0.253559 (39%)
+Added 61545 gaussians, new count 1088912
+Culled 43492 gaussians, remaining 1045420
+Step 13910: 0.169273 (39%)
+Step 13920: 0.251727 (39%)
+Step 13930: 0.190531 (39%)
+Step 13940: 0.201068 (39%)
+Step 13950: 0.235109 (39%)
+Step 13960: 0.200793 (39%)
+Step 13970: 0.239028 (39%)
+Step 13980: 0.238519 (39%)
+Step 13990: 0.23229 (39%)
+Step 14000: 0.19963 (40%)
+Added 62640 gaussians, new count 1108060
+Culled 44427 gaussians, remaining 1063633
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_14000.ply
+Step 14010: 0.174621 (40%)
+Step 14020: 0.21826 (40%)
+Step 14030: 0.215406 (40%)
+Step 14040: 0.242195 (40%)
+Step 14050: 0.213703 (40%)
+Step 14060: 0.187176 (40%)
+Step 14070: 0.211465 (40%)
+Step 14080: 0.223284 (40%)
+Step 14090: 0.250939 (40%)
+Step 14100: 0.231488 (40%)
+Added 57433 gaussians, new count 1121066
+Culled 38024 gaussians, remaining 1083042
+Step 14110: 0.239622 (40%)
+Step 14120: 0.165464 (40%)
+Step 14130: 0.226709 (40%)
+Step 14140: 0.214663 (40%)
+Step 14150: 0.304127 (40%)
+Step 14160: 0.286163 (40%)
+Step 14170: 0.230273 (40%)
+Step 14180: 0.185233 (40%)
+Step 14190: 0.215057 (40%)
+Step 14200: 0.191557 (40%)
+Added 63177 gaussians, new count 1146219
+Culled 37699 gaussians, remaining 1108520
+Step 14210: 0.223848 (40%)
+Step 14220: 0.173428 (40%)
+Step 14230: 0.251606 (40%)
+Step 14240: 0.200868 (40%)
+Step 14250: 0.186085 (40%)
+Step 14260: 0.19913 (40%)
+Step 14270: 0.0940047 (40%)
+Step 14280: 0.16612 (40%)
+Step 14290: 0.21798 (40%)
+Step 14300: 0.218486 (40%)
+Added 64076 gaussians, new count 1172596
+Culled 39521 gaussians, remaining 1133075
+Step 14310: 0.232658 (40%)
+Step 14320: 0.213618 (40%)
+Step 14330: 0.280718 (40%)
+Step 14340: 0.216598 (40%)
+Step 14350: 0.253805 (41%)
+Step 14360: 0.176197 (41%)
+Step 14370: 0.218947 (41%)
+Step 14380: 0.200516 (41%)
+Step 14390: 0.19034 (41%)
+Step 14400: 0.179426 (41%)
+Added 57773 gaussians, new count 1190848
+Culled 38376 gaussians, remaining 1152472
+Step 14410: 0.267932 (41%)
+Step 14420: 0.197683 (41%)
+Step 14430: 0.218254 (41%)
+Step 14440: 0.21674 (41%)
+Step 14450: 0.196828 (41%)
+Step 14460: 0.226989 (41%)
+Step 14470: 0.244814 (41%)
+Step 14480: 0.223031 (41%)
+Step 14490: 0.237693 (41%)
+Step 14500: 0.227381 (41%)
+Added 63208 gaussians, new count 1215680
+Culled 43202 gaussians, remaining 1172478
+Step 14510: 0.18556 (41%)
+Step 14520: 0.208292 (41%)
+Step 14530: 0.223815 (41%)
+Step 14540: 0.223914 (41%)
+Step 14550: 0.207628 (41%)
+Step 14560: 0.205731 (41%)
+Step 14570: 0.166045 (41%)
+Step 14580: 0.218933 (41%)
+Step 14590: 0.230937 (41%)
+Step 14600: 0.20012 (41%)
+Added 60778 gaussians, new count 1233256
+Culled 40901 gaussians, remaining 1192355
+Step 14610: 0.23187 (41%)
+Step 14620: 0.220909 (41%)
+Step 14630: 0.27476 (41%)
+Step 14640: 0.168695 (41%)
+Step 14650: 0.175663 (41%)
+Step 14660: 0.178697 (41%)
+Step 14670: 0.156881 (41%)
+Step 14680: 0.23295 (41%)
+Step 14690: 0.218845 (41%)
+Step 14700: 0.0927142 (42%)
+Added 63302 gaussians, new count 1255657
+Culled 40628 gaussians, remaining 1215029
+Step 14710: 0.278063 (42%)
+Step 14720: 0.102574 (42%)
+Step 14730: 0.25557 (42%)
+Step 14740: 0.254493 (42%)
+Step 14750: 0.206076 (42%)
+Step 14760: 0.224769 (42%)
+Step 14770: 0.198942 (42%)
+Step 14780: 0.210309 (42%)
+Step 14790: 0.0956147 (42%)
+Step 14800: 0.0927691 (42%)
+Added 65459 gaussians, new count 1280488
+Culled 39763 gaussians, remaining 1240725
+Step 14810: 0.290467 (42%)
+Step 14820: 0.265858 (42%)
+Step 14830: 0.190719 (42%)
+Step 14840: 0.249797 (42%)
+Step 14850: 0.230521 (42%)
+Step 14860: 0.21538 (42%)
+Step 14870: 0.195162 (42%)
+Step 14880: 0.206663 (42%)
+Step 14890: 0.179439 (42%)
+Step 14900: 0.17917 (42%)
+Added 63017 gaussians, new count 1303742
+Culled 38080 gaussians, remaining 1265662
+Step 14910: 0.197998 (42%)
+Step 14920: 0.244191 (42%)
+Step 14930: 0.187954 (42%)
+Step 14940: 0.217359 (42%)
+Step 14950: 0.191687 (42%)
+Step 14960: 0.206986 (42%)
+Step 14970: 0.199078 (42%)
+Step 14980: 0.306659 (42%)
+Step 14990: 0.262725 (42%)
+Step 15000: 0.170285 (42%)
+Step 15010: 0.198289 (42%)
+Step 15020: 0.210852 (42%)
+Step 15030: 0.0871485 (42%)
+Step 15040: 0.21546 (42%)
+Step 15050: 0.232363 (43%)
+Step 15060: 0.250392 (43%)
+Step 15070: 0.229362 (43%)
+Step 15080: 0.259178 (43%)
+Step 15090: 0.204931 (43%)
+Step 15100: 0.210379 (43%)
+Alpha reset
+Step 15110: 0.187111 (43%)
+Step 15120: 0.255761 (43%)
+Step 15130: 0.18889 (43%)
+Step 15140: 0.122652 (43%)
+Step 15150: 0.189462 (43%)
+Step 15160: 0.176707 (43%)
+Step 15170: 0.216031 (43%)
+Step 15180: 0.1671 (43%)
+Step 15190: 0.123777 (43%)
+Step 15200: 0.162488 (43%)
+Step 15210: 0.148824 (43%)
+Step 15220: 0.238401 (43%)
+Step 15230: 0.15062 (43%)
+Step 15240: 0.196531 (43%)
+Step 15250: 0.227031 (43%)
+Step 15260: 0.185784 (43%)
+Step 15270: 0.0779072 (43%)
+Step 15280: 0.204003 (43%)
+Step 15290: 0.180146 (43%)
+Step 15300: 0.231744 (43%)
+Step 15310: 0.19059 (43%)
+Step 15320: 0.120283 (43%)
+Step 15330: 0.189581 (43%)
+Step 15340: 0.17943 (43%)
+Step 15350: 0.189461 (43%)
+Step 15360: 0.148018 (43%)
+Step 15370: 0.187022 (43%)
+Step 15380: 0.197009 (43%)
+Step 15390: 0.197522 (43%)
+Step 15400: 0.176263 (44%)
+Step 15410: 0.210914 (44%)
+Step 15420: 0.165913 (44%)
+Step 15430: 0.202024 (44%)
+Step 15440: 0.192291 (44%)
+Step 15450: 0.189292 (44%)
+Step 15460: 0.190539 (44%)
+Step 15470: 0.204009 (44%)
+Step 15480: 0.121473 (44%)
+Step 15490: 0.170304 (44%)
+Step 15500: 0.134193 (44%)
+Step 15510: 0.170016 (44%)
+Step 15520: 0.178382 (44%)
+Step 15530: 0.141804 (44%)
+Step 15540: 0.191874 (44%)
+Step 15550: 0.136672 (44%)
+Step 15560: 0.190646 (44%)
+Step 15570: 0.184355 (44%)
+Step 15580: 0.150306 (44%)
+Step 15590: 0.223859 (44%)
+Step 15600: 0.193143 (44%)
+Step 15610: 0.165992 (44%)
+Step 15620: 0.0803508 (44%)
+Step 15630: 0.0752556 (44%)
+Step 15640: 0.167014 (44%)
+Step 15650: 0.143208 (44%)
+Step 15660: 0.199448 (44%)
+Step 15670: 0.160922 (44%)
+Step 15680: 0.176712 (44%)
+Step 15690: 0.161789 (44%)
+Step 15700: 0.193208 (44%)
+Step 15710: 0.176915 (44%)
+Step 15720: 0.17049 (44%)
+Step 15730: 0.233987 (44%)
+Step 15740: 0.186753 (44%)
+Step 15750: 0.187611 (45%)
+Step 15760: 0.198341 (45%)
+Step 15770: 0.186602 (45%)
+Step 15780: 0.163982 (45%)
+Step 15790: 0.235666 (45%)
+Step 15800: 0.16951 (45%)
+Added 64156 gaussians, new count 1329818
+Culled 59358 gaussians, remaining 1270460
+Step 15810: 0.167509 (45%)
+Step 15820: 0.242568 (45%)
+Step 15830: 0.19235 (45%)
+Step 15840: 0.137536 (45%)
+Step 15850: 0.176945 (45%)
+Step 15860: 0.188211 (45%)
+Step 15870: 0.178322 (45%)
+Step 15880: 0.194722 (45%)
+Step 15890: 0.207585 (45%)
+Step 15900: 0.176718 (45%)
+Added 77609 gaussians, new count 1348069
+Culled 145740 gaussians, remaining 1202329
+Step 15910: 0.164386 (45%)
+Step 15920: 0.231834 (45%)
+Step 15930: 0.162392 (45%)
+Step 15940: 0.20535 (45%)
+Step 15950: 0.199788 (45%)
+Step 15960: 0.242218 (45%)
+Step 15970: 0.197397 (45%)
+Step 15980: 0.177837 (45%)
+Step 15990: 0.200817 (45%)
+Step 16000: 0.22614 (45%)
+Added 74245 gaussians, new count 1276574
+Culled 104647 gaussians, remaining 1171927
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_16000.ply
+Step 16010: 0.163353 (45%)
+Step 16020: 0.193145 (45%)
+Step 16030: 0.145863 (45%)
+Step 16040: 0.179678 (45%)
+Step 16050: 0.186822 (45%)
+Step 16060: 0.184618 (45%)
+Step 16070: 0.181063 (45%)
+Step 16080: 0.183219 (45%)
+Step 16090: 0.22245 (45%)
+Step 16100: 0.227006 (46%)
+Added 78024 gaussians, new count 1249951
+Culled 88516 gaussians, remaining 1161435
+Step 16110: 0.165376 (46%)
+Step 16120: 0.21909 (46%)
+Step 16130: 0.203427 (46%)
+Step 16140: 0.199222 (46%)
+Step 16150: 0.209177 (46%)
+Step 16160: 0.297643 (46%)
+Step 16170: 0.168148 (46%)
+Step 16180: 0.174837 (46%)
+Step 16190: 0.0830994 (46%)
+Step 16200: 0.15775 (46%)
+Added 74027 gaussians, new count 1235462
+Culled 64433 gaussians, remaining 1171029
+Step 16210: 0.193127 (46%)
+Step 16220: 0.192217 (46%)
+Step 16230: 0.185448 (46%)
+Step 16240: 0.190486 (46%)
+Step 16250: 0.147092 (46%)
+Step 16260: 0.197312 (46%)
+Step 16270: 0.184183 (46%)
+Step 16280: 0.190209 (46%)
+Step 16290: 0.2078 (46%)
+Step 16300: 0.140977 (46%)
+Added 80998 gaussians, new count 1252027
+Culled 65000 gaussians, remaining 1187027
+Step 16310: 0.314176 (46%)
+Step 16320: 0.196354 (46%)
+Step 16330: 0.267643 (46%)
+Step 16340: 0.262885 (46%)
+Step 16350: 0.173584 (46%)
+Step 16360: 0.167183 (46%)
+Step 16370: 0.196 (46%)
+Step 16380: 0.190007 (46%)
+Step 16390: 0.207367 (46%)
+Step 16400: 0.188928 (46%)
+Added 69343 gaussians, new count 1256370
+Culled 57738 gaussians, remaining 1198632
+Step 16410: 0.19619 (46%)
+Step 16420: 0.210294 (46%)
+Step 16430: 0.2374 (46%)
+Step 16440: 0.224825 (46%)
+Step 16450: 0.20866 (47%)
+Step 16460: 0.181617 (47%)
+Step 16470: 0.162909 (47%)
+Step 16480: 0.202059 (47%)
+Step 16490: 0.194356 (47%)
+Step 16500: 0.175715 (47%)
+Added 80478 gaussians, new count 1279110
+Culled 62388 gaussians, remaining 1216722
+Step 16510: 0.160146 (47%)
+Step 16520: 0.191761 (47%)
+Step 16530: 0.214847 (47%)
+Step 16540: 0.190124 (47%)
+Step 16550: 0.219849 (47%)
+Step 16560: 0.214769 (47%)
+Step 16570: 0.147885 (47%)
+Step 16580: 0.19191 (47%)
+Step 16590: 0.179965 (47%)
+Step 16600: 0.238617 (47%)
+Added 82214 gaussians, new count 1298936
+Culled 61458 gaussians, remaining 1237478
+Step 16610: 0.180652 (47%)
+Step 16620: 0.17789 (47%)
+Step 16630: 0.201133 (47%)
+Step 16640: 0.176771 (47%)
+Step 16650: 0.235434 (47%)
+Step 16660: 0.211258 (47%)
+Step 16670: 0.0833682 (47%)
+Step 16680: 0.207202 (47%)
+Step 16690: 0.136839 (47%)
+Step 16700: 0.188981 (47%)
+Added 78208 gaussians, new count 1315686
+Culled 57994 gaussians, remaining 1257692
+Step 16710: 0.212644 (47%)
+Step 16720: 0.150759 (47%)
+Step 16730: 0.209069 (47%)
+Step 16740: 0.161261 (47%)
+Step 16750: 0.19538 (47%)
+Step 16760: 0.185902 (47%)
+Step 16770: 0.20361 (47%)
+Step 16780: 0.193009 (47%)
+Step 16790: 0.206464 (47%)
+Step 16800: 0.190918 (48%)
+Added 81422 gaussians, new count 1339114
+Culled 60421 gaussians, remaining 1278693
+Step 16810: 0.20682 (48%)
+Step 16820: 0.131161 (48%)
+Step 16830: 0.136067 (48%)
+Step 16840: 0.111165 (48%)
+Step 16850: 0.114567 (48%)
+Step 16860: 0.286592 (48%)
+Step 16870: 0.23298 (48%)
+Step 16880: 0.185536 (48%)
+Step 16890: 0.170364 (48%)
+Step 16900: 0.243031 (48%)
+Added 64136 gaussians, new count 1342829
+Culled 45244 gaussians, remaining 1297585
+Step 16910: 0.195602 (48%)
+Step 16920: 0.257264 (48%)
+Step 16930: 0.173804 (48%)
+Step 16940: 0.175274 (48%)
+Step 16950: 0.200274 (48%)
+Step 16960: 0.190555 (48%)
+Step 16970: 0.196207 (48%)
+Step 16980: 0.198033 (48%)
+Step 16990: 0.163727 (48%)
+Step 17000: 0.211718 (48%)
+Added 73680 gaussians, new count 1371265
+Culled 49552 gaussians, remaining 1321713
+Step 17010: 0.160546 (48%)
+Step 17020: 0.174226 (48%)
+Step 17030: 0.190568 (48%)
+Step 17040: 0.176123 (48%)
+Step 17050: 0.22934 (48%)
+Step 17060: 0.219831 (48%)
+Step 17070: 0.221144 (48%)
+Step 17080: 0.207562 (48%)
+Step 17090: 0.190668 (48%)
+Step 17100: 0.170917 (48%)
+Added 72092 gaussians, new count 1393805
+Culled 45985 gaussians, remaining 1347820
+Step 17110: 0.209591 (48%)
+Step 17120: 0.271743 (48%)
+Step 17130: 0.193142 (48%)
+Step 17140: 0.088622 (48%)
+Step 17150: 0.223384 (49%)
+Step 17160: 0.234892 (49%)
+Step 17170: 0.198051 (49%)
+Step 17180: 0.201053 (49%)
+Step 17190: 0.186578 (49%)
+Step 17200: 0.166882 (49%)
+Added 70360 gaussians, new count 1418180
+Culled 49228 gaussians, remaining 1368952
+Step 17210: 0.226391 (49%)
+Step 17220: 0.200412 (49%)
+Step 17230: 0.231495 (49%)
+Step 17240: 0.168345 (49%)
+Step 17250: 0.340285 (49%)
+Step 17260: 0.153952 (49%)
+Step 17270: 0.206828 (49%)
+Step 17280: 0.208464 (49%)
+Step 17290: 0.0831798 (49%)
+Step 17300: 0.268163 (49%)
+Added 74940 gaussians, new count 1443892
+Culled 53686 gaussians, remaining 1390206
+Step 17310: 0.197148 (49%)
+Step 17320: 0.180764 (49%)
+Step 17330: 0.194232 (49%)
+Step 17340: 0.0985908 (49%)
+Step 17350: 0.195143 (49%)
+Step 17360: 0.189332 (49%)
+Step 17370: 0.19709 (49%)
+Step 17380: 0.144371 (49%)
+Step 17390: 0.199221 (49%)
+Step 17400: 0.222142 (49%)
+Added 77088 gaussians, new count 1467294
+Culled 53921 gaussians, remaining 1413373
+Step 17410: 0.106835 (49%)
+Step 17420: 0.233943 (49%)
+Step 17430: 0.100738 (49%)
+Step 17440: 0.09067 (49%)
+Step 17450: 0.178875 (49%)
+Step 17460: 0.218611 (49%)
+Step 17470: 0.209526 (49%)
+Step 17480: 0.189837 (49%)
+Step 17490: 0.239393 (49%)
+Step 17500: 0.241161 (50%)
+Step 17510: 0.203586 (50%)
+Step 17520: 0.171609 (50%)
+Step 17530: 0.218088 (50%)
+Step 17540: 0.194169 (50%)
+Step 17550: 0.209287 (50%)
+Step 17560: 0.147656 (50%)
+Step 17570: 0.202837 (50%)
+Step 17580: 0.211974 (50%)
+Step 17590: 0.207337 (50%)
+Step 17600: 0.184957 (50%)
+Step 17610: 0.236928 (50%)
+Step 17620: 0.184998 (50%)
+Step 17630: 0.205939 (50%)
+Step 17640: 0.200782 (50%)
+Step 17650: 0.217611 (50%)
+Step 17660: 0.205587 (50%)
+Step 17670: 0.190829 (50%)
+Step 17680: 0.206319 (50%)
+Step 17690: 0.221973 (50%)
+Step 17700: 0.151379 (50%)
+Step 17710: 0.138607 (50%)
+Step 17720: 0.244262 (50%)
+Step 17730: 0.255526 (50%)
+Step 17740: 0.178708 (50%)
+Step 17750: 0.197515 (50%)
+Step 17760: 0.210914 (50%)
+Step 17770: 0.188628 (50%)
+Step 17780: 0.164584 (50%)
+Step 17790: 0.185674 (50%)
+Step 17800: 0.158881 (50%)
+Step 17810: 0.231728 (50%)
+Step 17820: 0.209942 (50%)
+Step 17830: 0.101622 (50%)
+Step 17840: 0.20768 (50%)
+Step 17850: 0.263886 (51%)
+Step 17860: 0.200915 (51%)
+Step 17870: 0.168612 (51%)
+Step 17880: 0.178456 (51%)
+Step 17890: 0.160168 (51%)
+Step 17900: 0.165904 (51%)
+Step 17910: 0.172633 (51%)
+Step 17920: 0.175473 (51%)
+Step 17930: 0.155149 (51%)
+Step 17940: 0.195481 (51%)
+Step 17950: 0.21435 (51%)
+Step 17960: 0.14293 (51%)
+Step 17970: 0.154362 (51%)
+Step 17980: 0.294974 (51%)
+Step 17990: 0.244597 (51%)
+Step 18000: 0.179164 (51%)
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_18000.ply
+Step 18010: 0.211007 (51%)
+Step 18020: 0.214231 (51%)
+Step 18030: 0.0922696 (51%)
+Step 18040: 0.19582 (51%)
+Step 18050: 0.216695 (51%)
+Step 18060: 0.14167 (51%)
+Step 18070: 0.166918 (51%)
+Step 18080: 0.169598 (51%)
+Step 18090: 0.20473 (51%)
+Step 18100: 0.154474 (51%)
+Step 18110: 0.203271 (51%)
+Step 18120: 0.174028 (51%)
+Step 18130: 0.181971 (51%)
+Step 18140: 0.150845 (51%)
+Step 18150: 0.155194 (51%)
+Step 18160: 0.151379 (51%)
+Step 18170: 0.0809475 (51%)
+Step 18180: 0.154349 (51%)
+Step 18190: 0.126907 (51%)
+Step 18200: 0.1926 (52%)
+Step 18210: 0.284907 (52%)
+Step 18220: 0.184474 (52%)
+Step 18230: 0.203806 (52%)
+Step 18240: 0.186247 (52%)
+Step 18250: 0.187215 (52%)
+Step 18260: 0.0876454 (52%)
+Step 18270: 0.117937 (52%)
+Step 18280: 0.171972 (52%)
+Step 18290: 0.141068 (52%)
+Step 18300: 0.224439 (52%)
+Step 18310: 0.257031 (52%)
+Step 18320: 0.154511 (52%)
+Step 18330: 0.167389 (52%)
+Step 18340: 0.12332 (52%)
+Step 18350: 0.180234 (52%)
+Step 18360: 0.198338 (52%)
+Step 18370: 0.174357 (52%)
+Step 18380: 0.0662354 (52%)
+Step 18390: 0.203886 (52%)
+Step 18400: 0.167411 (52%)
+Step 18410: 0.160388 (52%)
+Step 18420: 0.186101 (52%)
+Step 18430: 0.141891 (52%)
+Step 18440: 0.188265 (52%)
+Step 18450: 0.222061 (52%)
+Step 18460: 0.276765 (52%)
+Step 18470: 0.233081 (52%)
+Step 18480: 0.157818 (52%)
+Step 18490: 0.180156 (52%)
+Step 18500: 0.233219 (52%)
+Step 18510: 0.0775726 (52%)
+Step 18520: 0.158216 (52%)
+Step 18530: 0.182095 (52%)
+Step 18540: 0.183128 (52%)
+Step 18550: 0.17387 (52%)
+Step 18560: 0.174434 (53%)
+Step 18570: 0.156188 (53%)
+Step 18580: 0.147081 (53%)
+Step 18590: 0.201422 (53%)
+Step 18600: 0.167048 (53%)
+Step 18610: 0.206336 (53%)
+Step 18620: 0.19503 (53%)
+Step 18630: 0.172176 (53%)
+Step 18640: 0.156584 (53%)
+Step 18650: 0.187488 (53%)
+Step 18660: 0.123979 (53%)
+Step 18670: 0.180744 (53%)
+Step 18680: 0.1807 (53%)
+Step 18690: 0.139722 (53%)
+Step 18700: 0.221131 (53%)
+Step 18710: 0.190168 (53%)
+Step 18720: 0.187758 (53%)
+Step 18730: 0.248793 (53%)
+Step 18740: 0.191267 (53%)
+Step 18750: 0.208485 (53%)
+Step 18760: 0.187749 (53%)
+Step 18770: 0.145313 (53%)
+Step 18780: 0.169045 (53%)
+Step 18790: 0.180318 (53%)
+Step 18800: 0.167892 (53%)
+Step 18810: 0.175957 (53%)
+Step 18820: 0.146481 (53%)
+Step 18830: 0.149214 (53%)
+Step 18840: 0.146723 (53%)
+Step 18850: 0.141317 (53%)
+Step 18860: 0.165617 (53%)
+Step 18870: 0.172156 (53%)
+Step 18880: 0.169638 (53%)
+Step 18890: 0.191935 (53%)
+Step 18900: 0.176902 (54%)
+Step 18910: 0.16725 (54%)
+Step 18920: 0.134081 (54%)
+Step 18930: 0.196086 (54%)
+Step 18940: 0.191449 (54%)
+Step 18950: 0.150605 (54%)
+Step 18960: 0.210322 (54%)
+Step 18970: 0.158994 (54%)
+Step 18980: 0.233406 (54%)
+Step 18990: 0.230539 (54%)
+Step 19000: 0.153146 (54%)
+Step 19010: 0.247628 (54%)
+Step 19020: 0.171251 (54%)
+Step 19030: 0.146668 (54%)
+Step 19040: 0.176466 (54%)
+Step 19050: 0.17472 (54%)
+Step 19060: 0.143977 (54%)
+Step 19070: 0.157112 (54%)
+Step 19080: 0.185328 (54%)
+Step 19090: 0.147643 (54%)
+Step 19100: 0.191315 (54%)
+Step 19110: 0.15324 (54%)
+Step 19120: 0.231892 (54%)
+Step 19130: 0.144997 (54%)
+Step 19140: 0.115233 (54%)
+Step 19150: 0.163591 (54%)
+Step 19160: 0.163741 (54%)
+Step 19170: 0.154188 (54%)
+Step 19180: 0.16967 (54%)
+Step 19190: 0.0636161 (54%)
+Step 19200: 0.164764 (54%)
+Step 19210: 0.150936 (54%)
+Step 19220: 0.0589117 (54%)
+Step 19230: 0.239003 (54%)
+Step 19240: 0.196159 (54%)
+Step 19250: 0.191785 (55%)
+Step 19260: 0.215041 (55%)
+Step 19270: 0.165236 (55%)
+Step 19280: 0.196939 (55%)
+Step 19290: 0.195502 (55%)
+Step 19300: 0.0626252 (55%)
+Step 19310: 0.147305 (55%)
+Step 19320: 0.221284 (55%)
+Step 19330: 0.160135 (55%)
+Step 19340: 0.108489 (55%)
+Step 19350: 0.097915 (55%)
+Step 19360: 0.16342 (55%)
+Step 19370: 0.165848 (55%)
+Step 19380: 0.210971 (55%)
+Step 19390: 0.17931 (55%)
+Step 19400: 0.211636 (55%)
+Step 19410: 0.234836 (55%)
+Step 19420: 0.0738652 (55%)
+Step 19430: 0.185086 (55%)
+Step 19440: 0.0698249 (55%)
+Step 19450: 0.223302 (55%)
+Step 19460: 0.162836 (55%)
+Step 19470: 0.227903 (55%)
+Step 19480: 0.086464 (55%)
+Step 19490: 0.136309 (55%)
+Step 19500: 0.108653 (55%)
+Step 19510: 0.227064 (55%)
+Step 19520: 0.135672 (55%)
+Step 19530: 0.146926 (55%)
+Step 19540: 0.197627 (55%)
+Step 19550: 0.130206 (55%)
+Step 19560: 0.184607 (55%)
+Step 19570: 0.20389 (55%)
+Step 19580: 0.175586 (55%)
+Step 19590: 0.0616889 (55%)
+Step 19600: 0.186953 (56%)
+Step 19610: 0.184173 (56%)
+Step 19620: 0.116508 (56%)
+Step 19630: 0.139061 (56%)
+Step 19640: 0.173568 (56%)
+Step 19650: 0.10688 (56%)
+Step 19660: 0.167977 (56%)
+Step 19670: 0.151037 (56%)
+Step 19680: 0.150522 (56%)
+Step 19690: 0.153675 (56%)
+Step 19700: 0.0860258 (56%)
+Step 19710: 0.17899 (56%)
+Step 19720: 0.19794 (56%)
+Step 19730: 0.140336 (56%)
+Step 19740: 0.154844 (56%)
+Step 19750: 0.183994 (56%)
+Step 19760: 0.159393 (56%)
+Step 19770: 0.165106 (56%)
+Step 19780: 0.24615 (56%)
+Step 19790: 0.115045 (56%)
+Step 19800: 0.167657 (56%)
+Step 19810: 0.158647 (56%)
+Step 19820: 0.140498 (56%)
+Step 19830: 0.135902 (56%)
+Step 19840: 0.173278 (56%)
+Step 19850: 0.109991 (56%)
+Step 19860: 0.126215 (56%)
+Step 19870: 0.173307 (56%)
+Step 19880: 0.195479 (56%)
+Step 19890: 0.141328 (56%)
+Step 19900: 0.147346 (56%)
+Step 19910: 0.142072 (56%)
+Step 19920: 0.142828 (56%)
+Step 19930: 0.141966 (56%)
+Step 19940: 0.0648278 (56%)
+Step 19950: 0.271961 (57%)
+Step 19960: 0.180468 (57%)
+Step 19970: 0.189854 (57%)
+Step 19980: 0.0640562 (57%)
+Step 19990: 0.160719 (57%)
+Step 20000: 0.156055 (57%)
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_20000.ply
+Step 20010: 0.156853 (57%)
+Step 20020: 0.153762 (57%)
+Step 20030: 0.257622 (57%)
+Step 20040: 0.150931 (57%)
+Step 20050: 0.170333 (57%)
+Step 20060: 0.110781 (57%)
+Step 20070: 0.158736 (57%)
+Step 20080: 0.169625 (57%)
+Step 20090: 0.136149 (57%)
+Step 20100: 0.197428 (57%)
+Step 20110: 0.195579 (57%)
+Step 20120: 0.141671 (57%)
+Step 20130: 0.16494 (57%)
+Step 20140: 0.149139 (57%)
+Step 20150: 0.184299 (57%)
+Step 20160: 0.158115 (57%)
+Step 20170: 0.345008 (57%)
+Step 20180: 0.152184 (57%)
+Step 20190: 0.139579 (57%)
+Step 20200: 0.142794 (57%)
+Step 20210: 0.156723 (57%)
+Step 20220: 0.136887 (57%)
+Step 20230: 0.136845 (57%)
+Step 20240: 0.136582 (57%)
+Step 20250: 0.10188 (57%)
+Step 20260: 0.127704 (57%)
+Step 20270: 0.192099 (57%)
+Step 20280: 0.137595 (57%)
+Step 20290: 0.17901 (57%)
+Step 20300: 0.130856 (58%)
+Step 20310: 0.172813 (58%)
+Step 20320: 0.151014 (58%)
+Step 20330: 0.137807 (58%)
+Step 20340: 0.143871 (58%)
+Step 20350: 0.14496 (58%)
+Step 20360: 0.185502 (58%)
+Step 20370: 0.147063 (58%)
+Step 20380: 0.224175 (58%)
+Step 20390: 0.197981 (58%)
+Step 20400: 0.160086 (58%)
+Step 20410: 0.0629544 (58%)
+Step 20420: 0.196802 (58%)
+Step 20430: 0.180045 (58%)
+Step 20440: 0.162715 (58%)
+Step 20450: 0.0564841 (58%)
+Step 20460: 0.15174 (58%)
+Step 20470: 0.138631 (58%)
+Step 20480: 0.191313 (58%)
+Step 20490: 0.160259 (58%)
+Step 20500: 0.0667201 (58%)
+Step 20510: 0.12905 (58%)
+Step 20520: 0.181134 (58%)
+Step 20530: 0.158771 (58%)
+Step 20540: 0.0688699 (58%)
+Step 20550: 0.186853 (58%)
+Step 20560: 0.19055 (58%)
+Step 20570: 0.141882 (58%)
+Step 20580: 0.130772 (58%)
+Step 20590: 0.121756 (58%)
+Step 20600: 0.209705 (58%)
+Step 20610: 0.138772 (58%)
+Step 20620: 0.159878 (58%)
+Step 20630: 0.152511 (58%)
+Step 20640: 0.185006 (58%)
+Step 20650: 0.148848 (58%)
+Step 20660: 0.150082 (59%)
+Step 20670: 0.142886 (59%)
+Step 20680: 0.259447 (59%)
+Step 20690: 0.231016 (59%)
+Step 20700: 0.135648 (59%)
+Step 20710: 0.167593 (59%)
+Step 20720: 0.167462 (59%)
+Step 20730: 0.157204 (59%)
+Step 20740: 0.193519 (59%)
+Step 20750: 0.0585737 (59%)
+Step 20760: 0.184025 (59%)
+Step 20770: 0.155721 (59%)
+Step 20780: 0.169327 (59%)
+Step 20790: 0.153493 (59%)
+Step 20800: 0.170831 (59%)
+Step 20810: 0.224457 (59%)
+Step 20820: 0.142054 (59%)
+Step 20830: 0.159631 (59%)
+Step 20840: 0.156574 (59%)
+Step 20850: 0.149445 (59%)
+Step 20860: 0.178841 (59%)
+Step 20870: 0.17714 (59%)
+Step 20880: 0.139215 (59%)
+Step 20890: 0.17353 (59%)
+Step 20900: 0.270092 (59%)
+Step 20910: 0.153228 (59%)
+Step 20920: 0.13952 (59%)
+Step 20930: 0.175781 (59%)
+Step 20940: 0.171839 (59%)
+Step 20950: 0.151322 (59%)
+Step 20960: 0.171055 (59%)
+Step 20970: 0.153153 (59%)
+Step 20980: 0.1443 (59%)
+Step 20990: 0.170214 (59%)
+Step 21000: 0.143579 (60%)
+Step 21010: 0.146546 (60%)
+Step 21020: 0.141969 (60%)
+Step 21030: 0.143125 (60%)
+Step 21040: 0.0626186 (60%)
+Step 21050: 0.169791 (60%)
+Step 21060: 0.133934 (60%)
+Step 21070: 0.151047 (60%)
+Step 21080: 0.176941 (60%)
+Step 21090: 0.157818 (60%)
+Step 21100: 0.16701 (60%)
+Step 21110: 0.137172 (60%)
+Step 21120: 0.190638 (60%)
+Step 21130: 0.137934 (60%)
+Step 21140: 0.189964 (60%)
+Step 21150: 0.144807 (60%)
+Step 21160: 0.110051 (60%)
+Step 21170: 0.175176 (60%)
+Step 21180: 0.151553 (60%)
+Step 21190: 0.159624 (60%)
+Step 21200: 0.145014 (60%)
+Step 21210: 0.145588 (60%)
+Step 21220: 0.142273 (60%)
+Step 21230: 0.171116 (60%)
+Step 21240: 0.1508 (60%)
+Step 21250: 0.14569 (60%)
+Step 21260: 0.132799 (60%)
+Step 21270: 0.18684 (60%)
+Step 21280: 0.135222 (60%)
+Step 21290: 0.146324 (60%)
+Step 21300: 0.132274 (60%)
+Step 21310: 0.201564 (60%)
+Step 21320: 0.144284 (60%)
+Step 21330: 0.129232 (60%)
+Step 21340: 0.179354 (60%)
+Step 21350: 0.146885 (61%)
+Step 21360: 0.155581 (61%)
+Step 21370: 0.174156 (61%)
+Step 21380: 0.188075 (61%)
+Step 21390: 0.222712 (61%)
+Step 21400: 0.152024 (61%)
+Step 21410: 0.145933 (61%)
+Step 21420: 0.157517 (61%)
+Step 21430: 0.111892 (61%)
+Step 21440: 0.196262 (61%)
+Step 21450: 0.140145 (61%)
+Step 21460: 0.181585 (61%)
+Step 21470: 0.13441 (61%)
+Step 21480: 0.142714 (61%)
+Step 21490: 0.173998 (61%)
+Step 21500: 0.120487 (61%)
+Step 21510: 0.153215 (61%)
+Step 21520: 0.163699 (61%)
+Step 21530: 0.149479 (61%)
+Step 21540: 0.172373 (61%)
+Step 21550: 0.143903 (61%)
+Step 21560: 0.141416 (61%)
+Step 21570: 0.126666 (61%)
+Step 21580: 0.143534 (61%)
+Step 21590: 0.105307 (61%)
+Step 21600: 0.190303 (61%)
+Step 21610: 0.145908 (61%)
+Step 21620: 0.125771 (61%)
+Step 21630: 0.152382 (61%)
+Step 21640: 0.190639 (61%)
+Step 21650: 0.161917 (61%)
+Step 21660: 0.137994 (61%)
+Step 21670: 0.162141 (61%)
+Step 21680: 0.117802 (61%)
+Step 21690: 0.161961 (61%)
+Step 21700: 0.211851 (62%)
+Step 21710: 0.0956478 (62%)
+Step 21720: 0.143527 (62%)
+Step 21730: 0.136969 (62%)
+Step 21740: 0.135029 (62%)
+Step 21750: 0.151903 (62%)
+Step 21760: 0.132945 (62%)
+Step 21770: 0.0572004 (62%)
+Step 21780: 0.163534 (62%)
+Step 21790: 0.155119 (62%)
+Step 21800: 0.174931 (62%)
+Step 21810: 0.143449 (62%)
+Step 21820: 0.196859 (62%)
+Step 21830: 0.265756 (62%)
+Step 21840: 0.135596 (62%)
+Step 21850: 0.0626463 (62%)
+Step 21860: 0.160445 (62%)
+Step 21870: 0.143977 (62%)
+Step 21880: 0.166169 (62%)
+Step 21890: 0.135136 (62%)
+Step 21900: 0.153477 (62%)
+Step 21910: 0.35364 (62%)
+Step 21920: 0.141416 (62%)
+Step 21930: 0.143677 (62%)
+Step 21940: 0.144623 (62%)
+Step 21950: 0.194283 (62%)
+Step 21960: 0.132256 (62%)
+Step 21970: 0.0833845 (62%)
+Step 21980: 0.244949 (62%)
+Step 21990: 0.0764621 (62%)
+Step 22000: 0.146156 (62%)
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_22000.ply
+Step 22010: 0.162947 (62%)
+Step 22020: 0.167125 (62%)
+Step 22030: 0.189695 (62%)
+Step 22040: 0.135721 (62%)
+Step 22050: 0.173575 (63%)
+Step 22060: 0.218589 (63%)
+Step 22070: 0.136437 (63%)
+Step 22080: 0.196986 (63%)
+Step 22090: 0.150875 (63%)
+Step 22100: 0.143341 (63%)
+Step 22110: 0.150312 (63%)
+Step 22120: 0.10753 (63%)
+Step 22130: 0.273209 (63%)
+Step 22140: 0.18761 (63%)
+Step 22150: 0.126829 (63%)
+Step 22160: 0.162555 (63%)
+Step 22170: 0.124834 (63%)
+Step 22180: 0.127421 (63%)
+Step 22190: 0.122109 (63%)
+Step 22200: 0.186944 (63%)
+Step 22210: 0.1501 (63%)
+Step 22220: 0.133431 (63%)
+Step 22230: 0.129147 (63%)
+Step 22240: 0.170229 (63%)
+Step 22250: 0.159444 (63%)
+Step 22260: 0.119073 (63%)
+Step 22270: 0.142678 (63%)
+Step 22280: 0.134147 (63%)
+Step 22290: 0.162001 (63%)
+Step 22300: 0.178662 (63%)
+Step 22310: 0.123651 (63%)
+Step 22320: 0.0603833 (63%)
+Step 22330: 0.138846 (63%)
+Step 22340: 0.150881 (63%)
+Step 22350: 0.0568544 (63%)
+Step 22360: 0.192222 (63%)
+Step 22370: 0.192981 (63%)
+Step 22380: 0.161972 (63%)
+Step 22390: 0.177493 (63%)
+Step 22400: 0.131368 (64%)
+Step 22410: 0.128958 (64%)
+Step 22420: 0.205484 (64%)
+Step 22430: 0.160718 (64%)
+Step 22440: 0.14476 (64%)
+Step 22450: 0.159066 (64%)
+Step 22460: 0.155879 (64%)
+Step 22470: 0.151592 (64%)
+Step 22480: 0.161802 (64%)
+Step 22490: 0.131628 (64%)
+Step 22500: 0.174595 (64%)
+Step 22510: 0.172248 (64%)
+Step 22520: 0.137187 (64%)
+Step 22530: 0.142003 (64%)
+Step 22540: 0.147007 (64%)
+Step 22550: 0.0611253 (64%)
+Step 22560: 0.156314 (64%)
+Step 22570: 0.188166 (64%)
+Step 22580: 0.185939 (64%)
+Step 22590: 0.123659 (64%)
+Step 22600: 0.108128 (64%)
+Step 22610: 0.156976 (64%)
+Step 22620: 0.137625 (64%)
+Step 22630: 0.153753 (64%)
+Step 22640: 0.15988 (64%)
+Step 22650: 0.142497 (64%)
+Step 22660: 0.145393 (64%)
+Step 22670: 0.191312 (64%)
+Step 22680: 0.145679 (64%)
+Step 22690: 0.180444 (64%)
+Step 22700: 0.163945 (64%)
+Step 22710: 0.159208 (64%)
+Step 22720: 0.149908 (64%)
+Step 22730: 0.168778 (64%)
+Step 22740: 0.17401 (64%)
+Step 22750: 0.140822 (65%)
+Step 22760: 0.155708 (65%)
+Step 22770: 0.148191 (65%)
+Step 22780: 0.175966 (65%)
+Step 22790: 0.136339 (65%)
+Step 22800: 0.0601165 (65%)
+Step 22810: 0.165873 (65%)
+Step 22820: 0.176009 (65%)
+Step 22830: 0.164088 (65%)
+Step 22840: 0.134037 (65%)
+Step 22850: 0.0566384 (65%)
+Step 22860: 0.0603169 (65%)
+Step 22870: 0.144647 (65%)
+Step 22880: 0.158052 (65%)
+Step 22890: 0.213445 (65%)
+Step 22900: 0.139473 (65%)
+Step 22910: 0.148147 (65%)
+Step 22920: 0.184277 (65%)
+Step 22930: 0.135745 (65%)
+Step 22940: 0.134835 (65%)
+Step 22950: 0.227929 (65%)
+Step 22960: 0.153331 (65%)
+Step 22970: 0.16543 (65%)
+Step 22980: 0.143615 (65%)
+Step 22990: 0.125414 (65%)
+Step 23000: 0.157025 (65%)
+Step 23010: 0.093163 (65%)
+Step 23020: 0.13947 (65%)
+Step 23030: 0.14514 (65%)
+Step 23040: 0.15983 (65%)
+Step 23050: 0.175845 (65%)
+Step 23060: 0.172215 (65%)
+Step 23070: 0.144985 (65%)
+Step 23080: 0.0604161 (65%)
+Step 23090: 0.173317 (65%)
+Step 23100: 0.137228 (66%)
+Step 23110: 0.125251 (66%)
+Step 23120: 0.152656 (66%)
+Step 23130: 0.172716 (66%)
+Step 23140: 0.138796 (66%)
+Step 23150: 0.20851 (66%)
+Step 23160: 0.142106 (66%)
+Step 23170: 0.138929 (66%)
+Step 23180: 0.134169 (66%)
+Step 23190: 0.139549 (66%)
+Step 23200: 0.119567 (66%)
+Step 23210: 0.159067 (66%)
+Step 23220: 0.135731 (66%)
+Step 23230: 0.150733 (66%)
+Step 23240: 0.137244 (66%)
+Step 23250: 0.131759 (66%)
+Step 23260: 0.156927 (66%)
+Step 23270: 0.17829 (66%)
+Step 23280: 0.129375 (66%)
+Step 23290: 0.130695 (66%)
+Step 23300: 0.167329 (66%)
+Step 23310: 0.132949 (66%)
+Step 23320: 0.146876 (66%)
+Step 23330: 0.183456 (66%)
+Step 23340: 0.151134 (66%)
+Step 23350: 0.195749 (66%)
+Step 23360: 0.153957 (66%)
+Step 23370: 0.0574924 (66%)
+Step 23380: 0.14395 (66%)
+Step 23390: 0.140611 (66%)
+Step 23400: 0.138421 (66%)
+Step 23410: 0.135249 (66%)
+Step 23420: 0.157522 (66%)
+Step 23430: 0.0822157 (66%)
+Step 23440: 0.148871 (66%)
+Step 23450: 0.140333 (67%)
+Step 23460: 0.183564 (67%)
+Step 23470: 0.0623126 (67%)
+Step 23480: 0.127115 (67%)
+Step 23490: 0.135186 (67%)
+Step 23500: 0.174357 (67%)
+Step 23510: 0.184368 (67%)
+Step 23520: 0.192448 (67%)
+Step 23530: 0.140095 (67%)
+Step 23540: 0.169982 (67%)
+Step 23550: 0.121347 (67%)
+Step 23560: 0.0911535 (67%)
+Step 23570: 0.160041 (67%)
+Step 23580: 0.200047 (67%)
+Step 23590: 0.13072 (67%)
+Step 23600: 0.142797 (67%)
+Step 23610: 0.145959 (67%)
+Step 23620: 0.0991566 (67%)
+Step 23630: 0.164106 (67%)
+Step 23640: 0.159005 (67%)
+Step 23650: 0.196353 (67%)
+Step 23660: 0.14018 (67%)
+Step 23670: 0.152804 (67%)
+Step 23680: 0.10178 (67%)
+Step 23690: 0.118895 (67%)
+Step 23700: 0.199113 (67%)
+Step 23710: 0.205498 (67%)
+Step 23720: 0.152301 (67%)
+Step 23730: 0.176022 (67%)
+Step 23740: 0.147912 (67%)
+Step 23750: 0.143433 (67%)
+Step 23760: 0.163764 (67%)
+Step 23770: 0.145789 (67%)
+Step 23780: 0.125309 (67%)
+Step 23790: 0.135018 (67%)
+Step 23800: 0.141401 (68%)
+Step 23810: 0.144651 (68%)
+Step 23820: 0.19326 (68%)
+Step 23830: 0.0564456 (68%)
+Step 23840: 0.127603 (68%)
+Step 23850: 0.133644 (68%)
+Step 23860: 0.145362 (68%)
+Step 23870: 0.123557 (68%)
+Step 23880: 0.133708 (68%)
+Step 23890: 0.18408 (68%)
+Step 23900: 0.0520153 (68%)
+Step 23910: 0.0542752 (68%)
+Step 23920: 0.154693 (68%)
+Step 23930: 0.12476 (68%)
+Step 23940: 0.142017 (68%)
+Step 23950: 0.149203 (68%)
+Step 23960: 0.146719 (68%)
+Step 23970: 0.135421 (68%)
+Step 23980: 0.134615 (68%)
+Step 23990: 0.150424 (68%)
+Step 24000: 0.141294 (68%)
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_24000.ply
+Step 24010: 0.0910152 (68%)
+Step 24020: 0.106456 (68%)
+Step 24030: 0.14137 (68%)
+Step 24040: 0.0534325 (68%)
+Step 24050: 0.135113 (68%)
+Step 24060: 0.186991 (68%)
+Step 24070: 0.122433 (68%)
+Step 24080: 0.180458 (68%)
+Step 24090: 0.241842 (68%)
+Step 24100: 0.123101 (68%)
+Step 24110: 0.124291 (68%)
+Step 24120: 0.124101 (68%)
+Step 24130: 0.156813 (68%)
+Step 24140: 0.159502 (68%)
+Step 24150: 0.185003 (69%)
+Step 24160: 0.104062 (69%)
+Step 24170: 0.201763 (69%)
+Step 24180: 0.130357 (69%)
+Step 24190: 0.121571 (69%)
+Step 24200: 0.123976 (69%)
+Step 24210: 0.169795 (69%)
+Step 24220: 0.158262 (69%)
+Step 24230: 0.19167 (69%)
+Step 24240: 0.175958 (69%)
+Step 24250: 0.157019 (69%)
+Step 24260: 0.141224 (69%)
+Step 24270: 0.148743 (69%)
+Step 24280: 0.0568363 (69%)
+Step 24290: 0.131021 (69%)
+Step 24300: 0.112436 (69%)
+Step 24310: 0.144656 (69%)
+Step 24320: 0.182701 (69%)
+Step 24330: 0.175827 (69%)
+Step 24340: 0.139693 (69%)
+Step 24350: 0.135824 (69%)
+Step 24360: 0.183708 (69%)
+Step 24370: 0.140395 (69%)
+Step 24380: 0.138898 (69%)
+Step 24390: 0.143126 (69%)
+Step 24400: 0.166938 (69%)
+Step 24410: 0.128004 (69%)
+Step 24420: 0.164952 (69%)
+Step 24430: 0.120148 (69%)
+Step 24440: 0.129251 (69%)
+Step 24450: 0.0576671 (69%)
+Step 24460: 0.137304 (69%)
+Step 24470: 0.126928 (69%)
+Step 24480: 0.162959 (69%)
+Step 24490: 0.164084 (69%)
+Step 24500: 0.132237 (70%)
+Step 24510: 0.122847 (70%)
+Step 24520: 0.124875 (70%)
+Step 24530: 0.125694 (70%)
+Step 24540: 0.0584717 (70%)
+Step 24550: 0.12403 (70%)
+Step 24560: 0.146202 (70%)
+Step 24570: 0.157895 (70%)
+Step 24580: 0.132087 (70%)
+Step 24590: 0.173393 (70%)
+Step 24600: 0.15279 (70%)
+Step 24610: 0.178451 (70%)
+Step 24620: 0.141119 (70%)
+Step 24630: 0.134732 (70%)
+Step 24640: 0.146454 (70%)
+Step 24650: 0.133989 (70%)
+Step 24660: 0.0823455 (70%)
+Step 24670: 0.149305 (70%)
+Step 24680: 0.146664 (70%)
+Step 24690: 0.162499 (70%)
+Step 24700: 0.23141 (70%)
+Step 24710: 0.132935 (70%)
+Step 24720: 0.160373 (70%)
+Step 24730: 0.135193 (70%)
+Step 24740: 0.0787059 (70%)
+Step 24750: 0.153843 (70%)
+Step 24760: 0.194019 (70%)
+Step 24770: 0.21304 (70%)
+Step 24780: 0.123621 (70%)
+Step 24790: 0.155496 (70%)
+Step 24800: 0.14257 (70%)
+Step 24810: 0.159249 (70%)
+Step 24820: 0.161069 (70%)
+Step 24830: 0.14296 (70%)
+Step 24840: 0.185343 (70%)
+Step 24850: 0.168597 (71%)
+Step 24860: 0.2251 (71%)
+Step 24870: 0.169459 (71%)
+Step 24880: 0.173439 (71%)
+Step 24890: 0.102556 (71%)
+Step 24900: 0.168158 (71%)
+Step 24910: 0.162132 (71%)
+Step 24920: 0.066121 (71%)
+Step 24930: 0.152996 (71%)
+Step 24940: 0.12367 (71%)
+Step 24950: 0.131382 (71%)
+Step 24960: 0.17967 (71%)
+Step 24970: 0.0975912 (71%)
+Step 24980: 0.180272 (71%)
+Step 24990: 0.189246 (71%)
+Step 25000: 0.136074 (71%)
+Step 25010: 0.131512 (71%)
+Step 25020: 0.152835 (71%)
+Step 25030: 0.121829 (71%)
+Step 25040: 0.142901 (71%)
+Step 25050: 0.187352 (71%)
+Step 25060: 0.164039 (71%)
+Step 25070: 0.140412 (71%)
+Step 25080: 0.147226 (71%)
+Step 25090: 0.123746 (71%)
+Step 25100: 0.165607 (71%)
+Step 25110: 0.178316 (71%)
+Step 25120: 0.14235 (71%)
+Step 25130: 0.149907 (71%)
+Step 25140: 0.131134 (71%)
+Step 25150: 0.138103 (71%)
+Step 25160: 0.136205 (71%)
+Step 25170: 0.197898 (71%)
+Step 25180: 0.123606 (71%)
+Step 25190: 0.0857928 (71%)
+Step 25200: 0.130373 (72%)
+Step 25210: 0.053793 (72%)
+Step 25220: 0.147986 (72%)
+Step 25230: 0.133803 (72%)
+Step 25240: 0.126886 (72%)
+Step 25250: 0.121987 (72%)
+Step 25260: 0.15812 (72%)
+Step 25270: 0.120265 (72%)
+Step 25280: 0.131884 (72%)
+Step 25290: 0.124782 (72%)
+Step 25300: 0.11885 (72%)
+Step 25310: 0.0570122 (72%)
+Step 25320: 0.137436 (72%)
+Step 25330: 0.136191 (72%)
+Step 25340: 0.119613 (72%)
+Step 25350: 0.147162 (72%)
+Step 25360: 0.144341 (72%)
+Step 25370: 0.13359 (72%)
+Step 25380: 0.046854 (72%)
+Step 25390: 0.15951 (72%)
+Step 25400: 0.187282 (72%)
+Step 25410: 0.183892 (72%)
+Step 25420: 0.138727 (72%)
+Step 25430: 0.154208 (72%)
+Step 25440: 0.15905 (72%)
+Step 25450: 0.156169 (72%)
+Step 25460: 0.132649 (72%)
+Step 25470: 0.1206 (72%)
+Step 25480: 0.129969 (72%)
+Step 25490: 0.147757 (72%)
+Step 25500: 0.16116 (72%)
+Step 25510: 0.122263 (72%)
+Step 25520: 0.053398 (72%)
+Step 25530: 0.1998 (72%)
+Step 25540: 0.119391 (72%)
+Step 25550: 0.148276 (73%)
+Step 25560: 0.118659 (73%)
+Step 25570: 0.247936 (73%)
+Step 25580: 0.153873 (73%)
+Step 25590: 0.176714 (73%)
+Step 25600: 0.16618 (73%)
+Step 25610: 0.235448 (73%)
+Step 25620: 0.120395 (73%)
+Step 25630: 0.0806304 (73%)
+Step 25640: 0.119539 (73%)
+Step 25650: 0.134382 (73%)
+Step 25660: 0.122531 (73%)
+Step 25670: 0.130913 (73%)
+Step 25680: 0.126541 (73%)
+Step 25690: 0.124331 (73%)
+Step 25700: 0.144885 (73%)
+Step 25710: 0.173812 (73%)
+Step 25720: 0.128618 (73%)
+Step 25730: 0.167994 (73%)
+Step 25740: 0.156867 (73%)
+Step 25750: 0.127097 (73%)
+Step 25760: 0.126209 (73%)
+Step 25770: 0.143286 (73%)
+Step 25780: 0.102185 (73%)
+Step 25790: 0.139196 (73%)
+Step 25800: 0.136657 (73%)
+Step 25810: 0.119427 (73%)
+Step 25820: 0.156976 (73%)
+Step 25830: 0.160819 (73%)
+Step 25840: 0.0926794 (73%)
+Step 25850: 0.138934 (73%)
+Step 25860: 0.153345 (73%)
+Step 25870: 0.0607402 (73%)
+Step 25880: 0.130468 (73%)
+Step 25890: 0.0503912 (73%)
+Step 25900: 0.0777578 (74%)
+Step 25910: 0.145321 (74%)
+Step 25920: 0.121323 (74%)
+Step 25930: 0.135969 (74%)
+Step 25940: 0.16675 (74%)
+Step 25950: 0.145646 (74%)
+Step 25960: 0.162664 (74%)
+Step 25970: 0.140191 (74%)
+Step 25980: 0.116612 (74%)
+Step 25990: 0.15406 (74%)
+Step 26000: 0.139032 (74%)
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_26000.ply
+Step 26010: 0.187591 (74%)
+Step 26020: 0.133958 (74%)
+Step 26030: 0.174153 (74%)
+Step 26040: 0.126921 (74%)
+Step 26050: 0.119543 (74%)
+Step 26060: 0.116537 (74%)
+Step 26070: 0.133178 (74%)
+Step 26080: 0.111284 (74%)
+Step 26090: 0.121768 (74%)
+Step 26100: 0.0975305 (74%)
+Step 26110: 0.185582 (74%)
+Step 26120: 0.143134 (74%)
+Step 26130: 0.181497 (74%)
+Step 26140: 0.143108 (74%)
+Step 26150: 0.0488968 (74%)
+Step 26160: 0.145519 (74%)
+Step 26170: 0.157196 (74%)
+Step 26180: 0.0983532 (74%)
+Step 26190: 0.14568 (74%)
+Step 26200: 0.175828 (74%)
+Step 26210: 0.170741 (74%)
+Step 26220: 0.0510863 (74%)
+Step 26230: 0.112357 (74%)
+Step 26240: 0.17718 (74%)
+Step 26250: 0.147051 (75%)
+Step 26260: 0.0588018 (75%)
+Step 26270: 0.121854 (75%)
+Step 26280: 0.13394 (75%)
+Step 26290: 0.119492 (75%)
+Step 26300: 0.129506 (75%)
+Step 26310: 0.155431 (75%)
+Step 26320: 0.17966 (75%)
+Step 26330: 0.0512563 (75%)
+Step 26340: 0.136093 (75%)
+Step 26350: 0.145068 (75%)
+Step 26360: 0.119906 (75%)
+Step 26370: 0.12116 (75%)
+Step 26380: 0.129275 (75%)
+Step 26390: 0.158344 (75%)
+Step 26400: 0.137412 (75%)
+Step 26410: 0.13628 (75%)
+Step 26420: 0.0903449 (75%)
+Step 26430: 0.116131 (75%)
+Step 26440: 0.123637 (75%)
+Step 26450: 0.047589 (75%)
+Step 26460: 0.118527 (75%)
+Step 26470: 0.124154 (75%)
+Step 26480: 0.144594 (75%)
+Step 26490: 0.123199 (75%)
+Step 26500: 0.151473 (75%)
+Step 26510: 0.123746 (75%)
+Step 26520: 0.15145 (75%)
+Step 26530: 0.138992 (75%)
+Step 26540: 0.164832 (75%)
+Step 26550: 0.140682 (75%)
+Step 26560: 0.11128 (75%)
+Step 26570: 0.128821 (75%)
+Step 26580: 0.166026 (75%)
+Step 26590: 0.159536 (75%)
+Step 26600: 0.131492 (76%)
+Step 26610: 0.190066 (76%)
+Step 26620: 0.129539 (76%)
+Step 26630: 0.179129 (76%)
+Step 26640: 0.128291 (76%)
+Step 26650: 0.141107 (76%)
+Step 26660: 0.13638 (76%)
+Step 26670: 0.169433 (76%)
+Step 26680: 0.191302 (76%)
+Step 26690: 0.131324 (76%)
+Step 26700: 0.134881 (76%)
+Step 26710: 0.0757426 (76%)
+Step 26720: 0.14016 (76%)
+Step 26730: 0.160998 (76%)
+Step 26740: 0.143263 (76%)
+Step 26750: 0.0951889 (76%)
+Step 26760: 0.20008 (76%)
+Step 26770: 0.127395 (76%)
+Step 26780: 0.134292 (76%)
+Step 26790: 0.145909 (76%)
+Step 26800: 0.17794 (76%)
+Step 26810: 0.137543 (76%)
+Step 26820: 0.154248 (76%)
+Step 26830: 0.163809 (76%)
+Step 26840: 0.125999 (76%)
+Step 26850: 0.128715 (76%)
+Step 26860: 0.127006 (76%)
+Step 26870: 0.144929 (76%)
+Step 26880: 0.137527 (76%)
+Step 26890: 0.126448 (76%)
+Step 26900: 0.129076 (76%)
+Step 26910: 0.12234 (76%)
+Step 26920: 0.147551 (76%)
+Step 26930: 0.12942 (76%)
+Step 26940: 0.146452 (76%)
+Step 26950: 0.138821 (77%)
+Step 26960: 0.160549 (77%)
+Step 26970: 0.125892 (77%)
+Step 26980: 0.119219 (77%)
+Step 26990: 0.159405 (77%)
+Step 27000: 0.138209 (77%)
+Step 27010: 0.123007 (77%)
+Step 27020: 0.0875138 (77%)
+Step 27030: 0.169538 (77%)
+Step 27040: 0.0938086 (77%)
+Step 27050: 0.133288 (77%)
+Step 27060: 0.15468 (77%)
+Step 27070: 0.0473394 (77%)
+Step 27080: 0.0483964 (77%)
+Step 27090: 0.116416 (77%)
+Step 27100: 0.132858 (77%)
+Step 27110: 0.15235 (77%)
+Step 27120: 0.153178 (77%)
+Step 27130: 0.14202 (77%)
+Step 27140: 0.15991 (77%)
+Step 27150: 0.136514 (77%)
+Step 27160: 0.127747 (77%)
+Step 27170: 0.129137 (77%)
+Step 27180: 0.125348 (77%)
+Step 27190: 0.128774 (77%)
+Step 27200: 0.159912 (77%)
+Step 27210: 0.179258 (77%)
+Step 27220: 0.140622 (77%)
+Step 27230: 0.110664 (77%)
+Step 27240: 0.149904 (77%)
+Step 27250: 0.150613 (77%)
+Step 27260: 0.128983 (77%)
+Step 27270: 0.137421 (77%)
+Step 27280: 0.26439 (77%)
+Step 27290: 0.132993 (77%)
+Step 27300: 0.0482307 (78%)
+Step 27310: 0.12733 (78%)
+Step 27320: 0.130946 (78%)
+Step 27330: 0.173479 (78%)
+Step 27340: 0.0967925 (78%)
+Step 27350: 0.159789 (78%)
+Step 27360: 0.115979 (78%)
+Step 27370: 0.122071 (78%)
+Step 27380: 0.127165 (78%)
+Step 27390: 0.180448 (78%)
+Step 27400: 0.144109 (78%)
+Step 27410: 0.135327 (78%)
+Step 27420: 0.156792 (78%)
+Step 27430: 0.137833 (78%)
+Step 27440: 0.166186 (78%)
+Step 27450: 0.138038 (78%)
+Step 27460: 0.193479 (78%)
+Step 27470: 0.126349 (78%)
+Step 27480: 0.0579526 (78%)
+Step 27490: 0.114845 (78%)
+Step 27500: 0.132988 (78%)
+Step 27510: 0.138664 (78%)
+Step 27520: 0.115807 (78%)
+Step 27530: 0.141485 (78%)
+Step 27540: 0.0954369 (78%)
+Step 27550: 0.148931 (78%)
+Step 27560: 0.130574 (78%)
+Step 27570: 0.126057 (78%)
+Step 27580: 0.0941856 (78%)
+Step 27590: 0.139571 (78%)
+Step 27600: 0.171914 (78%)
+Step 27610: 0.111238 (78%)
+Step 27620: 0.0684886 (78%)
+Step 27630: 0.159618 (78%)
+Step 27640: 0.0690242 (78%)
+Step 27650: 0.115224 (79%)
+Step 27660: 0.152174 (79%)
+Step 27670: 0.131151 (79%)
+Step 27680: 0.120543 (79%)
+Step 27690: 0.167837 (79%)
+Step 27700: 0.140306 (79%)
+Step 27710: 0.130712 (79%)
+Step 27720: 0.151509 (79%)
+Step 27730: 0.134218 (79%)
+Step 27740: 0.0971627 (79%)
+Step 27750: 0.235856 (79%)
+Step 27760: 0.205328 (79%)
+Step 27770: 0.053666 (79%)
+Step 27780: 0.135981 (79%)
+Step 27790: 0.17862 (79%)
+Step 27800: 0.119896 (79%)
+Step 27810: 0.123351 (79%)
+Step 27820: 0.164478 (79%)
+Step 27830: 0.11859 (79%)
+Step 27840: 0.136047 (79%)
+Step 27850: 0.193262 (79%)
+Step 27860: 0.184313 (79%)
+Step 27870: 0.170424 (79%)
+Step 27880: 0.131056 (79%)
+Step 27890: 0.120492 (79%)
+Step 27900: 0.0673708 (79%)
+Step 27910: 0.143658 (79%)
+Step 27920: 0.118195 (79%)
+Step 27930: 0.129572 (79%)
+Step 27940: 0.120576 (79%)
+Step 27950: 0.132308 (79%)
+Step 27960: 0.139023 (79%)
+Step 27970: 0.128926 (79%)
+Step 27980: 0.132183 (79%)
+Step 27990: 0.144602 (79%)
+Step 28000: 0.113969 (80%)
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_28000.ply
+Step 28010: 0.140896 (80%)
+Step 28020: 0.134603 (80%)
+Step 28030: 0.154521 (80%)
+Step 28040: 0.123071 (80%)
+Step 28050: 0.095242 (80%)
+Step 28060: 0.131815 (80%)
+Step 28070: 0.145092 (80%)
+Step 28080: 0.119824 (80%)
+Step 28090: 0.13815 (80%)
+Step 28100: 0.151557 (80%)
+Step 28110: 0.113833 (80%)
+Step 28120: 0.107965 (80%)
+Step 28130: 0.128853 (80%)
+Step 28140: 0.13174 (80%)
+Step 28150: 0.131011 (80%)
+Step 28160: 0.150679 (80%)
+Step 28170: 0.144321 (80%)
+Step 28180: 0.134702 (80%)
+Step 28190: 0.139535 (80%)
+Step 28200: 0.115047 (80%)
+Step 28210: 0.141472 (80%)
+Step 28220: 0.0956757 (80%)
+Step 28230: 0.158366 (80%)
+Step 28240: 0.130316 (80%)
+Step 28250: 0.1645 (80%)
+Step 28260: 0.159394 (80%)
+Step 28270: 0.142182 (80%)
+Step 28280: 0.190967 (80%)
+Step 28290: 0.14135 (80%)
+Step 28300: 0.28926 (80%)
+Step 28310: 0.130386 (80%)
+Step 28320: 0.176624 (80%)
+Step 28330: 0.115276 (80%)
+Step 28340: 0.124212 (80%)
+Step 28350: 0.131734 (81%)
+Step 28360: 0.133533 (81%)
+Step 28370: 0.0713971 (81%)
+Step 28380: 0.112389 (81%)
+Step 28390: 0.123826 (81%)
+Step 28400: 0.13913 (81%)
+Step 28410: 0.133052 (81%)
+Step 28420: 0.117377 (81%)
+Step 28430: 0.129822 (81%)
+Step 28440: 0.134147 (81%)
+Step 28450: 0.147598 (81%)
+Step 28460: 0.126739 (81%)
+Step 28470: 0.116718 (81%)
+Step 28480: 0.138733 (81%)
+Step 28490: 0.124571 (81%)
+Step 28500: 0.147673 (81%)
+Step 28510: 0.110948 (81%)
+Step 28520: 0.169732 (81%)
+Step 28530: 0.131151 (81%)
+Step 28540: 0.0454916 (81%)
+Step 28550: 0.094721 (81%)
+Step 28560: 0.133556 (81%)
+Step 28570: 0.122444 (81%)
+Step 28580: 0.131158 (81%)
+Step 28590: 0.13485 (81%)
+Step 28600: 0.148903 (81%)
+Step 28610: 0.100855 (81%)
+Step 28620: 0.139143 (81%)
+Step 28630: 0.133403 (81%)
+Step 28640: 0.133368 (81%)
+Step 28650: 0.151724 (81%)
+Step 28660: 0.172935 (81%)
+Step 28670: 0.130437 (81%)
+Step 28680: 0.168915 (81%)
+Step 28690: 0.198161 (81%)
+Step 28700: 0.146657 (82%)
+Step 28710: 0.132246 (82%)
+Step 28720: 0.131306 (82%)
+Step 28730: 0.135824 (82%)
+Step 28740: 0.051411 (82%)
+Step 28750: 0.140772 (82%)
+Step 28760: 0.11997 (82%)
+Step 28770: 0.146557 (82%)
+Step 28780: 0.126671 (82%)
+Step 28790: 0.129503 (82%)
+Step 28800: 0.1257 (82%)
+Step 28810: 0.118138 (82%)
+Step 28820: 0.163921 (82%)
+Step 28830: 0.130838 (82%)
+Step 28840: 0.153485 (82%)
+Step 28850: 0.116957 (82%)
+Step 28860: 0.144246 (82%)
+Step 28870: 0.0475685 (82%)
+Step 28880: 0.0435176 (82%)
+Step 28890: 0.181262 (82%)
+Step 28900: 0.144129 (82%)
+Step 28910: 0.151179 (82%)
+Step 28920: 0.125644 (82%)
+Step 28930: 0.136623 (82%)
+Step 28940: 0.127225 (82%)
+Step 28950: 0.0944404 (82%)
+Step 28960: 0.144628 (82%)
+Step 28970: 0.0456998 (82%)
+Step 28980: 0.181027 (82%)
+Step 28990: 0.109258 (82%)
+Step 29000: 0.169159 (82%)
+Step 29010: 0.121668 (82%)
+Step 29020: 0.169374 (82%)
+Step 29030: 0.130472 (82%)
+Step 29040: 0.140719 (82%)
+Step 29050: 0.0575362 (83%)
+Step 29060: 0.120712 (83%)
+Step 29070: 0.122623 (83%)
+Step 29080: 0.173085 (83%)
+Step 29090: 0.129041 (83%)
+Step 29100: 0.124085 (83%)
+Step 29110: 0.15217 (83%)
+Step 29120: 0.129267 (83%)
+Step 29130: 0.142951 (83%)
+Step 29140: 0.162543 (83%)
+Step 29150: 0.145447 (83%)
+Step 29160: 0.133803 (83%)
+Step 29170: 0.10952 (83%)
+Step 29180: 0.113042 (83%)
+Step 29190: 0.0780496 (83%)
+Step 29200: 0.136273 (83%)
+Step 29210: 0.125797 (83%)
+Step 29220: 0.111455 (83%)
+Step 29230: 0.124481 (83%)
+Step 29240: 0.113688 (83%)
+Step 29250: 0.142802 (83%)
+Step 29260: 0.13736 (83%)
+Step 29270: 0.0716273 (83%)
+Step 29280: 0.124905 (83%)
+Step 29290: 0.167742 (83%)
+Step 29300: 0.128296 (83%)
+Step 29310: 0.115123 (83%)
+Step 29320: 0.0468435 (83%)
+Step 29330: 0.150265 (83%)
+Step 29340: 0.122735 (83%)
+Step 29350: 0.120399 (83%)
+Step 29360: 0.112924 (83%)
+Step 29370: 0.128608 (83%)
+Step 29380: 0.121696 (83%)
+Step 29390: 0.139574 (83%)
+Step 29400: 0.143589 (84%)
+Step 29410: 0.113158 (84%)
+Step 29420: 0.178718 (84%)
+Step 29430: 0.140323 (84%)
+Step 29440: 0.177565 (84%)
+Step 29450: 0.174053 (84%)
+Step 29460: 0.129743 (84%)
+Step 29470: 0.13828 (84%)
+Step 29480: 0.159566 (84%)
+Step 29490: 0.136431 (84%)
+Step 29500: 0.0912943 (84%)
+Step 29510: 0.0889008 (84%)
+Step 29520: 0.146614 (84%)
+Step 29530: 0.120258 (84%)
+Step 29540: 0.0469324 (84%)
+Step 29550: 0.0450346 (84%)
+Step 29560: 0.0714253 (84%)
+Step 29570: 0.107166 (84%)
+Step 29580: 0.169424 (84%)
+Step 29590: 0.0775737 (84%)
+Step 29600: 0.131569 (84%)
+Step 29610: 0.0941472 (84%)
+Step 29620: 0.12872 (84%)
+Step 29630: 0.0457637 (84%)
+Step 29640: 0.131154 (84%)
+Step 29650: 0.144339 (84%)
+Step 29660: 0.156865 (84%)
+Step 29670: 0.16289 (84%)
+Step 29680: 0.150786 (84%)
+Step 29690: 0.112467 (84%)
+Step 29700: 0.131657 (84%)
+Step 29710: 0.12876 (84%)
+Step 29720: 0.172499 (84%)
+Step 29730: 0.142294 (84%)
+Step 29740: 0.042946 (84%)
+Step 29750: 0.134364 (85%)
+Step 29760: 0.124955 (85%)
+Step 29770: 0.179079 (85%)
+Step 29780: 0.118133 (85%)
+Step 29790: 0.130053 (85%)
+Step 29800: 0.11588 (85%)
+Step 29810: 0.127696 (85%)
+Step 29820: 0.130925 (85%)
+Step 29830: 0.0904985 (85%)
+Step 29840: 0.119151 (85%)
+Step 29850: 0.15717 (85%)
+Step 29860: 0.119606 (85%)
+Step 29870: 0.112888 (85%)
+Step 29880: 0.1602 (85%)
+Step 29890: 0.164735 (85%)
+Step 29900: 0.13973 (85%)
+Step 29910: 0.16269 (85%)
+Step 29920: 0.147776 (85%)
+Step 29930: 0.131951 (85%)
+Step 29940: 0.159747 (85%)
+Step 29950: 0.126471 (85%)
+Step 29960: 0.126403 (85%)
+Step 29970: 0.197562 (85%)
+Step 29980: 0.124023 (85%)
+Step 29990: 0.143711 (85%)
+Step 30000: 0.114434 (85%)
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_30000.ply
+Step 30010: 0.119856 (85%)
+Step 30020: 0.169365 (85%)
+Step 30030: 0.123293 (85%)
+Step 30040: 0.148803 (85%)
+Step 30050: 0.136142 (85%)
+Step 30060: 0.109726 (85%)
+Step 30070: 0.11942 (85%)
+Step 30080: 0.130047 (85%)
+Step 30090: 0.0454448 (85%)
+Step 30100: 0.142315 (86%)
+Step 30110: 0.152635 (86%)
+Step 30120: 0.132603 (86%)
+Step 30130: 0.152398 (86%)
+Step 30140: 0.149875 (86%)
+Step 30150: 0.172548 (86%)
+Step 30160: 0.125619 (86%)
+Step 30170: 0.141616 (86%)
+Step 30180: 0.15187 (86%)
+Step 30190: 0.150532 (86%)
+Step 30200: 0.119643 (86%)
+Step 30210: 0.126691 (86%)
+Step 30220: 0.17527 (86%)
+Step 30230: 0.135087 (86%)
+Step 30240: 0.140799 (86%)
+Step 30250: 0.152845 (86%)
+Step 30260: 0.16335 (86%)
+Step 30270: 0.127561 (86%)
+Step 30280: 0.119767 (86%)
+Step 30290: 0.141261 (86%)
+Step 30300: 0.132012 (86%)
+Step 30310: 0.122248 (86%)
+Step 30320: 0.152244 (86%)
+Step 30330: 0.14908 (86%)
+Step 30340: 0.146836 (86%)
+Step 30350: 0.133668 (86%)
+Step 30360: 0.0676174 (86%)
+Step 30370: 0.118289 (86%)
+Step 30380: 0.0945903 (86%)
+Step 30390: 0.125716 (86%)
+Step 30400: 0.133729 (86%)
+Step 30410: 0.116622 (86%)
+Step 30420: 0.105096 (86%)
+Step 30430: 0.158764 (86%)
+Step 30440: 0.100201 (86%)
+Step 30450: 0.126708 (87%)
+Step 30460: 0.185571 (87%)
+Step 30470: 0.119847 (87%)
+Step 30480: 0.139571 (87%)
+Step 30490: 0.122116 (87%)
+Step 30500: 0.160613 (87%)
+Step 30510: 0.115135 (87%)
+Step 30520: 0.11755 (87%)
+Step 30530: 0.130686 (87%)
+Step 30540: 0.174822 (87%)
+Step 30550: 0.12636 (87%)
+Step 30560: 0.145242 (87%)
+Step 30570: 0.176593 (87%)
+Step 30580: 0.124875 (87%)
+Step 30590: 0.173113 (87%)
+Step 30600: 0.123667 (87%)
+Step 30610: 0.128902 (87%)
+Step 30620: 0.128794 (87%)
+Step 30630: 0.0779332 (87%)
+Step 30640: 0.138791 (87%)
+Step 30650: 0.106529 (87%)
+Step 30660: 0.130002 (87%)
+Step 30670: 0.128988 (87%)
+Step 30680: 0.116617 (87%)
+Step 30690: 0.129532 (87%)
+Step 30700: 0.138764 (87%)
+Step 30710: 0.144096 (87%)
+Step 30720: 0.115937 (87%)
+Step 30730: 0.128172 (87%)
+Step 30740: 0.174006 (87%)
+Step 30750: 0.134151 (87%)
+Step 30760: 0.109921 (87%)
+Step 30770: 0.109382 (87%)
+Step 30780: 0.132114 (87%)
+Step 30790: 0.137562 (87%)
+Step 30800: 0.139146 (88%)
+Step 30810: 0.157673 (88%)
+Step 30820: 0.0799309 (88%)
+Step 30830: 0.124627 (88%)
+Step 30840: 0.130647 (88%)
+Step 30850: 0.139549 (88%)
+Step 30860: 0.132651 (88%)
+Step 30870: 0.119652 (88%)
+Step 30880: 0.149847 (88%)
+Step 30890: 0.0766103 (88%)
+Step 30900: 0.16832 (88%)
+Step 30910: 0.108847 (88%)
+Step 30920: 0.140513 (88%)
+Step 30930: 0.18713 (88%)
+Step 30940: 0.156475 (88%)
+Step 30950: 0.132411 (88%)
+Step 30960: 0.156748 (88%)
+Step 30970: 0.151065 (88%)
+Step 30980: 0.0446927 (88%)
+Step 30990: 0.122783 (88%)
+Step 31000: 0.142545 (88%)
+Step 31010: 0.213864 (88%)
+Step 31020: 0.183719 (88%)
+Step 31030: 0.116135 (88%)
+Step 31040: 0.18766 (88%)
+Step 31050: 0.12019 (88%)
+Step 31060: 0.133299 (88%)
+Step 31070: 0.125468 (88%)
+Step 31080: 0.11896 (88%)
+Step 31090: 0.126109 (88%)
+Step 31100: 0.139203 (88%)
+Step 31110: 0.138971 (88%)
+Step 31120: 0.127556 (88%)
+Step 31130: 0.0732309 (88%)
+Step 31140: 0.159334 (88%)
+Step 31150: 0.113446 (89%)
+Step 31160: 0.115611 (89%)
+Step 31170: 0.0870855 (89%)
+Step 31180: 0.0890327 (89%)
+Step 31190: 0.124036 (89%)
+Step 31200: 0.121823 (89%)
+Step 31210: 0.225241 (89%)
+Step 31220: 0.11637 (89%)
+Step 31230: 0.119807 (89%)
+Step 31240: 0.119699 (89%)
+Step 31250: 0.180897 (89%)
+Step 31260: 0.123397 (89%)
+Step 31270: 0.114562 (89%)
+Step 31280: 0.143878 (89%)
+Step 31290: 0.127598 (89%)
+Step 31300: 0.137838 (89%)
+Step 31310: 0.0457872 (89%)
+Step 31320: 0.144529 (89%)
+Step 31330: 0.113842 (89%)
+Step 31340: 0.108552 (89%)
+Step 31350: 0.117681 (89%)
+Step 31360: 0.174497 (89%)
+Step 31370: 0.132341 (89%)
+Step 31380: 0.141291 (89%)
+Step 31390: 0.131273 (89%)
+Step 31400: 0.126403 (89%)
+Step 31410: 0.146503 (89%)
+Step 31420: 0.12398 (89%)
+Step 31430: 0.112125 (89%)
+Step 31440: 0.11522 (89%)
+Step 31450: 0.118257 (89%)
+Step 31460: 0.14915 (89%)
+Step 31470: 0.138676 (89%)
+Step 31480: 0.140479 (89%)
+Step 31490: 0.182672 (89%)
+Step 31500: 0.120781 (90%)
+Step 31510: 0.165349 (90%)
+Step 31520: 0.166375 (90%)
+Step 31530: 0.115222 (90%)
+Step 31540: 0.14235 (90%)
+Step 31550: 0.0395069 (90%)
+Step 31560: 0.11761 (90%)
+Step 31570: 0.0780188 (90%)
+Step 31580: 0.171474 (90%)
+Step 31590: 0.137062 (90%)
+Step 31600: 0.0921259 (90%)
+Step 31610: 0.146208 (90%)
+Step 31620: 0.155776 (90%)
+Step 31630: 0.131294 (90%)
+Step 31640: 0.117672 (90%)
+Step 31650: 0.0409387 (90%)
+Step 31660: 0.133825 (90%)
+Step 31670: 0.119532 (90%)
+Step 31680: 0.136609 (90%)
+Step 31690: 0.150348 (90%)
+Step 31700: 0.115541 (90%)
+Step 31710: 0.114485 (90%)
+Step 31720: 0.130366 (90%)
+Step 31730: 0.174884 (90%)
+Step 31740: 0.146212 (90%)
+Step 31750: 0.120106 (90%)
+Step 31760: 0.136642 (90%)
+Step 31770: 0.117428 (90%)
+Step 31780: 0.131314 (90%)
+Step 31790: 0.0446291 (90%)
+Step 31800: 0.043676 (90%)
+Step 31810: 0.138383 (90%)
+Step 31820: 0.181331 (90%)
+Step 31830: 0.0444578 (90%)
+Step 31840: 0.125168 (90%)
+Step 31850: 0.13712 (91%)
+Step 31860: 0.156541 (91%)
+Step 31870: 0.169817 (91%)
+Step 31880: 0.115737 (91%)
+Step 31890: 0.155763 (91%)
+Step 31900: 0.123751 (91%)
+Step 31910: 0.123501 (91%)
+Step 31920: 0.146014 (91%)
+Step 31930: 0.141303 (91%)
+Step 31940: 0.128181 (91%)
+Step 31950: 0.184176 (91%)
+Step 31960: 0.0447085 (91%)
+Step 31970: 0.188947 (91%)
+Step 31980: 0.139707 (91%)
+Step 31990: 0.108957 (91%)
+Step 32000: 0.13533 (91%)
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_32000.ply
+Step 32010: 0.110299 (91%)
+Step 32020: 0.117221 (91%)
+Step 32030: 0.183808 (91%)
+Step 32040: 0.135543 (91%)
+Step 32050: 0.130461 (91%)
+Step 32060: 0.148786 (91%)
+Step 32070: 0.0830478 (91%)
+Step 32080: 0.114595 (91%)
+Step 32090: 0.129586 (91%)
+Step 32100: 0.140818 (91%)
+Step 32110: 0.140522 (91%)
+Step 32120: 0.111154 (91%)
+Step 32130: 0.11662 (91%)
+Step 32140: 0.120036 (91%)
+Step 32150: 0.123039 (91%)
+Step 32160: 0.140866 (91%)
+Step 32170: 0.193778 (91%)
+Step 32180: 0.0467417 (91%)
+Step 32190: 0.145555 (91%)
+Step 32200: 0.123505 (92%)
+Step 32210: 0.126704 (92%)
+Step 32220: 0.107094 (92%)
+Step 32230: 0.122387 (92%)
+Step 32240: 0.140415 (92%)
+Step 32250: 0.0830983 (92%)
+Step 32260: 0.149574 (92%)
+Step 32270: 0.146295 (92%)
+Step 32280: 0.120652 (92%)
+Step 32290: 0.124651 (92%)
+Step 32300: 0.127159 (92%)
+Step 32310: 0.124957 (92%)
+Step 32320: 0.13644 (92%)
+Step 32330: 0.127593 (92%)
+Step 32340: 0.136983 (92%)
+Step 32350: 0.115246 (92%)
+Step 32360: 0.089092 (92%)
+Step 32370: 0.175857 (92%)
+Step 32380: 0.159857 (92%)
+Step 32390: 0.123543 (92%)
+Step 32400: 0.0911195 (92%)
+Step 32410: 0.093701 (92%)
+Step 32420: 0.159232 (92%)
+Step 32430: 0.161579 (92%)
+Step 32440: 0.129758 (92%)
+Step 32450: 0.143646 (92%)
+Step 32460: 0.120057 (92%)
+Step 32470: 0.145678 (92%)
+Step 32480: 0.123002 (92%)
+Step 32490: 0.130161 (92%)
+Step 32500: 0.155819 (92%)
+Step 32510: 0.141069 (92%)
+Step 32520: 0.107278 (92%)
+Step 32530: 0.149412 (92%)
+Step 32540: 0.108519 (92%)
+Step 32550: 0.12848 (93%)
+Step 32560: 0.123024 (93%)
+Step 32570: 0.126596 (93%)
+Step 32580: 0.10996 (93%)
+Step 32590: 0.143411 (93%)
+Step 32600: 0.139185 (93%)
+Step 32610: 0.12207 (93%)
+Step 32620: 0.114366 (93%)
+Step 32630: 0.12108 (93%)
+Step 32640: 0.111074 (93%)
+Step 32650: 0.164336 (93%)
+Step 32660: 0.124764 (93%)
+Step 32670: 0.130972 (93%)
+Step 32680: 0.12913 (93%)
+Step 32690: 0.116893 (93%)
+Step 32700: 0.117268 (93%)
+Step 32710: 0.126308 (93%)
+Step 32720: 0.0914139 (93%)
+Step 32730: 0.07722 (93%)
+Step 32740: 0.139775 (93%)
+Step 32750: 0.11952 (93%)
+Step 32760: 0.16317 (93%)
+Step 32770: 0.119517 (93%)
+Step 32780: 0.171867 (93%)
+Step 32790: 0.123876 (93%)
+Step 32800: 0.136273 (93%)
+Step 32810: 0.116653 (93%)
+Step 32820: 0.0939616 (93%)
+Step 32830: 0.169143 (93%)
+Step 32840: 0.178541 (93%)
+Step 32850: 0.140993 (93%)
+Step 32860: 0.124176 (93%)
+Step 32870: 0.116475 (93%)
+Step 32880: 0.130112 (93%)
+Step 32890: 0.142311 (93%)
+Step 32900: 0.118968 (94%)
+Step 32910: 0.134764 (94%)
+Step 32920: 0.121519 (94%)
+Step 32930: 0.11773 (94%)
+Step 32940: 0.112699 (94%)
+Step 32950: 0.150521 (94%)
+Step 32960: 0.126489 (94%)
+Step 32970: 0.130813 (94%)
+Step 32980: 0.11889 (94%)
+Step 32990: 0.0982798 (94%)
+Step 33000: 0.120232 (94%)
+Step 33010: 0.0419586 (94%)
+Step 33020: 0.154243 (94%)
+Step 33030: 0.160054 (94%)
+Step 33040: 0.112668 (94%)
+Step 33050: 0.0401361 (94%)
+Step 33060: 0.126843 (94%)
+Step 33070: 0.129936 (94%)
+Step 33080: 0.135333 (94%)
+Step 33090: 0.172053 (94%)
+Step 33100: 0.137343 (94%)
+Step 33110: 0.130939 (94%)
+Step 33120: 0.187515 (94%)
+Step 33130: 0.0894009 (94%)
+Step 33140: 0.18351 (94%)
+Step 33150: 0.17679 (94%)
+Step 33160: 0.127189 (94%)
+Step 33170: 0.0446727 (94%)
+Step 33180: 0.0408356 (94%)
+Step 33190: 0.114746 (94%)
+Step 33200: 0.117371 (94%)
+Step 33210: 0.115908 (94%)
+Step 33220: 0.141012 (94%)
+Step 33230: 0.0415877 (94%)
+Step 33240: 0.139312 (94%)
+Step 33250: 0.112203 (95%)
+Step 33260: 0.0825674 (95%)
+Step 33270: 0.113242 (95%)
+Step 33280: 0.116099 (95%)
+Step 33290: 0.138176 (95%)
+Step 33300: 0.128245 (95%)
+Step 33310: 0.117087 (95%)
+Step 33320: 0.089903 (95%)
+Step 33330: 0.115708 (95%)
+Step 33340: 0.115031 (95%)
+Step 33350: 0.144517 (95%)
+Step 33360: 0.14787 (95%)
+Step 33370: 0.138387 (95%)
+Step 33380: 0.145074 (95%)
+Step 33390: 0.11919 (95%)
+Step 33400: 0.143029 (95%)
+Step 33410: 0.0443903 (95%)
+Step 33420: 0.0962206 (95%)
+Step 33430: 0.150608 (95%)
+Step 33440: 0.0449315 (95%)
+Step 33450: 0.115925 (95%)
+Step 33460: 0.174062 (95%)
+Step 33470: 0.114288 (95%)
+Step 33480: 0.123572 (95%)
+Step 33490: 0.118433 (95%)
+Step 33500: 0.147739 (95%)
+Step 33510: 0.109173 (95%)
+Step 33520: 0.162686 (95%)
+Step 33530: 0.11558 (95%)
+Step 33540: 0.139375 (95%)
+Step 33550: 0.160271 (95%)
+Step 33560: 0.14168 (95%)
+Step 33570: 0.126031 (95%)
+Step 33580: 0.143764 (95%)
+Step 33590: 0.117019 (95%)
+Step 33600: 0.127816 (96%)
+Step 33610: 0.119594 (96%)
+Step 33620: 0.128195 (96%)
+Step 33630: 0.112109 (96%)
+Step 33640: 0.121264 (96%)
+Step 33650: 0.147508 (96%)
+Step 33660: 0.153079 (96%)
+Step 33670: 0.116201 (96%)
+Step 33680: 0.112451 (96%)
+Step 33690: 0.134383 (96%)
+Step 33700: 0.169071 (96%)
+Step 33710: 0.118687 (96%)
+Step 33720: 0.128382 (96%)
+Step 33730: 0.129035 (96%)
+Step 33740: 0.157835 (96%)
+Step 33750: 0.133661 (96%)
+Step 33760: 0.127201 (96%)
+Step 33770: 0.106766 (96%)
+Step 33780: 0.154548 (96%)
+Step 33790: 0.131202 (96%)
+Step 33800: 0.108656 (96%)
+Step 33810: 0.164562 (96%)
+Step 33820: 0.112481 (96%)
+Step 33830: 0.168186 (96%)
+Step 33840: 0.0451614 (96%)
+Step 33850: 0.172783 (96%)
+Step 33860: 0.177437 (96%)
+Step 33870: 0.106482 (96%)
+Step 33880: 0.137481 (96%)
+Step 33890: 0.130831 (96%)
+Step 33900: 0.165486 (96%)
+Step 33910: 0.143149 (96%)
+Step 33920: 0.18395 (96%)
+Step 33930: 0.107897 (96%)
+Step 33940: 0.134274 (96%)
+Step 33950: 0.179519 (97%)
+Step 33960: 0.177802 (97%)
+Step 33970: 0.115444 (97%)
+Step 33980: 0.118409 (97%)
+Step 33990: 0.078855 (97%)
+Step 34000: 0.117579 (97%)
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat_34000.ply
+Step 34010: 0.111658 (97%)
+Step 34020: 0.114354 (97%)
+Step 34030: 0.114569 (97%)
+Step 34040: 0.116713 (97%)
+Step 34050: 0.120315 (97%)
+Step 34060: 0.11738 (97%)
+Step 34070: 0.11714 (97%)
+Step 34080: 0.127208 (97%)
+Step 34090: 0.113642 (97%)
+Step 34100: 0.133706 (97%)
+Step 34110: 0.0887115 (97%)
+Step 34120: 0.123475 (97%)
+Step 34130: 0.0406591 (97%)
+Step 34140: 0.16308 (97%)
+Step 34150: 0.109449 (97%)
+Step 34160: 0.114923 (97%)
+Step 34170: 0.149514 (97%)
+Step 34180: 0.11173 (97%)
+Step 34190: 0.113311 (97%)
+Step 34200: 0.126814 (97%)
+Step 34210: 0.155087 (97%)
+Step 34220: 0.129326 (97%)
+Step 34230: 0.12301 (97%)
+Step 34240: 0.0865549 (97%)
+Step 34250: 0.117147 (97%)
+Step 34260: 0.12165 (97%)
+Step 34270: 0.0707941 (97%)
+Step 34280: 0.154926 (97%)
+Step 34290: 0.06685 (97%)
+Step 34300: 0.114988 (98%)
+Step 34310: 0.141781 (98%)
+Step 34320: 0.121594 (98%)
+Step 34330: 0.0411563 (98%)
+Step 34340: 0.121781 (98%)
+Step 34350: 0.133162 (98%)
+Step 34360: 0.11547 (98%)
+Step 34370: 0.12309 (98%)
+Step 34380: 0.156071 (98%)
+Step 34390: 0.140322 (98%)
+Step 34400: 0.137404 (98%)
+Step 34410: 0.138727 (98%)
+Step 34420: 0.142652 (98%)
+Step 34430: 0.137455 (98%)
+Step 34440: 0.112042 (98%)
+Step 34450: 0.0849269 (98%)
+Step 34460: 0.116287 (98%)
+Step 34470: 0.157497 (98%)
+Step 34480: 0.113525 (98%)
+Step 34490: 0.18535 (98%)
+Step 34500: 0.112718 (98%)
+Step 34510: 0.112829 (98%)
+Step 34520: 0.183181 (98%)
+Step 34530: 0.138697 (98%)
+Step 34540: 0.119266 (98%)
+Step 34550: 0.0503872 (98%)
+Step 34560: 0.168346 (98%)
+Step 34570: 0.1125 (98%)
+Step 34580: 0.129411 (98%)
+Step 34590: 0.115897 (98%)
+Step 34600: 0.165272 (98%)
+Step 34610: 0.16695 (98%)
+Step 34620: 0.14821 (98%)
+Step 34630: 0.128364 (98%)
+Step 34640: 0.14705 (98%)
+Step 34650: 0.116419 (99%)
+Step 34660: 0.124212 (99%)
+Step 34670: 0.151984 (99%)
+Step 34680: 0.128834 (99%)
+Step 34690: 0.0736248 (99%)
+Step 34700: 0.116813 (99%)
+Step 34710: 0.144791 (99%)
+Step 34720: 0.0755558 (99%)
+Step 34730: 0.12461 (99%)
+Step 34740: 0.158408 (99%)
+Step 34750: 0.134767 (99%)
+Step 34760: 0.114585 (99%)
+Step 34770: 0.141425 (99%)
+Step 34780: 0.131186 (99%)
+Step 34790: 0.157086 (99%)
+Step 34800: 0.121885 (99%)
+Step 34810: 0.169614 (99%)
+Step 34820: 0.133888 (99%)
+Step 34830: 0.115185 (99%)
+Step 34840: 0.112413 (99%)
+Step 34850: 0.136785 (99%)
+Step 34860: 0.139118 (99%)
+Step 34870: 0.120338 (99%)
+Step 34880: 0.0896739 (99%)
+Step 34890: 0.123397 (99%)
+Step 34900: 0.112514 (99%)
+Step 34910: 0.1716 (99%)
+Step 34920: 0.11732 (99%)
+Step 34930: 0.123662 (99%)
+Step 34940: 0.12087 (99%)
+Step 34950: 0.131647 (99%)
+Step 34960: 0.0658693 (99%)
+Step 34970: 0.123933 (99%)
+Step 34980: 0.153874 (99%)
+Step 34990: 0.122327 (99%)
+Step 35000: 0.108615 (100%)
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/cameras.json
+Wrote /mnt/f/Cursor/opensplat/output/amtown02_vo_gs_step10/splat.ply

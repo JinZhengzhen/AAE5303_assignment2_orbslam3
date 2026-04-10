@@ -45,6 +45,15 @@ This report presents the implementation and evaluation of **Monocular Visual Odo
 | **Completeness** | **98.65%** | Matched poses / total ground-truth poses (3356 / 3402) |
 | **Estimated poses** | 6,711 | Trajectory poses in `CameraTrajectory.txt` |
 
+### Part 2 OpenSplat Deliverable (GPU Reconstruction)
+
+OpenSplat training has also been completed on AMtown02 using ORB-SLAM3 poses as camera priors.
+
+- Final model (compressed): `output/amtown02_step10_final.splat`
+- Camera metadata: `output/amtown02_step10_cameras.json`
+- Full training log: `output/amtown02_step10_train.log`
+- Reproducibility note: `output/PART2_AMtown02_OpenSplat_results.md`
+
 ---
 
 ## 📖 Introduction
