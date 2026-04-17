@@ -15,6 +15,49 @@
 
 ---
 
+## 🚀 Quick Start for Students
+
+**New to this assignment? Start here!**
+
+### 📚 Documentation
+
+- 📖 **[Student Guide (作业指南)](docs/STUDENT_GUIDE.md)** - Complete step-by-step guide on how to complete this assignment
+- 📥 **[Dataset Download & Optimization Guide](docs/DATASET_AND_OPTIMIZATION.md)** - How to download datasets and optimize ORB-SLAM3 for better performance
+- 📋 **[Submission Guide](leaderboard/LEADERBOARD_SUBMISSION_GUIDE.md)** - Leaderboard submission requirements
+
+### 🛠️ Tools & Scripts
+
+**Quick Start (Evaluation & Submission):**
+```bash
+# Interactive guide for evaluation and submission
+./scripts/quick_start.sh
+```
+
+**Dataset Download:**
+```bash
+# Download AMtown02 dataset (for leaderboard evaluation)
+python3 scripts/download_dataset.py --sequence AMtown02 --output data/
+
+# Download HKisland_GNSS03 dataset (demo example)
+python3 scripts/download_dataset.py --sequence HKisland_GNSS03 --output data/
+```
+
+**Model Optimization:**
+```bash
+# Generate optimized ORB-SLAM3 configuration (recommended)
+python3 scripts/optimize_config.py --preset balanced --output configs/DJI_Camera_Optimized.yaml
+
+# Compare optimization presets
+python3 scripts/optimize_config.py --compare
+```
+
+### 📊 Resources
+
+- 🏆 **[Leaderboard](https://qian9921.github.io/leaderboard_web/)** - Live rankings
+- 📦 **[MARS-LVIG Dataset](https://mars.hku.hk/dataset.html)** - Official dataset source
+
+---
+
 ## 📋 Table of Contents
 
 1. [Executive Summary](#-executive-summary)
